@@ -1,0 +1,51 @@
+{
+  "menu": [
+    {
+      "route": "dashboard",
+      "roles": ["Public", "Administrators"],
+      "name": "dashboard",
+      "type": "link",
+      "icon": "dashboard",
+      "badge": {
+        "color": "red-500",
+        "value": "0"
+      }
+    },
+    {
+      "route": "admin",
+      "roles": ["Administrators"],
+      "name": "admin",
+      "type": "sub",
+      "icon": "question_answer",
+      "children": [
+        {
+          "route": "/admin/useradmin",
+          "roles": [ "Administrators" ],
+          "name": "useradmin",
+          "type": "link"
+        }
+      ]
+    },
+    {
+      "route": "developers",
+      "roles": [ "Administrators", "Developers", "Public"],
+      "name": "developers",
+      "type": "sub",
+      "icon": "question_answer",
+      "children": [
+        {
+          "route": "/api/index.html?url=/api/specification.json#",
+          "roles": [ "Administrators", "Developers" ],
+          "name": "api",
+          "type": "extTabLink"
+        },
+        {
+          "route": "/sessions/testbed",
+          "roles": [ "Administrators", "Developers" ],
+          "name": "testbed",
+          "type": "link"
+        }
+      ]
+    }
+  ]
+}

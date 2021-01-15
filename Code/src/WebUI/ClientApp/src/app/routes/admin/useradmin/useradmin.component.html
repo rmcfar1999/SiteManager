@@ -1,0 +1,59 @@
+<page-header></page-header>
+<div fxLayout="row wrap" fxLayoutGap="10px" *ngIf="roleList" >
+  <mat-card>
+      <mat-card-title>
+          Role List
+      </mat-card-title>
+      <mat-card-content>
+        <mat-action-list>
+          <mat-list-item *ngFor="let role of roleList; index as i" [value]="role.name" (click)="selectRole(role)" >
+              <span fxFlex="1 1 0%">
+                <mat-label (click)="selectRole(role)">{{role.name }}</mat-label>
+              </span>
+              <span>
+                <mat-icon (click)="showEditRoleModal(role)" matListIcon>more_vert</mat-icon>
+              </span>
+          </mat-list-item>
+        </mat-action-list>
+        <!--<mat-select>
+          <mat-option *ngFor="let role of roleList; index as i" [value]="role.appRoleId" (click)="selectRole(role)">
+            {{ role.name }}
+          </mat-option>
+        </mat-select>-->
+      </mat-card-content>
+      <mat-card-actions fxLayout="row-reverse">
+        <button mat-icon-button aria-label="Add a new Role..." (click)="showNewRoleModal()">
+          <mat-icon>add</mat-icon>
+        </button>
+      </mat-card-actions>
+  </mat-card>
+  <mat-card class="child-2" fxFlex="calc(60%-20px)">
+    <mat-card-title>
+      Users: {{ selectedRole.name }}
+    </mat-card-title>
+    <mat-card-content>
+      <mat-action-list>
+        <mat-list-item *ngFor="let user of userList; index as i" [value]="user.appUserId" (click)="showEditUserModal(user)">
+          
+            <span fxFlex="1 1 0%">
+              <mat-label>{{ user.userName }} ({{user.email}})</mat-label>
+            </span>
+            <span>
+              <mat-icon matListIcon>more_vert</mat-icon>
+            </span>
+            <!--<button mat-list-item *ngFor="let user of userList; index as i"
+            (click)="showUserOptionsModal(userOptionsModalTemplate, user)">
+                {{ user.userName }} ({{user.email}})
+            </button>-->
+          
+        </mat-list-item>
+      </mat-action-list>
+    </mat-card-content>
+    <mat-card-actions fxLayout="row-reverse">
+      <button mat-icon-button aria-label="Add User..." (click)="showNewUserModal()">
+        <mat-icon>add</mat-icon>
+      </button>
+    </mat-card-actions>
+  </mat-card>
+</div>
+

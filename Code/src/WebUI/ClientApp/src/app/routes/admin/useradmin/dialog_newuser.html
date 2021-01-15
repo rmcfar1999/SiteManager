@@ -1,0 +1,57 @@
+<h2 mat-dialog-title>{{'useradmin.new_user_title' | translate}}</h2>
+<mat-dialog-content>
+  <form [formGroup]="userForm">
+    <div fxLayout="row" fxLayout.xs="column" fxLayoutWrap fxLayoutGap="10px">
+      <mat-form-field fxFlex="50%">
+        <mat-label>{{'useradmin.username' | translate}}</mat-label>
+        <input matInput required [formControl]="username">
+        <mat-error *ngIf="userForm.get('username').invalid">{{'useradmin.username_error' | translate}}</mat-error>
+      </mat-form-field>
+      <mat-form-field fxFlex="50%">
+        <mat-label>{{'useradmin.email' | translate}}</mat-label>
+        <input matInput required [formControl]="email">
+        <mat-error *ngIf="userForm.get('email').invalid">{{'useradmin.email_error' | translate}}</mat-error>
+      </mat-form-field>
+    </div>
+    <div fxLayout="row" fxLayout.xs="column" fxLayoutWrap fxLayoutGap="10px">
+      <mat-form-field fxFlex="50%">
+        <mat-label>{{'useradmin.phone' | translate}}</mat-label>
+        <input matInput type="number" [formControl]="phone">
+        <mat-error *ngIf="userForm.get('phone').invalid">{{'useradmin.phone_error' | translate}}</mat-error>
+      </mat-form-field>
+      <mat-form-field fxFlex="50%">
+        <mat-label>{{'useradmin.password' | translate}}</mat-label>
+        <input matInput type="password" required [formControl]="password">
+        <mat-error *ngIf="userForm.get('password').invalid">{{'useradmin.password_error' | translate}}</mat-error>
+      </mat-form-field>
+    </div>
+    <div fxLayout="row" fxLayout.xs="column" fxLayoutWrap fxLayoutGap="10px">
+      <mat-form-field>
+        <mat-label>{{'useradmin.roles' | translate}}</mat-label>
+        <mat-select multiple required [formControl]="roles">
+          <mat-option *ngFor="let role of data.roleList; index as i" [value]="role.name">
+            {{role.name}}
+          </mat-option>
+        </mat-select>
+        <mat-error *ngIf="userForm.get('roles').invalid">{{'useradmin.roles_error' | translate}}</mat-error>
+      </mat-form-field>
+      <mat-form-field fxFlex="50%">
+        <mat-label>{{'useradmin.confirm_password' | translate}}</mat-label>
+        <input matInput type="password"  required [formControl]="confirmPassword">
+        <mat-error *ngIf="userForm.get('confirmPassword').invalid">{{'useradmin.confirm_password_error' | translate}}</mat-error>
+      </mat-form-field>
+    </div>
+    <div fxLayout="row" fxLayout.xs="column" fxLayoutWrap fxLayoutGap="10px">
+      <mat-checkbox matInput [formControl]="sendConfirmationEmail">{{'useradmin.send_validation_email' | translate}}</mat-checkbox>
+    </div>
+    <div *ngIf="error" fxLayout="row" fxLayout.xs="column" fxLayoutAlign="center" fxLayoutWrap fxLayoutGap="10px">
+      <mat-error>{{error}}</mat-error>
+    </div>
+  </form>
+</mat-dialog-content>
+<mat-dialog-actions style="justify-content:flex-end;">
+  <button mat-raised-button color="primary" [disabled]="!userForm.valid" cdkFocusInitial (click)="createUser()">{{'useradmin.create_button' | translate}}</button>
+  <button mat-raised-button mat-dialog-close>{{'useradmin.close_button' | translate}}</button>
+</mat-dialog-actions>
+
+

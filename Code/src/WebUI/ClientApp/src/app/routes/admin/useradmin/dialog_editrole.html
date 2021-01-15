@@ -1,0 +1,12 @@
+<h2 mat-dialog-title>{{'useradmin.new_role_title' | translate}}</h2>
+<mat-dialog-content>
+  <mat-form-field fxFlex="1 1 0%">
+    <mat-label>{{'useradmin.rolename_label' | translate}}</mat-label>
+    <input matInput [(ngModel)]="data.name" required [formControl]="roleName">
+    <mat-error *ngIf="roleName.invalid">{{error}}</mat-error>
+  </mat-form-field>
+</mat-dialog-content>
+<mat-dialog-actions style="justify-content:flex-end;">
+  <button mat-raised-button color="primary" [disabled]="roleName.invalid" (click)="editRole()" cdkFocusInitial>Update</button>
+  <button mat-raised-button mat-dialog-close>Close</button>
+</mat-dialog-actions>

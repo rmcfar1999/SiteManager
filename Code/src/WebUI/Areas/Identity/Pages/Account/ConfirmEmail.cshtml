@@ -1,0 +1,10 @@
+﻿@page
+@model ConfirmEmailModel
+@{
+    ViewData["Title"] = "Email Confirmed!";
+}
+<div style="width: 100%; text-align: center; margin-top: 50px;">
+    <h1>@ViewData["Title"]</h1>
+    <div>@Model.StatusMessage</div>
+    <div><a href="/dashboard">Click here to login.</a></div>
+</div>
