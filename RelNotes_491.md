@@ -1,0 +1,10678 @@
+# Notes for release      
+**Release Number**  : 
+**Release completed** :      
+**Build Number**: 491
+**Compared Release Number**  :     
+**Build Trigger PR Number**:  
+
+# Associated Pull Requests (15)
+### Associated Pull Requests (only shown if  PR) 
+*  **19** Forgot main form management translations.
+
+*  **18** Baseline forms engine and management UI (no display)
+
+*  **17** Dashboard demo with backend generated test data.
+
+*  **16** Incremental for build fixes
+
+*  **15** Incremental to update test server. 
+
+*  **14** Demo User Changes and Readme Markdown updates 
+
+*  **13** Forgot to setup for demo user access
+
+*  **12** Documentation Pass/Consolidate Notes/Readme 
+
+*  **11** testing closed branch type stuff on tfs
+
+*  **10** Cleanup/Secure MVC Identity Pages
+
+*  **9** Support for postgress and continuous deployment to azure ubuntu VM
+
+*  **8** Authroziation/Permissions Work
+
+*  **7** Implemented application level (no spa client as of yet) sql logging
+
+*  **6** User admin UI in material UI 
+
+*  **5** Mass Implementation of Matero UI in core
+
+# Builds with associated Work Items (0)
+
+# Global list of Work Items (10)
+## Associated Work Items (only shown if  Work Item) 
+*  **83**  Forms Engine 
+   - **WIT** User Story 
+   - **Tags** 
+   - **Assigned**  BoB 
+
+*  **88**  Dashboard Baseline
+   - **WIT** User Story 
+   - **Tags** 
+   - **Assigned**  BoB 
+
+*  **87**  ReadMe.md Documentation Update
+   - **WIT** User Story 
+   - **Tags** 
+   - **Assigned** 
+
+*  **25**  Cleanup MVC Identity Support Pages
+   - **WIT** User Story 
+   - **Tags** 
+   - **Assigned**  BoB 
+
+*  **51**  Consolidate Migrations
+   - **WIT** User Story 
+   - **Tags** 
+   - **Assigned**  BoB 
+
+*  **69**  Continuous Deployment Setup
+   - **WIT** User Story 
+   - **Tags** 
+   - **Assigned**  BoB 
+
+*  **34**  Re-Implement identity server/roles not working
+   - **WIT** User Story 
+   - **Tags** 
+   - **Assigned**  BoB 
+
+*  **39**  Implement/Wireup SQL Logging
+   - **WIT** User Story 
+   - **Tags** 
+   - **Assigned**  BoB 
+
+*  **31**  Move NGx UI for Useradmin 
+   - **WIT** User Story 
+   - **Tags** 
+   - **Assigned**  BoB 
+
+*  **20**  NG-Matero Angular UI Prototype
+   - **WIT** User Story 
+   - **Tags** 
+   - **Assigned**  BoB 
+
+# Global list of Work Items with parents and children
+### WorkItems 
+*  **83**  Forms Engine 
+   - **WIT** User Story 
+   - **Tags** 
+   - **Assigned**  BoB 
+   - **Description** 
+   - **Parents**
+   - **Children**
+
+*  **88**  Dashboard Baseline
+   - **WIT** User Story 
+   - **Tags** 
+   - **Assigned**  BoB 
+   - **Description** 
+   - **Parents**
+   - **Children**
+
+*  **87**  ReadMe.md Documentation Update
+   - **WIT** User Story 
+   - **Tags** 
+   - **Assigned** 
+   - **Description** 
+   - **Parents**
+   - **Children**
+
+*  **25**  Cleanup MVC Identity Support Pages
+   - **WIT** User Story 
+   - **Tags** 
+   - **Assigned**  BoB 
+   - **Description** 
+   - **Parents**
+   - **Children**
+
+*  **51**  Consolidate Migrations
+   - **WIT** User Story 
+   - **Tags** 
+   - **Assigned**  BoB 
+   - **Description** 
+   - **Parents**
+   - **Children**
+
+*  **69**  Continuous Deployment Setup
+   - **WIT** User Story 
+   - **Tags** 
+   - **Assigned**  BoB 
+   - **Description** 
+   - **Parents**
+   - **Children**
+
+*  **34**  Re-Implement identity server/roles not working
+   - **WIT** User Story 
+   - **Tags** 
+   - **Assigned**  BoB 
+   - **Description** <div>Roles/Claims are not working/transferring.&nbsp; Need to tear down the scaffold default implementation and go through implementing with all options/settings exposed.&nbsp;</div><div><br></div><div><a href="https://identityserver4.readthedocs.io/en/latest/quickstarts/0_overview.html">https://identityserver4.readthedocs.io/en/latest/quickstarts/0_overview.html</a><br></div>
+   - **Parents**
+   - **Children**
+
+*  **39**  Implement/Wireup SQL Logging
+   - **WIT** User Story 
+   - **Tags** 
+   - **Assigned**  BoB 
+   - **Description** 
+   - **Parents**
+   - **Children**
+
+*  **31**  Move NGx UI for Useradmin 
+   - **WIT** User Story 
+   - **Tags** 
+   - **Assigned**  BoB 
+   - **Description** <div>ISS v4 has angular UI component (MVC default theme) that needs to move into the new matero theme.</div>
+   - **Parents**
+   - **Children**
+
+*  **20**  NG-Matero Angular UI Prototype
+   - **WIT** User Story 
+   - **Tags** 
+   - **Assigned**  BoB 
+   - **Description** <div>Need to prototype/investigate laying in the ng-matero angular UI to replace the default bootstrap UI.&nbsp;&nbsp;</div><div><br></div><div><a href="https://angularexpo.com/ng-matero/">https://angularexpo.com/ng-matero/</a><br></div><div><br></div><div><a href="https://ng-matero.github.io/ng-matero/#/dashboard">https://ng-matero.github.io/ng-matero/#/dashboard</a><br></div>
+   - **Parents**
+   - **Children**
+
+# Work Items with 'Doc Change'
+### WorkItems with 'Doc Change'
+
+
+
+
+
+
+
+
+
+
+# Work Items with 'Settings Change'
+### WorkItems with 'Settings Change' or 'TAG2'
+
+
+
+
+
+
+
+
+
+
+# Global list of Commits (171)
+### Associated commits
+* ** ID1e088152d71296b516854e1909304cd62156e115** 
+   -  **Message:** Baseline release test with new release note pipeline task.
+   -  **Commited by:** bob@socialslice.com 
+   -  **FileCount:** 12 
+      -  **File path (TFVC or TfsGit):** /Code  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/authentication  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/authentication/login  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/authentication/login/login.component.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /azure-pipelines.yml  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /rel-notes-template.md  
+      -  **File filename (GitHub):**   
+
+* ** ID8cae4be17234ddfa6e6b4fbcbaddfbf86b35fe1d** 
+   -  **Message:** Merged PR 19: Forgot main form management translations.
+
+Forgot main form management translations.
+
+Related work items: #83
+   -  **Commited by:** BoB 
+   -  **FileCount:** 15 
+      -  **File path (TFVC or TfsGit):** /Code  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/siteform  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/siteform/manage  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/siteform/manage/dialog  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/siteform/manage/dialog/editsiteform.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/siteform/manage/manage.component.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/assets  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/assets/i18n  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/assets/i18n/en-US.json  
+      -  **File filename (GitHub):**   
+
+* ** IDf788a1cfc5e86b3a67d58fc9714d6268adf04955** 
+   -  **Message:** Forgot main form management translations.
+   -  **Commited by:** bob@socialslice.com 
+   -  **FileCount:** 15 
+      -  **File path (TFVC or TfsGit):** /Code  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/siteform  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/siteform/manage  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/siteform/manage/dialog  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/siteform/manage/dialog/editsiteform.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/siteform/manage/manage.component.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/assets  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/assets/i18n  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/assets/i18n/en-US.json  
+      -  **File filename (GitHub):**   
+
+* ** ID322ef2011a9d7f55aeea38a24d3c6bbd75b78746** 
+   -  **Message:** Merged PR 18: Baseline forms engine and management UI (no display)
+
+Basic forms engine implementation.
+
+Related work items: #83
+   -  **Commited by:** BoB 
+   -  **FileCount:** 217 
+      -  **File path (TFVC or TfsGit):** /Code  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Account  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Account/Commands  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Account/Commands/Register  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Account/Commands/Register/RegisterCommandValidator.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Application.csproj  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Common  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Common/Interfaces  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Common/Interfaces/IApplicationDbContext.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/RoleAdmin  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/RoleAdmin/Commands  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/RoleAdmin/Commands/CreateRole  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/RoleAdmin/Commands/CreateRole/CreateRoleCommandValidator.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/RoleAdmin/Commands/DeleteRole  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/RoleAdmin/Commands/DeleteRole/DeleteRoleCommandValidator.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/CreateFormElement  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/CreateFormElement/CreateFormElementCommand.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/CreateFormElement/CreateFormElementCommandValidator.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/CreateSiteForm  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/CreateSiteForm/CreateSiteFormCommand.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/CreateSiteForm/CreateSiteFormCommandValidator.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/CreateSiteFormPage  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/CreateSiteFormPage/CreateSiteFormPageCommand.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/CreateSiteFormPage/CreateSiteFormPageCommandValidator.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/CreateSiteFormPageFormElement  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/CreateSiteFormPageFormElement/CreateSiteFormPageFormElementCommand.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/CreateSiteFormPageFormElement/CreateSiteFormPageFormElementCommandValidator.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/DeleteFormElement  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/DeleteFormElement/DeleteFormElementCommand.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/DeleteFormElement/DeleteFormElementCommandValidator.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/DeleteSiteForm  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/DeleteSiteForm/DeleteSiteFormCommand.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/DeleteSiteForm/DeleteSiteFormCommandValidator.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/DeleteSiteFormPage  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/DeleteSiteFormPage/DeleteSiteFormPageCommand.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/DeleteSiteFormPage/DeleteSiteFormPageCommandValidator.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/DeleteSiteFormPageFormElement  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/DeleteSiteFormPageFormElement/DeleteSiteFormPageFormElementCommand.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/DeleteSiteFormPageFormElement/DeleteSiteFormPageFormElementCommandValidator.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/UpdateFormElement  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/UpdateFormElement/UpdateFormElementCommand.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/UpdateFormElement/UpdateFormElementCommandValidator.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/UpdateSiteForm  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/UpdateSiteForm/UpdateSiteFormCommand.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/UpdateSiteForm/UpdateSiteFormCommandValidator.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/UpdateSiteFormPage  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/UpdateSiteFormPage/UpdateSiteFormPageCommand.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/UpdateSiteFormPage/UpdateSiteFormPageCommandValidator.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/UpdateSiteFormPageFormElement  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/UpdateSiteFormPageFormElement/UpdateSiteFormPageFormElementCommand.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/UpdateSiteFormPageFormElement/UpdateSiteFormPageFormElementValidator.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Models  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Models/FormElementOptionDto.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Models/FormPageElementDto.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Models/SiteFormPageDto.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Models/SiteFormReferenceVm.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Models/SiteFormVm.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Queries  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Queries/GetFormElements  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Queries/GetFormElements/GetAllFormElementsQuery.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Queries/GetFormElements/GetFormElementQuery.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Queries/GetSiteForm  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Queries/GetSiteForm/GetSiteFormQuery.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Queries/GetSiteForm/GetSiteFormQueryValidator.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Queries/GetSiteFormPage  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Queries/GetSiteFormPage/GetSiteFormPageQuery.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Queries/GetSiteFormPage/GetSiteFormPageQueryValidator.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Queries/GetSiteReferenceData  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Queries/GetSiteReferenceData/GetSiteFormReferenceQuery.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Queries/GetSiteReferenceData/GetSiteFormReferenceQueryValidator.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Queries/GetUserSiteForms  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Queries/GetUserSiteForms/GetUserSiteFormsQuery.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Queries/GetUserSiteForms/GetUserSiteFormsQueryValidator.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/UserAdmin  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/UserAdmin/Commands  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/UserAdmin/Commands/CreateUser  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/UserAdmin/Commands/CreateUser/CreateUserCommandValidator.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/UserAdmin/Commands/DeleteUser  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/UserAdmin/Commands/DeleteUser/DeleteUserCommandValidator.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Domain  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Domain/Common  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Domain/Common/AuditableEntity.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Domain/Entities  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Domain/Entities/FormElement.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Domain/Entities/FormElementLayout.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Domain/Entities/FormElementOption.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Domain/Entities/FormElementType.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Domain/Entities/SiteForm.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Domain/Entities/SiteFormBatch.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Domain/Entities/SiteFormPage.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Domain/Entities/SiteFormPageElement.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Domain/Entities/SiteFormPermission.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Domain/Entities/SiteFormResponse.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Domain/Entities/SiteFormResponseDetail.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Domain/Extensions  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Domain/Extensions/ListExtensions.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Migrations  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Migrations/20210112220037_Initial.Designer.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Migrations/20210112220037_Initial.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Migrations/20210226165402_Initial.Designer.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Migrations/20210226165402_Initial.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Migrations/ApplicationDbContextModelSnapshot.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Persistence  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Persistence/ApplicationDbContext.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Persistence/ApplicationDbContextSeed.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Persistence/Configurations  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Persistence/Configurations/FormElementConfiguration.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Persistence/Configurations/FormElementLayoutConfiguration.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Persistence/Configurations/FormElementOptionConfiguration.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Persistence/Configurations/FormElementTypeConfiguration.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Persistence/Configurations/SiteFormBatchConfiguration.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Persistence/Configurations/SiteFormConfiguration.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Persistence/Configurations/SiteFormPageConfiguration.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Persistence/Configurations/SiteFormPageElementConfiguration.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Persistence/Configurations/SiteFormPermissionConfiguration.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Persistence/Configurations/SiteFormResponseConfiguration.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Persistence/Configurations/SiteFormResponseDetailConfiguration.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/.vscode  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/.vscode/settings.json  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/SiteManager.V4-api.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/authentication  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/authentication/authorize.service.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/bootstrap  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/bootstrap/startup.service.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/admin  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/admin/useradmin  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/admin/useradmin/useradmin.component.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/dashboard  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/dashboard/dashboard.component.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/routes-routing.module.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/siteform  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/siteform/manage  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/siteform/manage/dialog  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/siteform/manage/dialog/editsiteform.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/siteform/manage/dialog/newsiteform.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/siteform/manage/manage.component.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/siteform/manage/manage.component.scss  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/siteform/manage/manage.component.spec.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/siteform/manage/manage.component.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/siteform/pages  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/siteform/pages/dialog  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/siteform/pages/dialog/editelementoptions.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/siteform/pages/dialog/editformpage.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/siteform/pages/dialog/editpageelement.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/siteform/pages/dialog/newformpage.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/siteform/pages/dialog/newpageelement.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/siteform/pages/pages.component.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/siteform/pages/pages.component.scss  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/siteform/pages/pages.component.spec.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/siteform/pages/pages.component.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/siteform/siteform-routing.module.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/siteform/siteform.module.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/shared  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/shared/components  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/shared/components/breadcrumb  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/shared/components/breadcrumb/breadcrumb.component.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/shared/components/breadcrumb/breadcrumb.component.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/shared/components/page-header  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/shared/components/page-header/page-header.component.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/theme  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/theme/sidemenu  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/theme/sidemenu/sidemenu.component.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/assets  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/assets/data  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/assets/data/menu.json  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/assets/i18n  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/assets/i18n/en-US.json  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Controllers  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Controllers/FormElementController.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Controllers/SiteFormController.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Controllers/SiteFormPageController.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Controllers/SiteFormUtilController.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Program.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/WebUI.csproj  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/wwwroot  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/wwwroot/api  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/wwwroot/api/specification.json  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/Application.IntegrationTests.csproj  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/Reporting  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/Reporting/Queries  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/Reporting/Queries/ApexChartQueryTests.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/SiteForms  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/SiteForms/Commands  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/SiteForms/Commands/CreateFormElementTests.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/SiteForms/Commands/CreateSiteFormPageTests.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/SiteForms/Commands/CreateSiteFormTests.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/SiteForms/Commands/DeleteFormElementTests.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/SiteForms/Commands/DeleteSiteFormPageTests.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/SiteForms/Commands/DeleteSiteFormTests.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/SiteForms/Commands/UpdateFormElementTests.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/SiteForms/Commands/UpdateSiteFormPageTests.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/SiteForms/Commands/UpdateSiteFormTests.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/SiteForms/Queries  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/SiteForms/Queries/GetFormElementsTests.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/Testing.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/TodoItems  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/TodoItems/Commands  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/TodoItems/Commands/CreateTodoItemTests.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/TodoItems/Commands/UpdateTodoItemDetailTests.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/TodoItems/Commands/UpdateTodoItemTests.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/TodoLists  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/TodoLists/Commands  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/TodoLists/Commands/CreateTodoListTests.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/TodoLists/Commands/UpdateTodoListTests.cs  
+      -  **File filename (GitHub):**   
+
+* ** IDa799f7c961cfcde3bded02bd7b0d472addbcd47d** 
+   -  **Message:** translation for form mgmt ui
+   -  **Commited by:** bob@socialslice.com 
+   -  **FileCount:** 15 
+      -  **File path (TFVC or TfsGit):** /Code  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/siteform  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/siteform/pages  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/siteform/pages/dialog  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/siteform/pages/dialog/editelementoptions.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/siteform/pages/pages.component.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/assets  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/assets/i18n  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/assets/i18n/en-US.json  
+      -  **File filename (GitHub):**   
+
+* ** ID7c4d0c13fab0cfcedfa5a3ef68e53daf3d956f94** 
+   -  **Message:** dropping links between form responses and elements (flat/document based response now).  Adding in meta data on options
+   -  **Commited by:** bob@socialslice.com 
+   -  **FileCount:** 51 
+      -  **File path (TFVC or TfsGit):** /Code  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Application.csproj  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/CreateFormElement  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/CreateFormElement/CreateFormElementCommand.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/CreateFormElement/CreateFormElementCommandValidator.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/UpdateFormElement  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/UpdateFormElement/UpdateFormElementCommand.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/UpdateFormElement/UpdateFormElementCommandValidator.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Models  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Models/FormElementOptionDto.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Models/FormPageElementDto.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Domain  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Domain/Entities  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Domain/Entities/FormElement.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Domain/Entities/FormElementOption.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Domain/Entities/SiteFormResponseDetail.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Migrations  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Migrations/20210222162400_Initial.Designer.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Migrations/20210222162400_Initial.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Migrations/20210226165402_Initial.Designer.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Migrations/20210226165402_Initial.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Migrations/ApplicationDbContextModelSnapshot.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Persistence  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Persistence/ApplicationDbContextSeed.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Persistence/Configurations  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Persistence/Configurations/FormElementOptionConfiguration.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Persistence/Configurations/SiteFormResponseDetailConfiguration.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/SiteManager.V4-api.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/siteform  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/siteform/pages  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/siteform/pages/dialog  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/siteform/pages/dialog/editelementoptions.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/siteform/pages/pages.component.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/wwwroot  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/wwwroot/api  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/wwwroot/api/specification.json  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/SiteForms  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/SiteForms/Commands  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/SiteForms/Commands/CreateFormElementTests.cs  
+      -  **File filename (GitHub):**   
+
+* ** IDf9c7a586bfb65046396635ff4a6217e707743aa8** 
+   -  **Message:** element option update table.
+   -  **Commited by:** bob@socialslice.com 
+   -  **FileCount:** 27 
+      -  **File path (TFVC or TfsGit):** /Code  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/UpdateFormElement  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/UpdateFormElement/UpdateFormElementCommand.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Models  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Models/FormPageElementDto.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/SiteManager.V4-api.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/siteform  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/siteform/manage  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/siteform/manage/manage.component.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/siteform/pages  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/siteform/pages/dialog  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/siteform/pages/dialog/editelementoptions.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/siteform/pages/dialog/editpageelement.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/siteform/pages/dialog/newpageelement.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/siteform/pages/pages.component.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/wwwroot  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/wwwroot/api  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/wwwroot/api/specification.json  
+      -  **File filename (GitHub):**   
+
+* ** ID536ed65bd9217ac2c8bd71d4ec7d668267a8aa90** 
+   -  **Message:** re-gen&#x27;d db with formelement isRequired...also a fix to test that was using wrong PK for lookup
+   -  **Commited by:** bob@socialslice.com 
+   -  **FileCount:** 36 
+      -  **File path (TFVC or TfsGit):** /Code  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/CreateFormElement  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/CreateFormElement/CreateFormElementCommand.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/UpdateFormElement  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/UpdateFormElement/UpdateFormElementCommand.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Migrations  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Migrations/20210201234141_Initial.Designer.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Migrations/20210201234141_Initial.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Migrations/20210205165127_AddPageName.Designer.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Migrations/20210205165127_AddPageName.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Migrations/20210218010155_SortOrderRequired.Designer.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Migrations/20210218010155_SortOrderRequired.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Migrations/20210222162400_Initial.Designer.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Migrations/20210222162400_Initial.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Migrations/ApplicationDbContextModelSnapshot.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Persistence  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Persistence/ApplicationDbContextSeed.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/SiteManager.V4-api.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/wwwroot  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/wwwroot/api  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/wwwroot/api/specification.json  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/SiteForms  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/SiteForms/Commands  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/SiteForms/Commands/DeleteFormElementTests.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/Testing.cs  
+      -  **File filename (GitHub):**   
+
+* ** IDcf73b8e019b8724550b3cfd5e6bbbb312ed2a27d** 
+   -  **Message:** Incremental...re-baselining db.
+   -  **Commited by:** bob@socialslice.com 
+   -  **FileCount:** 21 
+      -  **File path (TFVC or TfsGit):** /Code  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Domain  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Domain/Entities  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Domain/Entities/FormElement.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Persistence  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Persistence/ApplicationDbContextSeed.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/siteform  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/siteform/pages  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/siteform/pages/dialog  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/siteform/pages/dialog/editelementoptions.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/siteform/pages/dialog/editpageelement.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/siteform/pages/pages.component.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/siteform/pages/pages.component.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/siteform/siteform.module.ts  
+      -  **File filename (GitHub):**   
+
+* ** ID5422f1bcb94df83e747f26ab35a5a32e57e58c62** 
+   -  **Message:** element editing/delete dialog
+   -  **Commited by:** bob@socialslice.com 
+   -  **FileCount:** 15 
+      -  **File path (TFVC or TfsGit):** /Code  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/siteform  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/siteform/manage  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/siteform/manage/manage.component.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/siteform/pages  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/siteform/pages/dialog  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/siteform/pages/dialog/editpageelement.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/siteform/pages/pages.component.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/siteform/pages/pages.component.ts  
+      -  **File filename (GitHub):**   
+
+* ** ID5e36083f857d31701c35c74476233534f5519a67** 
+   -  **Message:** Incremental: removed duplicate formelementdto. delete logic implemented.  test updates
+   -  **Commited by:** bob@socialslice.com 
+   -  **FileCount:** 63 
+      -  **File path (TFVC or TfsGit):** /Code  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/CreateFormElement  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/CreateFormElement/CreateFormElementCommand.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/CreateSiteFormPage  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/CreateSiteFormPage/CreateSiteFormPageCommand.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/DeleteFormElement  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/DeleteFormElement/DeleteFormElementCommand.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/DeleteSiteForm  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/DeleteSiteForm/DeleteSiteFormCommand.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/DeleteSiteForm/DeleteSiteFormCommandValidator.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/DeleteSiteFormPage  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/DeleteSiteFormPage/DeleteSiteFormPageCommand.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/UpdateFormElement  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/UpdateFormElement/UpdateFormElementCommand.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/UpdateFormElement/UpdateFormElementCommandValidator.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/UpdateSiteFormPage  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/UpdateSiteFormPage/UpdateSiteFormPageCommand.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Models  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Models/FormElementDto.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Models/FormPageElementDto.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Models/SiteFormPageDto.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Models/SiteFormPageElementDto.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Queries  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Queries/GetFormElements  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Queries/GetFormElements/GetAllFormElementsQuery.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Queries/GetFormElements/GetFormElementQuery.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Domain  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Domain/Entities  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Domain/Entities/SiteFormPageElement.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Migrations  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Migrations/20210218010155_SortOrderRequired.Designer.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Migrations/20210218010155_SortOrderRequired.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Migrations/ApplicationDbContextModelSnapshot.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/SiteManager.V4-api.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/siteform  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/siteform/manage  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/siteform/manage/manage.component.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/siteform/manage/manage.component.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/siteform/pages  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/siteform/pages/pages.component.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/siteform/pages/pages.component.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Controllers  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Controllers/FormElementController.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/wwwroot  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/wwwroot/api  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/wwwroot/api/specification.json  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/SiteForms  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/SiteForms/Commands  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/SiteForms/Commands/DeleteSiteFormTests.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/SiteForms/Commands/UpdateFormElementTests.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/SiteForms/Commands/UpdateSiteFormPageTests.cs  
+      -  **File filename (GitHub):**   
+
+* ** IDfdf65725f3c372dd9d98db73b935d3bd86cc6eca** 
+   -  **Message:** Delete form element tests/updates.
+   -  **Commited by:** bob@socialslice.com 
+   -  **FileCount:** 17 
+      -  **File path (TFVC or TfsGit):** /Code  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/DeleteFormElement  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/DeleteFormElement/DeleteFormElementCommand.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/DeleteFormElement/DeleteFormElementCommandValidator.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/DeleteSiteFormPage  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/DeleteSiteFormPage/DeleteSiteFormPageCommand.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/DeleteSiteFormPage/DeleteSiteFormPageCommandValidator.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/SiteForms  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/SiteForms/Commands  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/SiteForms/Commands/DeleteFormElementTests.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/SiteForms/Commands/DeleteSiteFormPageTests.cs  
+      -  **File filename (GitHub):**   
+
+* ** ID11cff09b5e10fce92a04c16322411a84ae336b53** 
+   -  **Message:** Test fixes/updates...re-enabling form element option control on form element create/update
+   -  **Commited by:** bob@socialslice.com 
+   -  **FileCount:** 29 
+      -  **File path (TFVC or TfsGit):** /Code  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/DeleteSiteFormPage  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/DeleteSiteFormPage/DeleteSiteFormPageCommand.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/DeleteSiteFormPage/DeleteSiteFormPageCommandValidator.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/UpdateFormElement  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/UpdateFormElement/UpdateFormElementCommandValidator.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/UpdateSiteFormPage  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/UpdateSiteFormPage/UpdateSiteFormPageCommand.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/SiteManager.V4-api.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/wwwroot  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/wwwroot/api  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/wwwroot/api/specification.json  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/SiteForms  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/SiteForms/Commands  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/SiteForms/Commands/CreateFormElementTests.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/SiteForms/Commands/CreateSiteFormPageTests.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/SiteForms/Commands/UpdateFormElementTests.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/SiteForms/Commands/UpdateSiteFormPageTests.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/Testing.cs  
+      -  **File filename (GitHub):**   
+
+* ** ID924f331d45f12d4b6805b83a00c5cf603914f06b** 
+   -  **Message:** Incremental...adding in forms reference...element create done-ish
+   -  **Commited by:** bob@socialslice.com 
+   -  **FileCount:** 49 
+      -  **File path (TFVC or TfsGit):** /Code  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Application.csproj  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/CreateFormElement  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/CreateFormElement/CreateFormElementCommand.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/CreateFormElement/CreateFormElementCommandValidator.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/UpdateFormElement  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/UpdateFormElement/UpdateFormElementCommand.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/UpdateFormElement/UpdateFormElementCommandValidator.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Models  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Models/SiteFormReferenceVm.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Queries  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Queries/GetSiteReferenceData  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Queries/GetSiteReferenceData/GetSiteFormReferenceQuery.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Queries/GetSiteReferenceData/GetSiteFormReferenceQueryValidator.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Persistence  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Persistence/ApplicationDbContextSeed.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/.vscode  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/.vscode/settings.json  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/SiteManager.V4-api.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/siteform  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/siteform/manage  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/siteform/manage/manage.component.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/siteform/pages  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/siteform/pages/dialog  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/siteform/pages/dialog/editformpage.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/siteform/pages/dialog/editpageelement.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/siteform/pages/dialog/newpageelement.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/siteform/pages/pages.component.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/siteform/pages/pages.component.scss  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/siteform/pages/pages.component.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/siteform/siteform-routing.module.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/siteform/siteform.module.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Controllers  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Controllers/SiteFormController.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Controllers/SiteFormUtilController.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Program.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/wwwroot  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/wwwroot/api  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/wwwroot/api/specification.json  
+      -  **File filename (GitHub):**   
+
+* ** ID70d47e953a7ea31763e723b246cf5c25230981b1** 
+   -  **Message:** adding some additional UI features for page create/insert based on selection
+   -  **Commited by:** bob@socialslice.com 
+   -  **FileCount:** 12 
+      -  **File path (TFVC or TfsGit):** /Code  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/siteform  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/siteform/pages  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/siteform/pages/pages.component.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/siteform/pages/pages.component.scss  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/siteform/pages/pages.component.ts  
+      -  **File filename (GitHub):**   
+
+* ** ID92594d7385d6d0eb7840c113023d894e89acbe1e** 
+   -  **Message:** listextension for order/sorting...refactored page elements out of page (anti pattern)...ang UI for add/update pages
+   -  **Commited by:** bob@socialslice.com 
+   -  **FileCount:** 44 
+      -  **File path (TFVC or TfsGit):** /Code  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/CreateSiteFormPage  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/CreateSiteFormPage/CreateSiteFormPageCommand.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/CreateSiteFormPage/CreateSiteFormPageCommandValidator.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/UpdateSiteFormPage  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/UpdateSiteFormPage/UpdateSiteFormPageCommand.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/UpdateSiteFormPage/UpdateSiteFormPageCommandValidator.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Models  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Models/SiteFormPageDto.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Models/SiteFormVm.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Domain  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Domain/Extensions  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Domain/Extensions/ListExtensions.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/SiteManager.V4-api.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/siteform  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/siteform/pages  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/siteform/pages/dialog  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/siteform/pages/dialog/editformpage.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/siteform/pages/dialog/editpageelement.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/siteform/pages/pages.component.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/siteform/pages/pages.component.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/siteform/siteform.module.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Controllers  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Controllers/SiteFormPageController.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/wwwroot  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/wwwroot/api  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/wwwroot/api/specification.json  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/SiteForms  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/SiteForms/Commands  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/SiteForms/Commands/CreateSiteFormPageTests.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/SiteForms/Commands/CreateSiteFormTests.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/SiteForms/Commands/UpdateSiteFormPageTests.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/Testing.cs  
+      -  **File filename (GitHub):**   
+
+* ** IDc8153af7c210c9f9057718bd367ea36ee1d22411** 
+   -  **Message:** Incremental...removing sort order from create siteformpage..adding new UI for siteformpage management..refreshed DB schema for seeding
+   -  **Commited by:** bob@socialslice.com 
+   -  **FileCount:** 55 
+      -  **File path (TFVC or TfsGit):** /Code  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/CreateSiteFormPage  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/CreateSiteFormPage/CreateSiteFormPageCommand.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/CreateSiteFormPage/CreateSiteFormPageCommandValidator.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/UpdateSiteFormPage  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/UpdateSiteFormPage/UpdateSiteFormPageCommand.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Domain  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Domain/Entities  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Domain/Entities/SiteFormPage.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Migrations  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Migrations/20210205165127_AddPageName.Designer.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Migrations/20210205165127_AddPageName.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Migrations/ApplicationDbContextModelSnapshot.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Persistence  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Persistence/ApplicationDbContextSeed.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Persistence/Configurations  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Persistence/Configurations/SiteFormPageConfiguration.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/SiteManager.V4-api.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/routes-routing.module.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/siteform  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/siteform/manage  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/siteform/manage/manage.component.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/siteform/manage/manage.component.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/siteform/pages  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/siteform/pages/dialog  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/siteform/pages/dialog/editformpage.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/siteform/pages/dialog/editpageelement.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/siteform/pages/dialog/newformpage.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/siteform/pages/dialog/newpageelement.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/siteform/pages/pages.component.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/siteform/pages/pages.component.scss  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/siteform/pages/pages.component.spec.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/siteform/pages/pages.component.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/siteform/siteform-routing.module.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/siteform/siteform.module.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/wwwroot  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/wwwroot/api  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/wwwroot/api/specification.json  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/SiteForms  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/SiteForms/Commands  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/SiteForms/Commands/CreateSiteFormPageTests.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/SiteForms/Commands/CreateSiteFormTests.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/Testing.cs  
+      -  **File filename (GitHub):**   
+
+* ** IDc22d7823fc8d9e3227e5fa301e386fd3d51274c5** 
+   -  **Message:** adding edit siteform dialog
+   -  **Commited by:** bob@socialslice.com 
+   -  **FileCount:** 22 
+      -  **File path (TFVC or TfsGit):** /Code  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Models  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Models/SiteFormVm.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/SiteManager.V4-api.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/siteform  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/siteform/manage  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/siteform/manage/dialog  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/siteform/manage/dialog/editsiteform.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/siteform/manage/dialog/newsiteform.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/siteform/manage/manage.component.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/siteform/siteform.module.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/wwwroot  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/wwwroot/api  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/wwwroot/api/specification.json  
+      -  **File filename (GitHub):**   
+
+* ** IDe81b2a9c8f6f0ccb260f9696669bc5c5b95c952e** 
+   -  **Message:** incremental..wired up siteform data..added &quot;new&quot; dialog..re-baselined migrations (fixing AuditableEntity date columns)
+   -  **Commited by:** bob@socialslice.com 
+   -  **FileCount:** 59 
+      -  **File path (TFVC or TfsGit):** /Code  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Models  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Models/SiteFormVm.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Queries  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Queries/GetSiteForm  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Queries/GetSiteForm/GetSiteFormQuery.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Queries/GetUserSiteForms  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Queries/GetUserSiteForms/GetUserSiteFormsQuery.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Domain  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Domain/Common  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Domain/Common/AuditableEntity.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Migrations  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Migrations/20210124163001_Initial.Designer.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Migrations/20210124163001_Initial.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Migrations/20210201234141_Initial.Designer.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Migrations/20210201234141_Initial.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Migrations/ApplicationDbContextModelSnapshot.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Persistence  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Persistence/ApplicationDbContext.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Persistence/ApplicationDbContextSeed.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Persistence/Configurations  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Persistence/Configurations/SiteFormBatchConfiguration.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/SiteManager.V4-api.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/siteform  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/siteform/manage  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/siteform/manage/dialog  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/siteform/manage/dialog/newsiteform.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/siteform/manage/manage.component.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/siteform/manage/manage.component.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/WebUI.csproj  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/wwwroot  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/wwwroot/api  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/wwwroot/api/specification.json  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/SiteForms  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/SiteForms/Commands  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/SiteForms/Commands/CreateSiteFormPageTests.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/SiteForms/Commands/CreateSiteFormTests.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/SiteForms/Commands/UpdateFormElementTests.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/SiteForms/Commands/UpdateSiteFormPageTests.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/TodoItems  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/TodoItems/Commands  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/TodoItems/Commands/CreateTodoItemTests.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/TodoItems/Commands/UpdateTodoItemDetailTests.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/TodoItems/Commands/UpdateTodoItemTests.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/TodoLists  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/TodoLists/Commands  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/TodoLists/Commands/CreateTodoListTests.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/TodoLists/Commands/UpdateTodoListTests.cs  
+      -  **File filename (GitHub):**   
+
+* ** ID28244904da52b1f63d61c44e51032746c0ccc8fa** 
+   -  **Message:** incremental..adding new form modal
+   -  **Commited by:** bob@socialslice.com 
+   -  **FileCount:** 24 
+      -  **File path (TFVC or TfsGit):** /Code  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/CreateSiteForm  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/CreateSiteForm/CreateSiteFormCommand.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/siteform  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/siteform/manage  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/siteform/manage/dialog  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/siteform/manage/dialog/newsiteform.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/siteform/manage/manage.component.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/siteform/manage/manage.component.scss  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/siteform/manage/manage.component.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/siteform/siteform.module.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/assets  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/assets/data  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/assets/data/menu.json  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/WebUI.csproj  
+      -  **File filename (GitHub):**   
+
+* ** ID3977ba39507a777149a5c9f57eed21e5baa199dc** 
+   -  **Message:** some form mgmt work and fixed stupid breadcrumb/menu.json but in the nested [] inside sidemenu template
+   -  **Commited by:** bob@socialslice.com 
+   -  **FileCount:** 35 
+      -  **File path (TFVC or TfsGit):** /Code  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/authentication  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/authentication/authorize.service.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/bootstrap  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/bootstrap/startup.service.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/admin  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/admin/useradmin  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/admin/useradmin/useradmin.component.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/dashboard  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/dashboard/dashboard.component.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/siteform  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/siteform/manage  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/siteform/manage/manage.component.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/siteform/manage/manage.component.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/shared  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/shared/components  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/shared/components/breadcrumb  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/shared/components/breadcrumb/breadcrumb.component.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/shared/components/page-header  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/shared/components/page-header/page-header.component.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/theme  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/theme/sidemenu  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/theme/sidemenu/sidemenu.component.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/assets  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/assets/data  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/assets/data/menu.json  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/assets/i18n  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/assets/i18n/en-US.json  
+      -  **File filename (GitHub):**   
+
+* ** IDf993359c47fc35ebfd8e683e555445215478f6a3** 
+   -  **Message:** baseline ng form component...added to menu...added authorize to site forms controllers
+   -  **Commited by:** bob@socialslice.com 
+   -  **FileCount:** 31 
+      -  **File path (TFVC or TfsGit):** /Code  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/routes-routing.module.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/siteform  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/siteform/manage  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/siteform/manage/manage.component.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/siteform/manage/manage.component.scss  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/siteform/manage/manage.component.spec.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/siteform/manage/manage.component.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/siteform/siteform-routing.module.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/siteform/siteform.module.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/shared  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/shared/components  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/shared/components/breadcrumb  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/shared/components/breadcrumb/breadcrumb.component.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/assets  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/assets/data  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/assets/data/menu.json  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/assets/i18n  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/assets/i18n/en-US.json  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Controllers  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Controllers/SiteFormController.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Controllers/SiteFormPageController.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/wwwroot  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/wwwroot/api  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/wwwroot/api/specification.json  
+      -  **File filename (GitHub):**   
+
+* ** ID80a8fcea88e05803510caf849129e483b291f339** 
+   -  **Message:** Moving siteform ef configs into config dir...renamed the silly siteformpageelement stuff.
+   -  **Commited by:** bob@socialslice.com 
+   -  **FileCount:** 87 
+      -  **File path (TFVC or TfsGit):** /Code  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Common  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Common/Interfaces  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Common/Interfaces/IApplicationDbContext.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/CreateSiteFormPage  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/CreateSiteFormPage/CreateSiteFormPageCommand.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/CreateSiteFormPage/CreateSiteFormPageCommandValidator.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/CreateSiteFormPageFormElement  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/CreateSiteFormPageFormElement/CreateSiteFormPageFormElementCommand.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/CreateSiteFormPageFormElement/CreateSiteFormPageFormElementCommandValidator.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/DeleteSiteFormPage  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/DeleteSiteFormPage/DeleteSiteFormPageCommand.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/DeleteSiteFormPageFormElement  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/DeleteSiteFormPageFormElement/DeleteSiteFormPageFormElementCommand.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/DeleteSiteFormPageFormElement/DeleteSiteFormPageFormElementCommandValidator.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/UpdateSiteFormPage  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/UpdateSiteFormPage/UpdateSiteFormPageCommand.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/UpdateSiteFormPageFormElement  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/UpdateSiteFormPageFormElement/UpdateSiteFormPageFormElementCommand.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/UpdateSiteFormPageFormElement/UpdateSiteFormPageFormElementValidator.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Models  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Models/FormElementDto.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Models/SiteFormPageDto.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Models/SiteFormPageElementDto.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Models/SiteFormPageFormElementDto.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Queries  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Queries/GetSiteForm  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Queries/GetSiteForm/GetSiteFormQuery.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Queries/GetSiteFormPage  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Queries/GetSiteFormPage/GetSiteFormPageQuery.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Queries/GetUserSiteForms  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Queries/GetUserSiteForms/GetUserSiteFormsQuery.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Domain  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Domain/Entities  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Domain/Entities/Batch.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Domain/Entities/FormElement.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Domain/Entities/SiteFormBatch.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Domain/Entities/SiteFormPage.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Domain/Entities/SiteFormPageElement.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Domain/Entities/SiteFormPageFormElement.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Domain/Entities/SiteFormResponse.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Migrations  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Migrations/20210112220037_Initial.Designer.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Migrations/20210112220037_Initial.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Migrations/20210121173014_SiteForms.Designer.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Migrations/20210121173014_SiteForms.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Migrations/20210124163001_Initial.Designer.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Migrations/20210124163001_Initial.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Migrations/ApplicationDbContextModelSnapshot.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Persistence  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Persistence/ApplicationDbContext.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Persistence/Configurations  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Persistence/Configurations/FormElementConfiguration.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Persistence/Configurations/FormElementLayoutConfiguration.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Persistence/Configurations/FormElementOptionConfiguration.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Persistence/Configurations/FormElementTypeConfiguration.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Persistence/Configurations/SiteFormBatchConfiguration.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Persistence/Configurations/SiteFormConfiguration.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Persistence/Configurations/SiteFormPageConfiguration.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Persistence/Configurations/SiteFormPageElementConfiguration.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Persistence/Configurations/SiteFormPermissionConfiguration.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Persistence/Configurations/SiteFormResponseConfiguration.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Persistence/Configurations/SiteFormResponseDetailConfiguration.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/SiteManager.V4-api.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/wwwroot  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/wwwroot/api  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/wwwroot/api/specification.json  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/SiteForms  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/SiteForms/Commands  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/SiteForms/Commands/CreateSiteFormPageTests.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/SiteForms/Commands/CreateSiteFormTests.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/SiteForms/Commands/UpdateFormElementTests.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/SiteForms/Commands/UpdateSiteFormPageTests.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/SiteForms/Queries  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/SiteForms/Queries/GetFormElementsTests.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/Testing.cs  
+      -  **File filename (GitHub):**   
+
+* ** ID3c6257f65f94a78db92d95f5a95e58e627ffa279** 
+   -  **Message:** forgot to rename the controller classes.
+   -  **Commited by:** bob@socialslice.com 
+   -  **FileCount:** 14 
+      -  **File path (TFVC or TfsGit):** /Code  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/SiteManager.V4-api.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Controllers  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Controllers/FormElementController.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Controllers/SiteFormController.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Controllers/SiteFormPageController.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/wwwroot  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/wwwroot/api  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/wwwroot/api/specification.json  
+      -  **File filename (GitHub):**   
+
+* ** ID7bb1f3a2f7e3b39b16a7a1a3ca55c50530a4142e** 
+   -  **Message:** More consolidation and cleanup of formelements --&gt; siteforms namespace
+   -  **Commited by:** bob@socialslice.com 
+   -  **FileCount:** 36 
+      -  **File path (TFVC or TfsGit):** /Code  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/FormElements  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/FormElements/Commands  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/FormElements/Commands/CreateFormElement  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/FormElements/Commands/CreateFormElement/CreateFormElementCommand.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/FormElements/Commands/CreateFormElement/CreateFormElementCommandValidator.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/FormElements/Commands/DeleteFormElement  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/FormElements/Commands/DeleteFormElement/DeleteFormElementCommand.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/FormElements/Commands/DeleteFormElement/DeleteFormElementCommandValidator.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/FormElements/Commands/UpdateFormElement  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/FormElements/Commands/UpdateFormElement/UpdateFormElementCommand.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/FormElements/Commands/UpdateFormElement/UpdateFormElementCommandValidator.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/FormElements/Models  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/FormElements/Models/FormElementDto.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/FormElements/Models/FormElementOptionDto.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/FormElements/Models/FormElementVm.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/FormElements/Queries  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/FormElements/Queries/GetAllFormElementsQuery.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/FormElements/Queries/GetFormElementQuery.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/Application.IntegrationTests.csproj  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/FormElements  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/FormElements/Commands  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/FormElements/Commands/CreateFormElementTests.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/FormElements/Commands/UpdateFormElementTests.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/FormElements/Queries  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/FormElements/Queries/GetFormElementsTests.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/SiteForms  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/SiteForms/Commands  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/SiteForms/Commands/CreateFormElementTests.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/SiteForms/Commands/UpdateFormElementTests.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/SiteForms/Queries  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/SiteForms/Queries/GetFormElementsTests.cs  
+      -  **File filename (GitHub):**   
+
+* ** ID51c4dc2069a6c87e532d6f09dc1c0889496ba095** 
+   -  **Message:** Merging siteforms/formelements into single namespace/app space for now.  Test fixes..cleaned up mapping on formpageelement...all tests passing.
+   -  **Commited by:** bob@socialslice.com 
+   -  **FileCount:** 42 
+      -  **File path (TFVC or TfsGit):** /Code  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Application.csproj  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/CreateFormElement  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/CreateFormElement/CreateFormElementCommand.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/CreateFormElement/CreateFormElementCommandValidator.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/DeleteFormElement  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/DeleteFormElement/DeleteFormElementCommand.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/DeleteFormElement/DeleteFormElementCommandValidator.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/UpdateFormElement  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/UpdateFormElement/UpdateFormElementCommand.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/UpdateFormElement/UpdateFormElementCommandValidator.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Models  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Models/FormElementDto.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Queries  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Queries/GetFormElements  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Queries/GetFormElements/GetAllFormElementsQuery.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Queries/GetFormElements/GetFormElementQuery.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/SiteManager.V4-api.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Controllers  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Controllers/FormElementController.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Controllers/SiteFormController.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Controllers/SiteFormPageController.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/wwwroot  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/wwwroot/api  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/wwwroot/api/specification.json  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/FormElements  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/FormElements/Commands  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/FormElements/Commands/CreateFormElementTests.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/FormElements/Commands/UpdateFormElementTests.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/FormElements/Queries  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/FormElements/Queries/GetFormElementsTests.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/Testing.cs  
+      -  **File filename (GitHub):**   
+
+* ** ID25aa4a4a4c125a5786c3b501a2094c098aa2ef17** 
+   -  **Message:** some test fixes...problem with mapping config on a table.
+   -  **Commited by:** bob@socialslice.com 
+   -  **FileCount:** 9 
+      -  **File path (TFVC or TfsGit):** /Code  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/Reporting  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/Reporting/Queries  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/Reporting/Queries/ApexChartQueryTests.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/SiteForms  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/SiteForms/Commands  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/SiteForms/Commands/CreateSiteFormPageTests.cs  
+      -  **File filename (GitHub):**   
+
+* ** ID531550babd50ac3a567f1d93a3a20511db4be657** 
+   -  **Message:** Fixing some &quot;search and replace done wrong&quot; adding in tests and renaming all files
+   -  **Commited by:** bob@socialslice.com 
+   -  **FileCount:** 113 
+      -  **File path (TFVC or TfsGit):** /Code  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/FormElements  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/FormElements/Commands  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/FormElements/Commands/CreateFormElement  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/FormElements/Commands/CreateFormElement/CreateFormElementCommand.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/FormElements/Commands/CreateFormElement/CreateFormElementCommandValidator.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/FormElements/Commands/DeleteFormElement  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/FormElements/Commands/DeleteFormElement/DeleteFormElementCommand.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/FormElements/Commands/DeleteFormElement/DeleteFormElementCommandValidator.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/FormElements/Commands/UpdateFormElement  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/FormElements/Commands/UpdateFormElement/UpdateFormElementCommand.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/FormElements/Commands/UpdateFormElement/UpdateFormElementCommandValidator.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/FormElements/Models  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/FormElements/Models/FormElementDto.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/FormElements/Models/FormElementOptionDto.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/FormElements/Models/FormElementVm.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/FormElements/Queries  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/FormElements/Queries/GetAllFormElementsQuery.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/FormElements/Queries/GetFormElementQuery.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/CreateSiteForm  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/CreateSiteForm/CreateSiteFormCommand.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/CreateSiteForm/CreateSiteFormCommandValidator.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/CreateSiteFormPage  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/CreateSiteFormPage/CreateSiteFormPageCommand.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/CreateSiteFormPage/CreateSiteFormPageCommandValidator.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/CreateSiteFormPageFormElement  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/CreateSiteFormPageFormElement/CreateSiteFormPageFormElementCommand.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/CreateSiteFormPageFormElement/CreateSiteFormPageFormElementCommandValidator.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/DeleteSiteForm  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/DeleteSiteForm/DeleteSiteFormCommand.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/DeleteSiteForm/DeleteSiteFormCommandValidator.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/DeleteSiteFormPage  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/DeleteSiteFormPage/DeleteSiteFormPageCommand.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/DeleteSiteFormPage/DeleteSiteFormPageCommandValidator.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/DeleteSiteFormPageFormElement  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/DeleteSiteFormPageFormElement/DeleteSiteFormPageFormElementCommand.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/DeleteSiteFormPageFormElement/DeleteSiteFormPageFormElementCommandValidator.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/UpdateSiteForm  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/UpdateSiteForm/UpdateSiteFormCommand.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/UpdateSiteForm/UpdateSiteFormCommandValidator.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/UpdateSiteFormPage  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/UpdateSiteFormPage/UpdateSiteFormPageCommand.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/UpdateSiteFormPage/UpdateSiteFormPageCommandValidator.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/UpdateSiteFormPageFormElement  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/UpdateSiteFormPageFormElement/UpdateSiteFormPageFormElementCommand.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/UpdateSiteFormPageFormElement/UpdateSiteFormPageFormElementValidator.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Models  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Models/FormElementDto.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Models/FormElementOptionDto.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Models/SiteFormPageDto.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Models/SiteFormPageFormElementDto.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Models/SiteFormVm.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Queries  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Queries/GetSiteForm  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Queries/GetSiteForm/GetSiteFormQuery.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Queries/GetSiteForm/GetSiteFormQueryValidator.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Queries/GetSiteFormPage  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Queries/GetSiteFormPage/GetSiteFormPageQuery.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Queries/GetSiteFormPage/GetSiteFormPageQueryValidator.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Queries/GetUserSiteForms  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Queries/GetUserSiteForms/GetUserSiteFormsQuery.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Queries/GetUserSiteForms/GetUserSiteFormsQueryValidator.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/UserAdmin  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/UserAdmin/Commands  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/UserAdmin/Commands/CreateUser  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/UserAdmin/Commands/CreateUser/CreateUserCommandValidator.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/UserAdmin/Commands/DeleteUser  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/UserAdmin/Commands/DeleteUser/DeleteUserCommandValidator.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Domain  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Domain/Entities  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Domain/Entities/FormElement.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Domain/Entities/FormElementLayout.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Domain/Entities/FormElementOption.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Domain/Entities/FormElementType.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Domain/Entities/SiteForm.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Domain/Entities/SiteFormPage.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Domain/Entities/SiteFormPageFormElement.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Domain/Entities/SiteFormPermission.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Domain/Entities/SiteFormResponse.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Domain/Entities/SiteFormResponseDetail.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Migrations  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Migrations/20210121173014_SiteForms.Designer.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Migrations/20210121173014_SiteForms.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Migrations/ApplicationDbContextModelSnapshot.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/shared  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/shared/utils  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/shared/utils/icons.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/assets  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/assets/data  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/assets/data/menu.json  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/FormElements  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/FormElements/Commands  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/FormElements/Commands/CreateFormElementTests.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/FormElements/Commands/UpdateFormElementTests.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/FormElements/Queries  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/FormElements/Queries/GetFormElementsTests.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/SiteForms  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/SiteForms/Commands  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/SiteForms/Commands/CreateSiteFormPageTests.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/SiteForms/Commands/CreateSiteFormTests.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/SiteForms/Commands/UpdateSiteFormPageTests.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/SiteForms/Commands/UpdateSiteFormTests.cs  
+      -  **File filename (GitHub):**   
+
+* ** ID6aa8eb6b8e4ff33389be39c15c6df96c791a22f8** 
+   -  **Message:** Mass file rename to fit &quot;SiteForm&quot; naming convention...there are weird duplicate/similar DTO/models that need to be addressed
+   -  **Commited by:** bob@socialslice.com 
+   -  **FileCount:** 92 
+      -  **File path (TFVC or TfsGit):** /Code  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/FormElements  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/FormElements/Commands  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/FormElements/Commands/CreateQuestion  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/FormElements/Commands/CreateQuestion/CreateQuestionCommand.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/FormElements/Commands/CreateQuestion/CreateQuestionCommandValidator.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/FormElements/Commands/DeleteQuestion  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/FormElements/Commands/DeleteQuestion/DeleteQuestionCommand.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/FormElements/Commands/DeleteQuestion/DeleteQuestionCommandValidator.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/FormElements/Commands/UpdateQuestion  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/FormElements/Commands/UpdateQuestion/UpdateQuestionCommand.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/FormElements/Commands/UpdateQuestion/UpdateQuestionCommandValidator.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/FormElements/Models  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/FormElements/Models/QuestionDto.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/FormElements/Models/QuestionOptionDto.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/FormElements/Models/QuestionVm.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/FormElements/Queries  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/FormElements/Queries/GetAllQuestionsQuery.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/FormElements/Queries/GetQuestionQuery.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/CreateSurvey  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/CreateSurvey/CreateSurveyCommand.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/CreateSurvey/CreateSurveyCommandValidator.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/CreateSurveyPage  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/CreateSurveyPage/CreateSurveyPageCommand.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/CreateSurveyPage/CreateSurveyPageCommandValidator.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/CreateSurveyPageQuestion  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/CreateSurveyPageQuestion/CreateSurveyPageQuestionCommand.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/CreateSurveyPageQuestion/CreateSurveyPageQuestionCommandValidator.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/DeleteSurvey  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/DeleteSurvey/DeleteSurveyCommand.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/DeleteSurvey/DeleteSurveyCommandValidator.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/DeleteSurveyPage  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/DeleteSurveyPage/DeleteSurveyPageCommand.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/DeleteSurveyPage/DeleteSurveyPageCommandValidator.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/DeleteSurveyPageQuestion  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/DeleteSurveyPageQuestion/DeleteSurveyPageQuestionCommand.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/DeleteSurveyPageQuestion/DeleteSurveyPageQuestionCommandValidator.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/UpdateSurvey  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/UpdateSurvey/UpdateSurveyCommand.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/UpdateSurvey/UpdateSurveyCommandValidator.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/UpdateSurveyPage  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/UpdateSurveyPage/UpdateSurveyPageCommand.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/UpdateSurveyPage/UpdateSurveyPageCommandValidator.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/UpdateSurveyPageQuestion  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/UpdateSurveyPageQuestion/UpdateSurveyPageQuestionCommand.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/UpdateSurveyPageQuestion/UpdateSurveyPageQuestionValidator.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Models  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Models/QuestionDto.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Models/QuestionOptionDto.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Models/SurveyPageDto.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Models/SurveyPageQuestionDto.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Models/SurveyVm.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Queries  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Queries/GetSurvey  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Queries/GetSurvey/GetSurveyQuery.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Queries/GetSurvey/GetSurveyQueryValidator.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Queries/GetSurveyPage  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Queries/GetSurveyPage/GetSurveyPageQuery.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Queries/GetSurveyPage/GetSurveyPageQueryValidator.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Queries/GetUserSurveys  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Queries/GetUserSurveys/GetUserSurveysQuery.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Queries/GetUserSurveys/GetUserSurveysQueryValidator.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Domain  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Domain/Entities  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Domain/Entities/Question.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Domain/Entities/QuestionLayout.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Domain/Entities/QuestionOption.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Domain/Entities/QuestionType.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Domain/Entities/Survey.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Domain/Entities/SurveyPage.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Domain/Entities/SurveyPageQuestion.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Domain/Entities/SurveyPermission.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Domain/Entities/SurveyResponse.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Domain/Entities/SurveyResponseDetail.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/FormElements  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/FormElements/Commands  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/FormElements/Commands/CreateQuestionTests.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/FormElements/Commands/UpdateQuestionTests.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/FormElements/Queries  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/FormElements/Queries/GetQuestionsTests.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/SiteForms  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/SiteForms/Commands  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/SiteForms/Commands/CreateSurveyPageTests.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/SiteForms/Commands/CreateSurveyTests.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/SiteForms/Commands/UpdateSurveyPageTests.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/SiteForms/Commands/UpdateSurveyTests.cs  
+      -  **File filename (GitHub):**   
+
+* ** IDbfbf24047f68c4364b765f8dc041d54e3313a7dd** 
+   -  **Message:** Renaming and adding tests..checkin prior to file rename to fit new naming
+   -  **Commited by:** bob@socialslice.com 
+   -  **FileCount:** 189 
+      -  **File path (TFVC or TfsGit):** /Code  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Account  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Account/Commands  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Account/Commands/Register  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Account/Commands/Register/RegisterCommandValidator.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Common  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Common/Interfaces  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Common/Interfaces/IApplicationDbContext.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/FormElements  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/FormElements/Commands  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/FormElements/Commands/CreateQuestion  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/FormElements/Commands/CreateQuestion/CreateQuestionCommand.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/FormElements/Commands/CreateQuestion/CreateQuestionCommandValidator.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/FormElements/Commands/DeleteQuestion  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/FormElements/Commands/DeleteQuestion/DeleteQuestionCommand.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/FormElements/Commands/DeleteQuestion/DeleteQuestionCommandValidator.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/FormElements/Commands/UpdateQuestion  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/FormElements/Commands/UpdateQuestion/UpdateQuestionCommand.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/FormElements/Commands/UpdateQuestion/UpdateQuestionCommandValidator.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/FormElements/Models  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/FormElements/Models/QuestionDto.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/FormElements/Models/QuestionOptionDto.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/FormElements/Models/QuestionVm.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/FormElements/Queries  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/FormElements/Queries/GetAllQuestionsQuery.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/FormElements/Queries/GetQuestionQuery.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Questions  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Questions/Commands  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Questions/Commands/CreateQuestion  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Questions/Commands/CreateQuestion/CreateQuestionCommand.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Questions/Commands/CreateQuestion/CreateQuestionCommandValidator.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Questions/Commands/DeleteQuestion  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Questions/Commands/DeleteQuestion/DeleteQuestionCommand.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Questions/Commands/DeleteQuestion/DeleteQuestionCommandValidator.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Questions/Commands/UpdateQuestion  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Questions/Commands/UpdateQuestion/UpdateQuestionCommand.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Questions/Commands/UpdateQuestion/UpdateQuestionCommandValidator.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Questions/Models  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Questions/Models/QuestionDto.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Questions/Models/QuestionOptionDto.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Questions/Models/QuestionVm.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Questions/Queries  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Questions/Queries/GetAllQuestionsQuery.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Questions/Queries/GetQuestionQuery.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/RoleAdmin  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/RoleAdmin/Commands  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/RoleAdmin/Commands/CreateRole  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/RoleAdmin/Commands/CreateRole/CreateRoleCommandValidator.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/RoleAdmin/Commands/DeleteRole  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/RoleAdmin/Commands/DeleteRole/DeleteRoleCommandValidator.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/CreateSurvey  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/CreateSurvey/CreateSurveyCommand.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/CreateSurvey/CreateSurveyCommandValidator.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/CreateSurveyPage  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/CreateSurveyPage/CreateSurveyPageCommand.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/CreateSurveyPage/CreateSurveyPageCommandValidator.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/CreateSurveyPageQuestion  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/CreateSurveyPageQuestion/CreateSurveyPageQuestionCommand.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/CreateSurveyPageQuestion/CreateSurveyPageQuestionCommandValidator.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/DeleteSurvey  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/DeleteSurvey/DeleteSurveyCommand.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/DeleteSurvey/DeleteSurveyCommandValidator.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/DeleteSurveyPage  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/DeleteSurveyPage/DeleteSurveyPageCommand.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/DeleteSurveyPage/DeleteSurveyPageCommandValidator.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/DeleteSurveyPageQuestion  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/DeleteSurveyPageQuestion/DeleteSurveyPageQuestionCommand.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/DeleteSurveyPageQuestion/DeleteSurveyPageQuestionCommandValidator.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/UpdateSurvey  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/UpdateSurvey/UpdateSurveyCommand.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/UpdateSurvey/UpdateSurveyCommandValidator.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/UpdateSurveyPage  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/UpdateSurveyPage/UpdateSurveyPageCommand.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/UpdateSurveyPage/UpdateSurveyPageCommandValidator.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/UpdateSurveyPageQuestion  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/UpdateSurveyPageQuestion/UpdateSurveyPageQuestionCommand.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Commands/UpdateSurveyPageQuestion/UpdateSurveyPageQuestionValidator.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Models  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Models/QuestionDto.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Models/QuestionOptionDto.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Models/SurveyPageDto.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Models/SurveyPageQuestionDto.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Models/SurveyVm.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Queries  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Queries/GetSurvey  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Queries/GetSurvey/GetSurveyQuery.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Queries/GetSurvey/GetSurveyQueryValidator.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Queries/GetSurveyPage  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Queries/GetSurveyPage/GetSurveyPageQuery.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Queries/GetSurveyPage/GetSurveyPageQueryValidator.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Queries/GetUserSurveys  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Queries/GetUserSurveys/GetUserSurveysQuery.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/SiteForms/Queries/GetUserSurveys/GetUserSurveysQueryValidator.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Surveys  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Surveys/Commands  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Surveys/Commands/CreateSurvey  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Surveys/Commands/CreateSurvey/CreateSurveyCommand.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Surveys/Commands/CreateSurvey/CreateSurveyCommandValidator.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Surveys/Commands/CreateSurveyPage  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Surveys/Commands/CreateSurveyPage/CreateSurveyPageCommand.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Surveys/Commands/CreateSurveyPage/CreateSurveyPageCommandValidator.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Surveys/Commands/CreateSurveyPageQuestion  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Surveys/Commands/CreateSurveyPageQuestion/CreateSurveyPageQuestionCommand.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Surveys/Commands/CreateSurveyPageQuestion/CreateSurveyPageQuestionCommandValidator.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Surveys/Commands/DeleteSurvey  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Surveys/Commands/DeleteSurvey/DeleteSurveyCommand.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Surveys/Commands/DeleteSurvey/DeleteSurveyCommandValidator.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Surveys/Commands/DeleteSurveyPage  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Surveys/Commands/DeleteSurveyPage/DeleteSurveyPageCommand.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Surveys/Commands/DeleteSurveyPage/DeleteSurveyPageCommandValidator.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Surveys/Commands/DeleteSurveyPageQuestion  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Surveys/Commands/DeleteSurveyPageQuestion/DeleteSurveyPageQuestionCommand.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Surveys/Commands/DeleteSurveyPageQuestion/DeleteSurveyPageQuestionCommandValidator.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Surveys/Commands/UpdateSurvey  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Surveys/Commands/UpdateSurvey/UpdateSurveyCommand.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Surveys/Commands/UpdateSurvey/UpdateSurveyCommandValidator.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Surveys/Commands/UpdateSurveyPage  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Surveys/Commands/UpdateSurveyPage/UpdateSurveyPageCommand.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Surveys/Commands/UpdateSurveyPage/UpdateSurveyPageCommandValidator.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Surveys/Commands/UpdateSurveyPageQuestion  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Surveys/Commands/UpdateSurveyPageQuestion/UpdateSurveyPageQuestionCommand.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Surveys/Commands/UpdateSurveyPageQuestion/UpdateSurveyPageQuestionValidator.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Surveys/Models  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Surveys/Models/QuestionDto.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Surveys/Models/QuestionOptionDto.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Surveys/Models/SurveyPageDto.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Surveys/Models/SurveyPageQuestionDto.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Surveys/Models/SurveyVm.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Surveys/Queries  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Surveys/Queries/GetSurvey  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Surveys/Queries/GetSurvey/GetSurveyQuery.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Surveys/Queries/GetSurvey/GetSurveyQueryValidator.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Surveys/Queries/GetSurveyPage  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Surveys/Queries/GetSurveyPage/GetSurveyPageQuery.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Surveys/Queries/GetSurveyPage/GetSurveyPageQueryValidator.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Surveys/Queries/GetUserSurveys  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Surveys/Queries/GetUserSurveys/GetUserSurveysQuery.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Surveys/Queries/GetUserSurveys/GetUserSurveysQueryValidator.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/UserAdmin  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/UserAdmin/Commands  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/UserAdmin/Commands/CreateUser  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/UserAdmin/Commands/CreateUser/CreateUserCommandValidator.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/UserAdmin/Commands/DeleteUser  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/UserAdmin/Commands/DeleteUser/DeleteUserCommandValidator.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Domain  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Domain/Entities  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Domain/Entities/Batch.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Domain/Entities/Question.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Domain/Entities/QuestionLayout.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Domain/Entities/QuestionOption.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Domain/Entities/QuestionType.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Domain/Entities/Survey.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Domain/Entities/SurveyPage.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Domain/Entities/SurveyPageQuestion.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Domain/Entities/SurveyPermission.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Domain/Entities/SurveyResponse.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Domain/Entities/SurveyResponseDetail.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Persistence  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Persistence/ApplicationDbContext.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/shared  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/shared/utils  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/shared/utils/icons.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/assets  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/assets/data  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/assets/data/menu.json  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/FormElements  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/FormElements/Commands  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/FormElements/Commands/CreateQuestionTests.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/FormElements/Commands/UpdateQuestionTests.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/FormElements/Queries  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/FormElements/Queries/GetQuestionsTests.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/SiteForms  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/SiteForms/Commands  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/SiteForms/Commands/CreateSurveyPageTests.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/SiteForms/Commands/CreateSurveyTests.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/SiteForms/Commands/UpdateSurveyPageTests.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/SiteForms/Commands/UpdateSurveyTests.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/Testing.cs  
+      -  **File filename (GitHub):**   
+
+* ** ID258e5522c3761734831818e24f5c97a37587b4b1** 
+   -  **Message:** Moved all backend survey entities/code...about to rename
+   -  **Commited by:** bob@socialslice.com 
+   -  **FileCount:** 85 
+      -  **File path (TFVC or TfsGit):** /Code  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Common  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Common/Interfaces  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Common/Interfaces/IApplicationDbContext.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Questions  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Questions/Commands  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Questions/Commands/CreateQuestion  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Questions/Commands/CreateQuestion/CreateQuestionCommand.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Questions/Commands/CreateQuestion/CreateQuestionCommandValidator.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Questions/Commands/DeleteQuestion  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Questions/Commands/DeleteQuestion/DeleteQuestionCommand.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Questions/Commands/DeleteQuestion/DeleteQuestionCommandValidator.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Questions/Commands/UpdateQuestion  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Questions/Commands/UpdateQuestion/UpdateQuestionCommand.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Questions/Commands/UpdateQuestion/UpdateQuestionCommandValidator.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Questions/Models  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Questions/Models/QuestionDto.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Questions/Models/QuestionOptionDto.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Questions/Models/QuestionVm.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Questions/Queries  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Questions/Queries/GetAllQuestionsQuery.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Questions/Queries/GetQuestionQuery.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Surveys  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Surveys/Commands  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Surveys/Commands/CreateSurvey  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Surveys/Commands/CreateSurvey/CreateSurveyCommand.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Surveys/Commands/CreateSurvey/CreateSurveyCommandValidator.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Surveys/Commands/CreateSurveyPage  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Surveys/Commands/CreateSurveyPage/CreateSurveyPageCommand.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Surveys/Commands/CreateSurveyPage/CreateSurveyPageCommandValidator.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Surveys/Commands/CreateSurveyPageQuestion  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Surveys/Commands/CreateSurveyPageQuestion/CreateSurveyPageQuestionCommand.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Surveys/Commands/CreateSurveyPageQuestion/CreateSurveyPageQuestionCommandValidator.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Surveys/Commands/DeleteSurvey  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Surveys/Commands/DeleteSurvey/DeleteSurveyCommand.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Surveys/Commands/DeleteSurvey/DeleteSurveyCommandValidator.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Surveys/Commands/DeleteSurveyPage  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Surveys/Commands/DeleteSurveyPage/DeleteSurveyPageCommand.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Surveys/Commands/DeleteSurveyPage/DeleteSurveyPageCommandValidator.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Surveys/Commands/DeleteSurveyPageQuestion  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Surveys/Commands/DeleteSurveyPageQuestion/DeleteSurveyPageQuestionCommand.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Surveys/Commands/DeleteSurveyPageQuestion/DeleteSurveyPageQuestionCommandValidator.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Surveys/Commands/UpdateSurvey  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Surveys/Commands/UpdateSurvey/UpdateSurveyCommand.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Surveys/Commands/UpdateSurvey/UpdateSurveyCommandValidator.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Surveys/Commands/UpdateSurveyPage  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Surveys/Commands/UpdateSurveyPage/UpdateSurveyPageCommand.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Surveys/Commands/UpdateSurveyPage/UpdateSurveyPageCommandValidator.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Surveys/Commands/UpdateSurveyPageQuestion  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Surveys/Commands/UpdateSurveyPageQuestion/UpdateSurveyPageQuestionCommand.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Surveys/Commands/UpdateSurveyPageQuestion/UpdateSurveyPageQuestionValidator.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Surveys/Models  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Surveys/Models/QuestionDto.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Surveys/Models/QuestionOptionDto.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Surveys/Models/SurveyPageDto.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Surveys/Models/SurveyPageQuestionDto.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Surveys/Models/SurveyVm.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Surveys/Queries  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Surveys/Queries/GetSurvey  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Surveys/Queries/GetSurvey/GetSurveyQuery.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Surveys/Queries/GetSurvey/GetSurveyQueryValidator.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Surveys/Queries/GetSurveyPage  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Surveys/Queries/GetSurveyPage/GetSurveyPageQuery.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Surveys/Queries/GetSurveyPage/GetSurveyPageQueryValidator.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Surveys/Queries/GetUserSurveys  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Surveys/Queries/GetUserSurveys/GetUserSurveysQuery.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Surveys/Queries/GetUserSurveys/GetUserSurveysQueryValidator.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Domain  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Domain/Entities  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Domain/Entities/Batch.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Domain/Entities/Question.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Domain/Entities/QuestionLayout.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Domain/Entities/QuestionOption.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Domain/Entities/QuestionType.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Domain/Entities/Survey.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Domain/Entities/SurveyPage.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Domain/Entities/SurveyPageQuestion.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Domain/Entities/SurveyPermission.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Domain/Entities/SurveyResponse.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Domain/Entities/SurveyResponseDetail.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Persistence  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Persistence/ApplicationDbContext.cs  
+      -  **File filename (GitHub):**   
+
+* ** IDa6bb05c13a4c107b7e99ff1c5df04299c54a68c3** 
+   -  **Message:** Merged PR 17: Dashboard demo with backend generated test data.
+
+Related work items: #88
+   -  **Commited by:** BoB 
+   -  **FileCount:** 53 
+      -  **File path (TFVC or TfsGit):** /Code  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Account  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Account/Queries  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Account/Queries/Login  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Account/Queries/Login/GetLoginQuery.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Account/Queries/Login/GetLoginQueryValidator.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Account/Queries/Login/LoginCommand.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Account/Queries/Login/LoginCommandValidator.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Application.csproj  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Reporting  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Reporting/Models  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Reporting/Models/ApexChartVm.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Reporting/Models/SystemStatsVm.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Reporting/Queries  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Reporting/Queries/ApexChartQuery  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Reporting/Queries/ApexChartQuery/ApexChartQuery.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Reporting/Queries/ApexChartQuery/ApexChartQueryValidator.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Reporting/Queries/SystemStats  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Reporting/Queries/SystemStats/GetStatsQuery.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Reporting/Queries/SystemStats/GetStatsQueryValidator.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Persistence  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Persistence/ApplicationDbContextSeed.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/SiteManager.V4-api.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/authentication  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/authentication/login  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/authentication/login/login.component.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/authentication/login/login.component.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/dashboard  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/dashboard/dashboard.component.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/dashboard/dashboard.component.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/dashboard/dashboard.service.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Controllers  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Controllers/AccountController.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Controllers/ChartDataController.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Controllers/SystemStatsController.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/wwwroot  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/wwwroot/api  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/wwwroot/api/specification.json  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/Reporting  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/Reporting/Queries  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/Reporting/Queries/ApexChartQueryTests.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/Reporting/Queries/GetSystemStatsTests.cs  
+      -  **File filename (GitHub):**   
+
+* ** ID87d63584bb517eed0b55f2feccae821d77cad82a** 
+   -  **Message:** Basic demo dashboard with &quot;backend&quot; data generation.  Note that the graphing will require some analysis to design a good architecture/pattern.  Graph config and data are pretty tightly coupled it appears?
+   -  **Commited by:** bob@socialslice.com 
+   -  **FileCount:** 37 
+      -  **File path (TFVC or TfsGit):** /Code  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Reporting  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Reporting/Models  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Reporting/Models/ApexChartVm.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Reporting/Queries  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Reporting/Queries/ApexChartQuery  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Reporting/Queries/ApexChartQuery/ApexChartQuery.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Reporting/Queries/ApexChartQuery/ApexChartQueryValidator.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Persistence  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Persistence/ApplicationDbContextSeed.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/SiteManager.V4-api.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/authentication  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/authentication/login  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/authentication/login/login.component.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/dashboard  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/dashboard/dashboard.component.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/dashboard/dashboard.component.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/dashboard/dashboard.service.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Controllers  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Controllers/ChartDataController.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/wwwroot  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/wwwroot/api  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/wwwroot/api/specification.json  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/Reporting  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/Reporting/Queries  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/Reporting/Queries/ApexChartQueryTests.cs  
+      -  **File filename (GitHub):**   
+
+* ** IDd73de3e73a64f998ca77ea22856a5bf62b5b43c9** 
+   -  **Message:** Moving status tile data to backend and adding tests
+   -  **Commited by:** bob@socialslice.com 
+   -  **FileCount:** 31 
+      -  **File path (TFVC or TfsGit):** /Code  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Reporting  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Reporting/Models  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Reporting/Models/SystemStatsVm.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Reporting/Queries  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Reporting/Queries/SystemStats  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Reporting/Queries/SystemStats/GetStatsQuery.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/SiteManager.V4-api.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/authentication  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/authentication/login  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/authentication/login/login.component.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/dashboard  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/dashboard/dashboard.component.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/dashboard/dashboard.component.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/dashboard/dashboard.service.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/wwwroot  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/wwwroot/api  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/wwwroot/api/specification.json  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/Reporting  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/Reporting/Queries  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/Reporting/Queries/GetSystemStatsTests.cs  
+      -  **File filename (GitHub):**   
+
+* ** ID877cb4ea638577118e764957a298bc7a853ddaa1** 
+   -  **Message:** Adding basic app logic for systemstats/reporting.  Also renamed login query (was named command)
+   -  **Commited by:** bob@socialslice.com 
+   -  **FileCount:** 33 
+      -  **File path (TFVC or TfsGit):** /Code  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Account  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Account/Queries  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Account/Queries/Login  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Account/Queries/Login/GetLoginQuery.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Account/Queries/Login/GetLoginQueryValidator.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Account/Queries/Login/LoginCommand.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Account/Queries/Login/LoginCommandValidator.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Application.csproj  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Reporting  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Reporting/Models  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Reporting/Models/SystemStatsVm.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Reporting/Queries  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Reporting/Queries/SystemStats  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Reporting/Queries/SystemStats/GetStatsQuery.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Reporting/Queries/SystemStats/GetStatsQueryValidator.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/dashboard  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/dashboard/dashboard.component.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Controllers  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Controllers/AccountController.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Controllers/SystemStatsController.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/Reporting  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/Reporting/Queries  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/Reporting/Queries/GetSystemStatsTests.cs  
+      -  **File filename (GitHub):**   
+
+* ** IDdd7662e5789ec6eef38c98a4f5779a4ec06e775b** 
+   -  **Message:** Merged PR 16: Incremental for build fixes
+
+new yaml &quot;publish&quot; to handle spa app again
+
+Related work items: #88
+   -  **Commited by:** BoB 
+   -  **FileCount:** 5 
+      -  **File path (TFVC or TfsGit):** /Code  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/WebUI.csproj  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /azure-pipelines.yml  
+      -  **File filename (GitHub):**   
+
+* ** ID173889247293233f57e350be2f318557de3a0a15** 
+   -  **Message:** Update azure-pipelines.yml for Azure Pipelines
+   -  **Commited by:** BoB 
+   -  **FileCount:** 1 
+      -  **File path (TFVC or TfsGit):** /azure-pipelines.yml  
+      -  **File filename (GitHub):**   
+
+* ** IDfe5a4fc4f16c89e100ef502252ad15fd09688ce9** 
+   -  **Message:** Update azure-pipelines.yml for Azure Pipelines
+   -  **Commited by:** BoB 
+   -  **FileCount:** 1 
+      -  **File path (TFVC or TfsGit):** /azure-pipelines.yml  
+      -  **File filename (GitHub):**   
+
+* ** ID45e61af298fa46d62eec1b1588a3a3ecaa5205bf** 
+   -  **Message:** Update azure-pipelines.yml for Azure Pipelines
+   -  **Commited by:** BoB 
+   -  **FileCount:** 1 
+      -  **File path (TFVC or TfsGit):** /azure-pipelines.yml  
+      -  **File filename (GitHub):**   
+
+* ** ID031c2cf2f92de17db0dcda092ae82be210497cee** 
+   -  **Message:** Update azure-pipelines.yml for Azure Pipelines
+   -  **Commited by:** BoB 
+   -  **FileCount:** 1 
+      -  **File path (TFVC or TfsGit):** /azure-pipelines.yml  
+      -  **File filename (GitHub):**   
+
+* ** ID2ffb7d25490c64654b1700911d7df983a0740e80** 
+   -  **Message:** Update azure-pipelines.yml for Azure Pipelines
+   -  **Commited by:** BoB 
+   -  **FileCount:** 1 
+      -  **File path (TFVC or TfsGit):** /azure-pipelines.yml  
+      -  **File filename (GitHub):**   
+
+* ** IDfa59dbf6e468da78822f62b03ce183d3a736c273** 
+   -  **Message:** Update azure-pipelines.yml for Azure Pipelines
+   -  **Commited by:** BoB 
+   -  **FileCount:** 1 
+      -  **File path (TFVC or TfsGit):** /azure-pipelines.yml  
+      -  **File filename (GitHub):**   
+
+* ** ID7dd0500bbf38b71119eaa162458ab110baf1fe1a** 
+   -  **Message:** Update azure-pipelines.yml for Azure Pipelines
+   -  **Commited by:** BoB 
+   -  **FileCount:** 1 
+      -  **File path (TFVC or TfsGit):** /azure-pipelines.yml  
+      -  **File filename (GitHub):**   
+
+* ** ID60bb1edf3330933a8f832f7dda1f69fa8012e214** 
+   -  **Message:** Update azure-pipelines.yml for Azure Pipelines
+   -  **Commited by:** BoB 
+   -  **FileCount:** 1 
+      -  **File path (TFVC or TfsGit):** /azure-pipelines.yml  
+      -  **File filename (GitHub):**   
+
+* ** ID45caeed86840023b787a561686315a0ab44b5a65** 
+   -  **Message:** testing build stuff.
+   -  **Commited by:** bob@socialslice.com 
+   -  **FileCount:** 4 
+      -  **File path (TFVC or TfsGit):** /Code  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/WebUI.csproj  
+      -  **File filename (GitHub):**   
+
+* ** ID32f4e43e8aa18cfc4a49104e6fe15fe56236284b** 
+   -  **Message:** Merged PR 15: Incremental to update test server.
+
+Adding apex graphs and stats bar to dashboard (hard coded test data).
+
+Related work items: #88
+   -  **Commited by:** BoB 
+   -  **FileCount:** 15 
+      -  **File path (TFVC or TfsGit):** /Code  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/angular.json  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/package-lock.json  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/package.json  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/dashboard  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/dashboard/dashboard.component.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/dashboard/dashboard.component.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/dashboard/dashboard.service.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /README.md  
+      -  **File filename (GitHub):**   
+
+* ** IDcdb1f28656daaa6c80951dd64ab67a26b6666949** 
+   -  **Message:** quick readme format change for git markdown
+   -  **Commited by:** bob@socialslice.com 
+   -  **FileCount:** 1 
+      -  **File path (TFVC or TfsGit):** /README.md  
+      -  **File filename (GitHub):**   
+
+* ** ID81eefe9cfa12212640d315ac89292fbddb50d7d2** 
+   -  **Message:** Adding apex graphs and stats bar to dashboard (hard coded test data).
+   -  **Commited by:** bob@socialslice.com 
+   -  **FileCount:** 14 
+      -  **File path (TFVC or TfsGit):** /Code  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/angular.json  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/package-lock.json  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/package.json  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/dashboard  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/dashboard/dashboard.component.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/dashboard/dashboard.component.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/dashboard/dashboard.service.ts  
+      -  **File filename (GitHub):**   
+
+* ** IDb4a55f2dcf11e154f801c211b559f522354abe2c** 
+   -  **Message:** Merged PR 14: Demo User Changes and Readme Markdown updates
+   -  **Commited by:** BoB 
+   -  **FileCount:** 16 
+      -  **File path (TFVC or TfsGit):** /Code  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/authentication  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/authentication/login  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/authentication/login/login.component.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/assets  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/assets/i18n  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/assets/i18n/en-US.json  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/appsettings.Development.json  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/appsettings.Production.json  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /README.md  
+      -  **File filename (GitHub):**   
+
+* ** IDf6ec57ca0d8bc7c9b8b7b4901b55177403648c0a** 
+   -  **Message:** markdown stupids
+   -  **Commited by:** bob@socialslice.com 
+   -  **FileCount:** 1 
+      -  **File path (TFVC or TfsGit):** /README.md  
+      -  **File filename (GitHub):**   
+
+* ** ID2d52f93f4a4bec9eee5b6a75b28867c402eb1710** 
+   -  **Message:** formatting updates...no underlines?
+   -  **Commited by:** bob@socialslice.com 
+   -  **FileCount:** 1 
+      -  **File path (TFVC or TfsGit):** /README.md  
+      -  **File filename (GitHub):**   
+
+* ** IDf8a430c0b701b870c6b0bbae02485957a1422fdd** 
+   -  **Message:** readme formatting
+   -  **Commited by:** bob@socialslice.com 
+   -  **FileCount:** 1 
+      -  **File path (TFVC or TfsGit):** /README.md  
+      -  **File filename (GitHub):**   
+
+* ** ID35bf962f4ccc72927bdd22f963905a640f979114** 
+   -  **Message:** more login changes for demo/test site.
+   -  **Commited by:** bob@socialslice.com 
+   -  **FileCount:** 15 
+      -  **File path (TFVC or TfsGit):** /Code  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/authentication  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/authentication/login  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/authentication/login/login.component.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/assets  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/assets/i18n  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/assets/i18n/en-US.json  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/appsettings.Development.json  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/appsettings.Production.json  
+      -  **File filename (GitHub):**   
+
+* ** ID8c8bf2c05f6f9091b017f14a40a4f2cc011356fd** 
+   -  **Message:** Merged PR 13: Forgot to setup for demo user access
+
+Forgot to setup for demo user access
+   -  **Commited by:** BoB 
+   -  **FileCount:** 16 
+      -  **File path (TFVC or TfsGit):** /Code  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Persistence  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Persistence/ApplicationDbContextSeed.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/authentication  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/authentication/login  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/authentication/login/login.component.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Program.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/appsettings.Production.json  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /README.md  
+      -  **File filename (GitHub):**   
+
+* ** ID3f51042047c5815c4d32e3aeeb22a2e09ab446a1** 
+   -  **Message:** Forgot to setup for demo user access
+   -  **Commited by:** bob@socialslice.com 
+   -  **FileCount:** 16 
+      -  **File path (TFVC or TfsGit):** /Code  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Persistence  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Persistence/ApplicationDbContextSeed.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/authentication  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/authentication/login  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/authentication/login/login.component.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Program.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/appsettings.Production.json  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /README.md  
+      -  **File filename (GitHub):**   
+
+* ** IDbf8dc00245afb85973ff0d5e49e5a77c2d6dca1f** 
+   -  **Message:** Merged PR 12: Documentation Pass/Consolidate Notes/Readme
+
+Did a documentation review/update.  Fixed/completed some minor issues (EF config moved to correct folder and logging levels here and there) for clearer documentations
+
+Related work items: #87
+   -  **Commited by:** BoB 
+   -  **FileCount:** 43 
+      -  **File path (TFVC or TfsGit):** /Azure_Linux_VM_Server_Notes.md  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Common  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Common/Behaviours  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Common/Behaviours/LoggingBehaviour.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/DependencyInjection.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Identity  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Identity/AccountService.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Migrations  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Migrations/20210101162542_Initial.Designer.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Migrations/20210101162542_Initial.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Migrations/20210112220037_Initial.Designer.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Migrations/20210112220037_Initial.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Migrations/ApplicationDbContextModelSnapshot.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Persistence  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Persistence/ApplicationDbContext.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Persistence/ApplicationDbContextSeed.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Persistence/Configurations  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Persistence/Configurations/AppLogConfiguration.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Persistence/Configurations/AppPermissionTypeConfiguration.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Persistence/Configurations/AppResourceConfiguration.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Persistence/Configurations/AppRoleClaimConfiguration.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Persistence/Configurations/AppRoleConfiguration.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Persistence/Configurations/AppRoleResourceConfiguration.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Persistence/Configurations/AppUserClaimConfiguration.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Persistence/Configurations/AppUserConfiguration.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Persistence/Configurations/AppUserLoginConfiguration.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Persistence/Configurations/AppUserRole.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Persistence/Configurations/AppUserToken.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Services  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Services/BasicSQLLogger.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Startup.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/appsettings.Development.json  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/appsettings.json  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /LICENSE  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /ProductionServerConfigNotes.md  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /README.md  
+      -  **File filename (GitHub):**   
+
+* ** ID59747ed4003a6783bfc447fe3c07c715ccf73dcb** 
+   -  **Message:** Final README.md?
+   -  **Commited by:** bob@socialslice.com 
+   -  **FileCount:** 3 
+      -  **File path (TFVC or TfsGit):** /Azure_Linux_VM_Server_Notes.md  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /ProductionServerConfigNotes.md  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /README.md  
+      -  **File filename (GitHub):**   
+
+* ** ID39635622cc0d3043a664442bbc523847f817a13d** 
+   -  **Message:** proof
+   -  **Commited by:** bob@socialslice.com 
+   -  **FileCount:** 1 
+      -  **File path (TFVC or TfsGit):** /README.md  
+      -  **File filename (GitHub):**   
+
+* ** IDf880c140f686e46154994507592bff9ba8587148** 
+   -  **Message:** was missing a connStr in tests...moved CQRS logging to debug level (trace for data)
+   -  **Commited by:** bob@socialslice.com 
+   -  **FileCount:** 9 
+      -  **File path (TFVC or TfsGit):** /Code  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Common  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Common/Behaviours  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Common/Behaviours/LoggingBehaviour.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/appsettings.json  
+      -  **File filename (GitHub):**   
+
+* ** ID122b539e49b6731f7a130d805dffc69644cb14a7** 
+   -  **Message:** license
+   -  **Commited by:** bob@socialslice.com 
+   -  **FileCount:** 2 
+      -  **File path (TFVC or TfsGit):** /LICENSE  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /README.md  
+      -  **File filename (GitHub):**   
+
+* ** ID5931e391f9ff1ae4b3bb653533a608c0a533e9ab** 
+   -  **Message:** tweaking logging setting in the cqrs pipeline for clearer docs.
+   -  **Commited by:** bob@socialslice.com 
+   -  **FileCount:** 12 
+      -  **File path (TFVC or TfsGit):** /Code  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Common  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Common/Behaviours  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Common/Behaviours/LoggingBehaviour.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/DependencyInjection.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Services  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Services/BasicSQLLogger.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/appsettings.Development.json  
+      -  **File filename (GitHub):**   
+
+* ** IDb21c1b52b6edf7be5e83eface47c4143c9cd251e** 
+   -  **Message:** incremental
+   -  **Commited by:** bob@socialslice.com 
+   -  **FileCount:** 1 
+      -  **File path (TFVC or TfsGit):** /README.md  
+      -  **File filename (GitHub):**   
+
+* ** ID8d323faeaf5c691b37492c7fcbc92963206915b5** 
+   -  **Message:** Incremental..checking markdown formatting.
+   -  **Commited by:** bob@socialslice.com 
+   -  **FileCount:** 1 
+      -  **File path (TFVC or TfsGit):** /README.md  
+      -  **File filename (GitHub):**   
+
+* ** ID249787bb2c4b79a3ccd501338b5db97916538106** 
+   -  **Message:** gotta click the save button :(
+   -  **Commited by:** bob@socialslice.com 
+   -  **FileCount:** 5 
+      -  **File path (TFVC or TfsGit):** /Code  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Persistence  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Persistence/ApplicationDbContext.cs  
+      -  **File filename (GitHub):**   
+
+* ** ID59ef6b584d5e158b99c19b0cb3a039922e4509c6** 
+   -  **Message:** Moving the remaining core table configs to configurations/ directory.
+   -  **Commited by:** bob@socialslice.com 
+   -  **FileCount:** 16 
+      -  **File path (TFVC or TfsGit):** /Code  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Migrations  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Migrations/20210112212541_Initial.Designer.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Migrations/20210112212541_Initial.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Migrations/20210112220037_Initial.Designer.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Migrations/20210112220037_Initial.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Migrations/ApplicationDbContextModelSnapshot.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Persistence  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Persistence/ApplicationDbContext.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Persistence/Configurations  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Persistence/Configurations/AppLogConfiguration.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Persistence/Configurations/AppPermissionTypeConfiguration.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Persistence/Configurations/AppResourceConfiguration.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Persistence/Configurations/AppRoleResourceConfiguration.cs  
+      -  **File filename (GitHub):**   
+
+* ** ID2cec82e8f32c4b42eefd580e05c8c032bd015e24** 
+   -  **Message:** Moving custom identity EF configuration into correct location for standards/docs
+   -  **Commited by:** bob@socialslice.com 
+   -  **FileCount:** 24 
+      -  **File path (TFVC or TfsGit):** /Code  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Identity  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Identity/AccountService.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Migrations  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Migrations/20210101162542_Initial.Designer.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Migrations/20210101162542_Initial.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Migrations/20210112212541_Initial.Designer.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Migrations/20210112212541_Initial.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Migrations/ApplicationDbContextModelSnapshot.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Persistence  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Persistence/ApplicationDbContext.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Persistence/ApplicationDbContextSeed.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Persistence/Configurations  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Persistence/Configurations/AppRoleClaimConfiguration.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Persistence/Configurations/AppRoleConfiguration.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Persistence/Configurations/AppUserClaimConfiguration.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Persistence/Configurations/AppUserConfiguration.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Persistence/Configurations/AppUserLoginConfiguration.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Persistence/Configurations/AppUserRole.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Persistence/Configurations/AppUserToken.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Startup.cs  
+      -  **File filename (GitHub):**   
+
+* ** ID320b346ef8590a6c8bc169f4cf99dfa491611b93** 
+   -  **Message:** Merged PR 11: testing closed branch type stuff on tfs
+
+testing closed branch type stuff on tfs
+   -  **Commited by:** BoB 
+   -  **FileCount:** 11 
+      -  **File path (TFVC or TfsGit):** /Code  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Persistence  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Persistence/ApplicationDbContextSeed.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/appsettings.Development.json  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/appsettings.Production.json  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/appsettings.json  
+      -  **File filename (GitHub):**   
+
+* ** ID5b8e9bfd35d9538bd268e18c0496d07cebc1811c** 
+   -  **Message:** testing closed branch type stuff on tfs
+   -  **Commited by:** bob@socialslice.com 
+   -  **FileCount:** 11 
+      -  **File path (TFVC or TfsGit):** /Code  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Persistence  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Persistence/ApplicationDbContextSeed.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/appsettings.Development.json  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/appsettings.Production.json  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/appsettings.json  
+      -  **File filename (GitHub):**   
+
+* ** ID7c77993b48595f83069ccd9ad38186a9888567b0** 
+   -  **Message:** Merged PR 10: Cleanup/Secure MVC Identity Pages
+
+Let basic email and forgot password function in place but redirected the rest of the existing pages back to root.
+
+Related work items: #25
+   -  **Commited by:** BoB 
+   -  **FileCount:** 22 
+      -  **File path (TFVC or TfsGit):** /Code  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Areas  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Areas/Identity  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Areas/Identity/Pages  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Areas/Identity/Pages/Account  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Areas/Identity/Pages/Account/ConfirmEmail.cshtml  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Areas/Identity/Pages/Account/ForgotPassword.cshtml.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Areas/Identity/Pages/Account/Login.cshtml.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Areas/Identity/Pages/Account/Logout.cshtml.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Areas/Identity/Pages/Account/Register.cshtml.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Areas/Identity/Pages/Account/ResetPassword.cshtml  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Areas/Identity/Pages/Account/ResetPasswordConfirmation.cshtml  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Pages  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Pages/Shared  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Pages/Shared/_Layout.cshtml  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Pages/Shared/_LoginPartial.cshtml  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/appsettings.Development.json  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/appsettings.Production.json  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/appsettings.json  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /ProductionServerConfigNotes.md  
+      -  **File filename (GitHub):**   
+
+* ** ID5ca88aa311a0459e28b99d3b6e86b01ed7983a22** 
+   -  **Message:** missed a page.
+   -  **Commited by:** bob@socialslice.com 
+   -  **FileCount:** 8 
+      -  **File path (TFVC or TfsGit):** /Code  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Areas  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Areas/Identity  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Areas/Identity/Pages  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Areas/Identity/Pages/Account  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Areas/Identity/Pages/Account/ForgotPassword.cshtml.cs  
+      -  **File filename (GitHub):**   
+
+* ** IDb9d6593c05eef665c536d12900207f6cb2e234c5** 
+   -  **Message:** appsettings tweaks/cleanup
+   -  **Commited by:** bob@socialslice.com 
+   -  **FileCount:** 5 
+      -  **File path (TFVC or TfsGit):** /Code  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/appsettings.Production.json  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/appsettings.json  
+      -  **File filename (GitHub):**   
+
+* ** ID1a83c31b6db3e76076fb98624e4b9eb49d235ea3** 
+   -  **Message:** Basic formatting and cleanup of MVC based identity pages.
+   -  **Commited by:** bob@socialslice.com 
+   -  **FileCount:** 17 
+      -  **File path (TFVC or TfsGit):** /Code  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Areas  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Areas/Identity  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Areas/Identity/Pages  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Areas/Identity/Pages/Account  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Areas/Identity/Pages/Account/ConfirmEmail.cshtml  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Areas/Identity/Pages/Account/Login.cshtml.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Areas/Identity/Pages/Account/Logout.cshtml.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Areas/Identity/Pages/Account/Register.cshtml.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Areas/Identity/Pages/Account/ResetPassword.cshtml  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Areas/Identity/Pages/Account/ResetPasswordConfirmation.cshtml  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Pages  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Pages/Shared  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Pages/Shared/_Layout.cshtml  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Pages/Shared/_LoginPartial.cshtml  
+      -  **File filename (GitHub):**   
+
+* ** ID5e2ade05d12d9ae93242b4c65ff13cb1d1ee09f7** 
+   -  **Message:** notes and config file cleanups
+   -  **Commited by:** bob@socialslice.com 
+   -  **FileCount:** 7 
+      -  **File path (TFVC or TfsGit):** /Code  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/appsettings.Development.json  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/appsettings.Production.json  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/appsettings.json  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /ProductionServerConfigNotes.md  
+      -  **File filename (GitHub):**   
+
+* ** ID9299ca84c7de94c86a5a3f9b19e3ff43707fb001** 
+   -  **Message:** Merged PR 9: Support for postgress and continuous deployment to azure ubuntu VM
+
+Related work items: #51, #69
+   -  **Commited by:** BoB 
+   -  **FileCount:** 64 
+      -  **File path (TFVC or TfsGit):** /Code  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/UserAdmin  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/UserAdmin/Commands  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/UserAdmin/Commands/UpdateUser  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/UserAdmin/Commands/UpdateUser/UpdateUserCommandValidator.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/UserAdmin/Queries  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/UserAdmin/Queries/GetAllUsersQuery.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/DependencyInjection.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Identity  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Identity/IdentityPermissionHandler.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Identity/IdentityService.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Infrastructure.csproj  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Migrations  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Migrations/20201002154531_Initial.Designer.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Migrations/20201002154531_Initial.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Migrations/20201213012032_AppLog.Designer.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Migrations/20201213012032_AppLog.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Migrations/20201213215824_AppLog_upd.Designer.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Migrations/20201213215824_AppLog_upd.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Migrations/20201219153614_AppPermissions.Designer.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Migrations/20201219153614_AppPermissions.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Migrations/20210101162542_Initial.Designer.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Migrations/20210101162542_Initial.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Migrations/ApplicationDbContextModelSnapshot.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Persistence  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Persistence/ApplicationDbContext.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Persistence/ApplicationDbContextSeed.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Services  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Services/BasicSQLLogger.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Services/PermissionsService.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/localhost.pfx  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/sitemanager.pfx  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/angular.json  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/SiteManager.V4-api.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/environments  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/environments/environment.prod.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/index.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Controllers  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Controllers/AccountController.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Program.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/WebUI.csproj  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/appsettings.Development.json  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/appsettings.Production.json  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/appsettings.json  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/wwwroot  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/wwwroot/api  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/wwwroot/api/specification.json  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/Application.IntegrationTests.csproj  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/Testing.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/UserAdmin  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/UserAdmin/Commands  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/UserAdmin/Commands/UpdateUserTests.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/appsettings.json  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /ProductionServerConfigNotes.md  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /azure-pipelines.yml  
+      -  **File filename (GitHub):**   
+
+* ** ID62af5aec3440c4759822b7bd3e755bf42f98d997** 
+   -  **Message:** removing issuer warning from perm check
+   -  **Commited by:** bob@socialslice.com 
+   -  **FileCount:** 5 
+      -  **File path (TFVC or TfsGit):** /Code  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Identity  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Identity/IdentityPermissionHandler.cs  
+      -  **File filename (GitHub):**   
+
+* ** ID3213e7c3179d15e52cef3a69c903f51892a40ea0** 
+   -  **Message:** prod settings test for end to end test deploy
+   -  **Commited by:** bob@socialslice.com 
+   -  **FileCount:** 4 
+      -  **File path (TFVC or TfsGit):** /Code  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/appsettings.Production.json  
+      -  **File filename (GitHub):**   
+
+* ** ID0b4f228ec3aaa8c48456b9ef3f999d55982a65ae** 
+   -  **Message:** adding test keys in to project
+   -  **Commited by:** bob@socialslice.com 
+   -  **FileCount:** 4 
+      -  **File path (TFVC or TfsGit):** /Code  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Infrastructure.csproj  
+      -  **File filename (GitHub):**   
+
+* ** IDf766afb3424478080ec94fcdbf993536d8286b11** 
+   -  **Message:** Update azure-pipelines.yml for Azure Pipelines
+   -  **Commited by:** BoB 
+   -  **FileCount:** 1 
+      -  **File path (TFVC or TfsGit):** /azure-pipelines.yml  
+      -  **File filename (GitHub):**   
+
+* ** IDdb0d488942daaa1bdf94f4f2562f69581d9b4174** 
+   -  **Message:** Update azure-pipelines.yml for Azure Pipelines
+   -  **Commited by:** BoB 
+   -  **FileCount:** 1 
+      -  **File path (TFVC or TfsGit):** /azure-pipelines.yml  
+      -  **File filename (GitHub):**   
+
+* ** ID0c495ac49e763bd11aca8f4e68fff8fc9a237f99** 
+   -  **Message:** testing new build yaml
+   -  **Commited by:** bob@socialslice.com 
+   -  **FileCount:** 1 
+      -  **File path (TFVC or TfsGit):** /azure-pipelines.yml  
+      -  **File filename (GitHub):**   
+
+* ** IDce22e52c4a8e5b18bc5f9b47e67ed16396de6818** 
+   -  **Message:** another key for testing
+   -  **Commited by:** bob@socialslice.com 
+   -  **FileCount:** 4 
+      -  **File path (TFVC or TfsGit):** /Code  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/localhost.pfx  
+      -  **File filename (GitHub):**   
+
+* ** ID5af50f9d2b99fb84359d95250573fc88b2ea1b24** 
+   -  **Message:** test key for identity
+   -  **Commited by:** bob@socialslice.com 
+   -  **FileCount:** 4 
+      -  **File path (TFVC or TfsGit):** /Code  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/sitemanager.pfx  
+      -  **File filename (GitHub):**   
+
+* ** ID82574702ae5a8feefda685ddb12aaaa7b7fee921** 
+   -  **Message:** slash problem on build
+   -  **Commited by:** bob@socialslice.com 
+   -  **FileCount:** 1 
+      -  **File path (TFVC or TfsGit):** /azure-pipelines.yml  
+      -  **File filename (GitHub):**   
+
+* ** ID2da3a992b58272ce104f0723bb7328eff648157b** 
+   -  **Message:** build yaml updates
+   -  **Commited by:** bob@socialslice.com 
+   -  **FileCount:** 1 
+      -  **File path (TFVC or TfsGit):** /azure-pipelines.yml  
+      -  **File filename (GitHub):**   
+
+* ** ID0dc94b93430489554f81d0a154d928e59e378f01** 
+   -  **Message:** removing a copy prior to test
+   -  **Commited by:** bob@socialslice.com 
+   -  **FileCount:** 1 
+      -  **File path (TFVC or TfsGit):** /azure-pipelines.yml  
+      -  **File filename (GitHub):**   
+
+* ** ID827b670d4b502b13999cb66431a68305ce716f47** 
+   -  **Message:** trying a new publish task
+   -  **Commited by:** bob@socialslice.com 
+   -  **FileCount:** 1 
+      -  **File path (TFVC or TfsGit):** /azure-pipelines.yml  
+      -  **File filename (GitHub):**   
+
+* ** ID006903834b14a9fc6586616173e24559af4e0e55** 
+   -  **Message:** publish tasks in yaml
+   -  **Commited by:** bob@socialslice.com 
+   -  **FileCount:** 1 
+      -  **File path (TFVC or TfsGit):** /azure-pipelines.yml  
+      -  **File filename (GitHub):**   
+
+* ** ID722850a34e19792f72b763e3324e7fec15787983** 
+   -  **Message:** yaml typo
+   -  **Commited by:** bob@socialslice.com 
+   -  **FileCount:** 1 
+      -  **File path (TFVC or TfsGit):** /azure-pipelines.yml  
+      -  **File filename (GitHub):**   
+
+* ** IDa6a65ee07aca4b793b6895cda0f0902ea9c374fb** 
+   -  **Message:** adding a tar/zip of artifact during build
+   -  **Commited by:** bob@socialslice.com 
+   -  **FileCount:** 1 
+      -  **File path (TFVC or TfsGit):** /azure-pipelines.yml  
+      -  **File filename (GitHub):**   
+
+* ** IDa33dfdcb1f29bc1406e670cd509cd303439db5f6** 
+   -  **Message:** changes to support postgress...no multi active result sets so must materialize queries
+   -  **Commited by:** bob@socialslice.com 
+   -  **FileCount:** 14 
+      -  **File path (TFVC or TfsGit):** /Code  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/UserAdmin  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/UserAdmin/Queries  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/UserAdmin/Queries/GetAllUsersQuery.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Identity  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Identity/IdentityService.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/UserAdmin  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/UserAdmin/Commands  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/UserAdmin/Commands/UpdateUserTests.cs  
+      -  **File filename (GitHub):**   
+
+* ** ID42ddcf14184f3598c755478206de55384f75486b** 
+   -  **Message:** test updates for postgress? (suddenly started working..so not sure)
+   -  **Commited by:** bob@socialslice.com 
+   -  **FileCount:** 6 
+      -  **File path (TFVC or TfsGit):** /Code  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/Application.IntegrationTests.csproj  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/Testing.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/appsettings.json  
+      -  **File filename (GitHub):**   
+
+* ** ID34910aff43d18e7ef0725aa96b92470ee48188c7** 
+   -  **Message:** case sensitive bug in role PermissionRequirementHandler
+   -  **Commited by:** bob@socialslice.com 
+   -  **FileCount:** 6 
+      -  **File path (TFVC or TfsGit):** /Code  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Identity  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Identity/IdentityPermissionHandler.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /ProductionServerConfigNotes.md  
+      -  **File filename (GitHub):**   
+
+* ** IDed76a0d689d9f6372394137a55a6f8a9a1724af1** 
+   -  **Message:** postgress implementation..also reset the migration history to baseline.
+   -  **Commited by:** bob@socialslice.com 
+   -  **FileCount:** 29 
+      -  **File path (TFVC or TfsGit):** /Code  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/DependencyInjection.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Identity  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Identity/IdentityPermissionHandler.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Infrastructure.csproj  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Migrations  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Migrations/20201002154531_Initial.Designer.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Migrations/20201002154531_Initial.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Migrations/20201213012032_AppLog.Designer.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Migrations/20201213012032_AppLog.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Migrations/20201213215824_AppLog_upd.Designer.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Migrations/20201213215824_AppLog_upd.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Migrations/20201219153614_AppPermissions.Designer.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Migrations/20201219153614_AppPermissions.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Migrations/20210101162542_Initial.Designer.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Migrations/20210101162542_Initial.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Migrations/ApplicationDbContextModelSnapshot.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Persistence  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Persistence/ApplicationDbContext.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Persistence/ApplicationDbContextSeed.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Services  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Services/BasicSQLLogger.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Services/PermissionsService.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Program.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/appsettings.Development.json  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/appsettings.json  
+      -  **File filename (GitHub):**   
+
+* ** IDa161015bd3d5d1ebe75fbe4c4325c86b0e6749e1** 
+   -  **Message:** some example/test code for discovery urls (might be needed in true production)
+   -  **Commited by:** bob@socialslice.com 
+   -  **FileCount:** 4 
+      -  **File path (TFVC or TfsGit):** /Code  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/DependencyInjection.cs  
+      -  **File filename (GitHub):**   
+
+* ** IDc50b605f93e89b7d30670b66625486e0186ab817** 
+   -  **Message:** disabling issuer check on role retrieval...adding kestrel ssl for prod environment
+   -  **Commited by:** bob@socialslice.com 
+   -  **FileCount:** 16 
+      -  **File path (TFVC or TfsGit):** /Code  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/UserAdmin  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/UserAdmin/Commands  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/UserAdmin/Commands/UpdateUser  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/UserAdmin/Commands/UpdateUser/UpdateUserCommandValidator.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Identity  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Identity/IdentityPermissionHandler.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Program.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/appsettings.Production.json  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/wwwroot  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/wwwroot/api  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/wwwroot/api/specification.json  
+      -  **File filename (GitHub):**   
+
+* ** IDaafbf417dc4ab56101c67da9c244dc3b98643ec0** 
+   -  **Message:** deploy increment. working on local test nginx setup.
+   -  **Commited by:** bob@socialslice.com 
+   -  **FileCount:** 23 
+      -  **File path (TFVC or TfsGit):** /Code  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/DependencyInjection.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Identity  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Identity/IdentityPermissionHandler.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/angular.json  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/SiteManager.V4-api.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/environments  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/environments/environment.prod.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/index.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Controllers  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Controllers/AccountController.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Program.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/appsettings.Production.json  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/wwwroot  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/wwwroot/api  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/wwwroot/api/specification.json  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /ProductionServerConfigNotes.md  
+      -  **File filename (GitHub):**   
+
+* ** IDb5df369c5430727dc790132751440c884f512fb0** 
+   -  **Message:** appsettings setup for deploy
+   -  **Commited by:** bob@socialslice.com 
+   -  **FileCount:** 10 
+      -  **File path (TFVC or TfsGit):** /Code  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/DependencyInjection.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Program.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/WebUI.csproj  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/appsettings.Development.json  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/appsettings.Production.json  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/appsettings.json  
+      -  **File filename (GitHub):**   
+
+* ** ID214134b405b017df1f113eca0258b8e3aa228dba** 
+   -  **Message:** Merged PR 8: Authroziation/Permissions Work
+
+- test code..pinging branch
+- adding in a identity profile service to populate claims based on roles...added some example policy type authorization code...cleaned up test/proto code in IDS injection and setup.
+- adding permissions db structure/migrations
+- moving permission handler to separate class
+- quick redirect to perm denied page if api call fails.
+- wired up redirect for clientApp 401/403 permission errors
+- added default public role
+- added a 10 minute timeout..needs some improvement/tweaks for a popup timeout warning (will backlog)
+- some partial test coverage of permissions policies.
+- some idle time upates/implementation...kinda hokey but working?
+- cleaning out the startidletimer from login component...handled in startup/bootstrap if authenticated
+- adding a quick Angular testbed component..removed automatic nesting of the menu routes (was concating levels of menu..now uses the route param in the  model)
+- addin roles to angular IUser...added roles attribute to menu.json...filtering menu on roles..should move to api call?
+- menu fixes for default login issue
+- fix for weird/sudden bug on single string role.
+
+Related work items: #34
+   -  **Commited by:** BoB 
+   -  **FileCount:** 106 
+      -  **File path (TFVC or TfsGit):** /Code  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Account  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Account/Commands  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Account/Commands/Register  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Account/Commands/Register/RegisterCommand.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Common  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Common/Interfaces  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Common/Interfaces/IApplicationDbContext.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Common/Interfaces/IPermissionsService.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Domain  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Domain/Entities  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Domain/Entities/AppPermissionType.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Domain/Entities/AppResource.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Domain/Entities/AppRoleResource.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/DependencyInjection.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Identity  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Identity/AppRole.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Identity/IdentityPermissionHandler.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Identity/IdentityProfileService.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Migrations  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Migrations/20201219153614_AppPermissions.Designer.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Migrations/20201219153614_AppPermissions.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Migrations/ApplicationDbContextModelSnapshot.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Persistence  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Persistence/ApplicationDbContext.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Persistence/ApplicationDbContextSeed.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Services  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Services/BasicSQLLogger.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Services/PermissionsService.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/package-lock.json  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/package.json  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/app.module.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/authentication  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/authentication/authorize.interceptor.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/authentication/authorize.service.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/authentication/forgotpassword  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/authentication/forgotpassword/forgotpassword.component.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/authentication/login  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/authentication/login/login.component.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/bootstrap  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/bootstrap/menu.service.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/bootstrap/settings.service.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/bootstrap/startup.service.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/interceptors  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/interceptors/logging-interceptor.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/admin  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/admin/useradmin  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/admin/useradmin/useradmin.component.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/sessions  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/sessions/403.component.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/sessions/sessions-routing.module.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/sessions/sessions.module.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/sessions/testbed  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/sessions/testbed/testbed.component.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/sessions/testbed/testbed.component.scss  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/sessions/testbed/testbed.component.spec.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/sessions/testbed/testbed.component.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/theme  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/theme/header  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/theme/header/widgets  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/theme/header/widgets/branding.component.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/theme/header/widgets/user.component.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/theme/sidemenu  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/theme/sidemenu/sidemenu.component.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/theme/sidemenu/sidemenu.component.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/assets  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/assets/data  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/assets/data/menu.json  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/assets/i18n  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/assets/i18n/en-US.json  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/assets/images  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/assets/images/ssi_logo.png  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Controllers  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Controllers/AccountController.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Controllers/RoleAdminController.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Controllers/TodoListsController.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Controllers/UserAdminController.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Controllers/WeatherForecastController.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Program.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Startup.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/appsettings.json  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/wwwroot  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/wwwroot/api  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/wwwroot/api/specification.json  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Application.UnitTests  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Application.UnitTests/Common  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Application.UnitTests/Common/Permissions  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Application.UnitTests/Common/Permissions/PermissionsTests.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/RoleAdmin  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/RoleAdmin/Queries  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/RoleAdmin/Queries/GetRolesTests.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/Testing.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/UserAdmin  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/UserAdmin/Queries  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/UserAdmin/Queries/GetUsersTests.cs  
+      -  **File filename (GitHub):**   
+
+* ** ID78255006ac480aaba4132263d41e1a5ddb0c9417** 
+   -  **Message:** fix for weird/sudden bug on single string role.
+   -  **Commited by:** bob@socialslice.com 
+   -  **FileCount:** 9 
+      -  **File path (TFVC or TfsGit):** /Code  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/bootstrap  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/bootstrap/menu.service.ts  
+      -  **File filename (GitHub):**   
+
+* ** ID540b8aa93f2c84e1eea12343aabc838e277fd0f9** 
+   -  **Message:** menu fixes for default login issue
+   -  **Commited by:** bob@socialslice.com 
+   -  **FileCount:** 23 
+      -  **File path (TFVC or TfsGit):** /Code  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/authentication  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/authentication/authorize.service.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/bootstrap  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/bootstrap/menu.service.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/bootstrap/startup.service.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/sessions  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/sessions/testbed  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/sessions/testbed/testbed.component.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/theme  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/theme/sidemenu  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/theme/sidemenu/sidemenu.component.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/theme/sidemenu/sidemenu.component.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/assets  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/assets/data  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/assets/data/menu.json  
+      -  **File filename (GitHub):**   
+
+* ** ID5c6c37f52387dede0e1d4a4291e05db2588a7aec** 
+   -  **Message:** addin roles to angular IUser...added roles attribute to menu.json...filtering menu on roles..should move to api call?
+   -  **Commited by:** bob@socialslice.com 
+   -  **FileCount:** 24 
+      -  **File path (TFVC or TfsGit):** /Code  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/authentication  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/authentication/authorize.service.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/bootstrap  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/bootstrap/menu.service.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/bootstrap/startup.service.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/sessions  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/sessions/testbed  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/sessions/testbed/testbed.component.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/theme  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/theme/sidemenu  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/theme/sidemenu/sidemenu.component.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/assets  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/assets/data  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/assets/data/menu.json  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/assets/i18n  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/assets/i18n/en-US.json  
+      -  **File filename (GitHub):**   
+
+* ** ID7f69ca920249293ae2541e667fe6f7c50c0b390a** 
+   -  **Message:** adding a quick Angular testbed component..removed automatic nesting of the menu routes (was concating levels of menu..now uses the route param in the  model)
+   -  **Commited by:** bob@socialslice.com 
+   -  **FileCount:** 27 
+      -  **File path (TFVC or TfsGit):** /Code  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/authentication  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/authentication/authorize.service.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/bootstrap  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/bootstrap/settings.service.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/sessions  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/sessions/sessions-routing.module.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/sessions/sessions.module.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/sessions/testbed  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/sessions/testbed/testbed.component.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/sessions/testbed/testbed.component.scss  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/sessions/testbed/testbed.component.spec.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/sessions/testbed/testbed.component.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/theme  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/theme/sidemenu  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/theme/sidemenu/sidemenu.component.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/theme/sidemenu/sidemenu.component.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/assets  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/assets/data  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/assets/data/menu.json  
+      -  **File filename (GitHub):**   
+
+* ** IDdd6d1c5cbc30a48bdc768bc5581f41fa30ce36c5** 
+   -  **Message:** cleaning out the startidletimer from login component...handled in startup/bootstrap if authenticated
+   -  **Commited by:** bob@socialslice.com 
+   -  **FileCount:** 10 
+      -  **File path (TFVC or TfsGit):** /Code  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/authentication  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/authentication/login  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/authentication/login/login.component.ts  
+      -  **File filename (GitHub):**   
+
+* ** ID3fe17ee3d0674010c69547092d4d6c8e665a73a6** 
+   -  **Message:** some idle time upates/implementation...kinda hokey but working?
+   -  **Commited by:** bob@socialslice.com 
+   -  **FileCount:** 23 
+      -  **File path (TFVC or TfsGit):** /Code  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Identity  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Identity/IdentityPermissionHandler.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/app.module.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/authentication  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/authentication/authorize.service.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/authentication/forgotpassword  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/authentication/forgotpassword/forgotpassword.component.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/authentication/login  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/authentication/login/login.component.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/bootstrap  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/bootstrap/startup.service.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/admin  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/admin/useradmin  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/admin/useradmin/useradmin.component.ts  
+      -  **File filename (GitHub):**   
+
+* ** IDe80dfeea1626c5ff49a0c448ee4cdf0539015f57** 
+   -  **Message:** some partial test coverage of permissions policies.
+   -  **Commited by:** bob@socialslice.com 
+   -  **FileCount:** 25 
+      -  **File path (TFVC or TfsGit):** /Code  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Identity  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Identity/IdentityPermissionHandler.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Services  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Services/PermissionsService.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/app.module.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Application.UnitTests  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Application.UnitTests/Common  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Application.UnitTests/Common/Permissions  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Application.UnitTests/Common/Permissions/PermissionsTests.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/RoleAdmin  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/RoleAdmin/Queries  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/RoleAdmin/Queries/GetRolesTests.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/Testing.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/UserAdmin  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/UserAdmin/Queries  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/UserAdmin/Queries/GetUsersTests.cs  
+      -  **File filename (GitHub):**   
+
+* ** ID6e394fb2561271cf9425c01115f89eac47fc6730** 
+   -  **Message:** added a 10 minute timeout..needs some improvement/tweaks for a popup timeout warning (will backlog)
+   -  **Commited by:** bob@socialslice.com 
+   -  **FileCount:** 18 
+      -  **File path (TFVC or TfsGit):** /Code  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/package-lock.json  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/package.json  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/app.module.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/authentication  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/authentication/authorize.service.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/authentication/login  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/authentication/login/login.component.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/theme  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/theme/header  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/theme/header/widgets  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/theme/header/widgets/user.component.ts  
+      -  **File filename (GitHub):**   
+
+* ** ID0371bf57633daad8e4721829fb05e891f45ef549** 
+   -  **Message:** added default public role
+added seed data for permissions structure (user admin only so far)
+added specific role requirement policies for IsAdministrator/IsPublic for ease..might remove and force use of permissions?
+   -  **Commited by:** bob@socialslice.com 
+   -  **FileCount:** 30 
+      -  **File path (TFVC or TfsGit):** /Code  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Account  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Account/Commands  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Account/Commands/Register  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Account/Commands/Register/RegisterCommand.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/DependencyInjection.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Identity  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Identity/IdentityPermissionHandler.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Persistence  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Persistence/ApplicationDbContextSeed.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/theme  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/theme/header  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/theme/header/widgets  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/theme/header/widgets/branding.component.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/assets  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/assets/images  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/assets/images/ssi_logo.png  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Controllers  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Controllers/WeatherForecastController.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Program.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/wwwroot  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/wwwroot/api  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/wwwroot/api/specification.json  
+      -  **File filename (GitHub):**   
+
+* ** ID270b76dded25c90db577262947f6a625f95ce990** 
+   -  **Message:** wired up redirect for clientApp 401/403 permission errors
+   -  **Commited by:** bob@socialslice.com 
+   -  **FileCount:** 18 
+      -  **File path (TFVC or TfsGit):** /Code  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/DependencyInjection.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Services  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Services/PermissionsService.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/authentication  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/authentication/authorize.interceptor.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/authentication/authorize.service.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/admin  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/admin/useradmin  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/admin/useradmin/useradmin.component.ts  
+      -  **File filename (GitHub):**   
+
+* ** ID54224259cf674cd1d16f45070845a1fb1329395b** 
+   -  **Message:** quick redirect to perm denied page if api call fails.
+   -  **Commited by:** bob@socialslice.com 
+   -  **FileCount:** 21 
+      -  **File path (TFVC or TfsGit):** /Code  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Persistence  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Persistence/ApplicationDbContext.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/authentication  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/authentication/authorize.interceptor.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/authentication/authorize.service.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/interceptors  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/interceptors/logging-interceptor.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/sessions  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/sessions/403.component.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/assets  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/assets/data  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/assets/data/menu.json  
+      -  **File filename (GitHub):**   
+
+* ** IDe3383c7accf459625d2c1e87d85de23fb2fdb107** 
+   -  **Message:** --moving permission handler to separate class
+--missed the PermissionsService.cs class?
+   -  **Commited by:** bob@socialslice.com 
+   -  **FileCount:** 8 
+      -  **File path (TFVC or TfsGit):** /Code  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/DependencyInjection.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Identity  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Identity/IdentityPermissionHandler.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Services  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Services/PermissionsService.cs  
+      -  **File filename (GitHub):**   
+
+* ** IDf0cfb1e99a03a30a3e95633cbb0f1c3053f40a60** 
+   -  **Message:** -- adding permissions db structure/migrations
+-- wired up new identityprofile for role population
+-- wired up permission requirement/policy logic (backend and controllers)
+   -  **Commited by:** bob@socialslice.com 
+   -  **FileCount:** 40 
+      -  **File path (TFVC or TfsGit):** /Code  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Common  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Common/Interfaces  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Common/Interfaces/IApplicationDbContext.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Common/Interfaces/IPermissionsService.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Domain  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Domain/Entities  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Domain/Entities/AppPermissionType.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Domain/Entities/AppResource.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Domain/Entities/AppRoleResource.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/DependencyInjection.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Identity  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Identity/IdentityPermissionHandler.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Identity/IdentityProfileService.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Migrations  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Migrations/20201219153614_AppPermissions.Designer.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Migrations/20201219153614_AppPermissions.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Migrations/ApplicationDbContextModelSnapshot.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Persistence  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Persistence/ApplicationDbContext.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Services  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Services/BasicSQLLogger.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/authentication  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/authentication/authorize.service.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/authentication/login  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/authentication/login/login.component.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/bootstrap  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/bootstrap/settings.service.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Controllers  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Controllers/RoleAdminController.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Controllers/TodoListsController.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Controllers/UserAdminController.cs  
+      -  **File filename (GitHub):**   
+
+* ** IDcc438fa8fd8ca089206881be1e9aa6793198eb7a** 
+   -  **Message:** adding in a identity profile service to populate claims based on roles...added some example policy type authorization code...cleaned up test/proto code in IDS injection and setup.
+   -  **Commited by:** bob@socialslice.com 
+   -  **FileCount:** 14 
+      -  **File path (TFVC or TfsGit):** /Code  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/DependencyInjection.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Identity  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Identity/AppRole.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Identity/IdentityProfileService.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Controllers  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Controllers/RoleAdminController.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Controllers/TodoListsController.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Controllers/UserAdminController.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Startup.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/appsettings.json  
+      -  **File filename (GitHub):**   
+
+* ** IDdebfd6eef8d38a5507cd7aec040afbd4592477e0** 
+   -  **Message:** test code..pinging branch
+   -  **Commited by:** bob@socialslice.com 
+   -  **FileCount:** 6 
+      -  **File path (TFVC or TfsGit):** /Code  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Controllers  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Controllers/AccountController.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Controllers/TodoListsController.cs  
+      -  **File filename (GitHub):**   
+
+* ** ID99683cbfca4e8382112618f87196bfbb29296dcc** 
+   -  **Message:** Merged PR 7: Implemented application level (no spa client as of yet) sql logging
+
+Basic SQL logging for simple logging.  Plugged into both CQRS validation/behaviorlog pipeline..based on Core ILogger...supports basic LogLevel filters (see appsettings.json)
+
+- Very basic config for custom/infrastructure logging provider (just console)
+- incremental: Fixed some role dialog issues that were missed...implemented requestLogging in core cqrs pipeline bx
+- more issues found in useradmin
+- --logging config tweeks (injected in Infrastructure/DependencyInjection.cs and provider added/configured at correct WebUI/Startup.cs)
+- --logging config tweeks (injected in Infrastructure/DependencyInjection.cs and provider added/configured at correct WebUI/Startup.cs)
+- Merge branch &#x27;SiteManagerV4-Logging&#x27; of https://dev.azure.com/socialslice/SiteManagerV4/_git/SiteManagerV4 into SiteManagerV4-Logging
+- Logging...incremental...writes to db but config on log level is not working?
+- Found config magic to control log levels in appsettings.json.  Wired up validation logging in cqrs pipeline.
+- Test round/config setup for trace on identity
+
+Related work items: #39
+   -  **Commited by:** BoB 
+   -  **FileCount:** 53 
+      -  **File path (TFVC or TfsGit):** /Code  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Account  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Account/Commands  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Account/Commands/ForgotPassword  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Account/Commands/ForgotPassword/ForgotPasswordCommand.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Common  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Common/Behaviours  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Common/Behaviours/LoggingBehaviour.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Common/Behaviours/ValidationBehavior.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Common/Interfaces  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Common/Interfaces/IApplicationDbContext.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Domain  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Domain/Entities  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Domain/Entities/AppLog.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/DependencyInjection.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Migrations  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Migrations/20201213012032_AppLog.Designer.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Migrations/20201213012032_AppLog.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Migrations/20201213215824_AppLog_upd.Designer.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Migrations/20201213215824_AppLog_upd.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Migrations/ApplicationDbContextModelSnapshot.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Persistence  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Persistence/ApplicationDbContext.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Services  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Services/BasicSQLLogger.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/admin  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/admin/useradmin  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/admin/useradmin/dialog_editrole.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/admin/useradmin/dialog_newrole.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/admin/useradmin/useradmin.component.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/assets  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/assets/i18n  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/assets/i18n/en-US.json  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Controllers  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Controllers/UserAdminController.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Controllers/WeatherForecastController.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Program.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Startup.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/appsettings.json  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Application.UnitTests  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Application.UnitTests/Common  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Application.UnitTests/Common/Behaviours  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Application.UnitTests/Common/Behaviours/RequestLoggerTests.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /README.md  
+      -  **File filename (GitHub):**   
+
+* ** IDa876fee211e4551dd103a33698fbca55761ff0b7** 
+   -  **Message:** Test round/config setup for trace on identity
+   -  **Commited by:** bob@socialslice.com 
+   -  **FileCount:** 7 
+      -  **File path (TFVC or TfsGit):** /Code  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Services  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Services/BasicSQLLogger.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/appsettings.json  
+      -  **File filename (GitHub):**   
+
+* ** ID2e5dbda256d7e9327c19156c8fdc23178b477166** 
+   -  **Message:** Found config magic to control log levels in appsettings.json.  Wired up validation logging in cqrs pipeline.
+   -  **Commited by:** bob@socialslice.com 
+   -  **FileCount:** 15 
+      -  **File path (TFVC or TfsGit):** /Code  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Common  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Common/Behaviours  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Common/Behaviours/LoggingBehaviour.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Common/Behaviours/ValidationBehavior.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/DependencyInjection.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Services  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Services/BasicSQLLogger.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Services/LoggingService.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Startup.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/appsettings.json  
+      -  **File filename (GitHub):**   
+
+* ** IDb42c1f5daa2f6251e46d3e91a08e37e09bb4996b** 
+   -  **Message:** Logging...incremental...writes to db but config on log level is not working?
+   -  **Commited by:** bob@socialslice.com 
+   -  **FileCount:** 24 
+      -  **File path (TFVC or TfsGit):** /Code  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Common  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Common/Behaviours  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Common/Behaviours/LoggingBehaviour.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Common/Interfaces  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Common/Interfaces/IApplicationDbContext.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Domain  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Domain/Entities  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Domain/Entities/AppLog.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/DependencyInjection.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Migrations  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Migrations/20201213215824_AppLog_upd.Designer.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Migrations/20201213215824_AppLog_upd.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Migrations/ApplicationDbContextModelSnapshot.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Persistence  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Persistence/ApplicationDbContext.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Services  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Services/LoggingService.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Startup.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/appsettings.json  
+      -  **File filename (GitHub):**   
+
+* ** ID0bb6caf22a0d73e36a2fc79f4fd57b167d6a844e** 
+   -  **Message:** Merge branch &#x27;SiteManagerV4-Logging&#x27; of https://dev.azure.com/socialslice/SiteManagerV4/_git/SiteManagerV4 into SiteManagerV4-Logging
+
+# Conflicts:
+#	Code/src/Infrastructure/Persistence/ApplicationDbContext.cs
+   -  **Commited by:** bob@socialslice.com 
+   -  **FileCount:** 5 
+      -  **File path (TFVC or TfsGit):** /Code  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Persistence  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Persistence/ApplicationDbContext.cs  
+      -  **File filename (GitHub):**   
+
+* ** ID93504740679cd6019d1252e2d52e43f4196b44c0** 
+   -  **Message:** --logging config tweeks (injected in Infrastructure/DependencyInjection.cs and provider added/configured at correct WebUI/Startup.cs)
+
+--adding ef/migrations for applog db table
+   -  **Commited by:** bob@socialslice.com 
+   -  **FileCount:** 19 
+      -  **File path (TFVC or TfsGit):** /Code  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Domain  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Domain/Entities  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Domain/Entities/AppLog.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/DependencyInjection.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Migrations  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Migrations/20201213012032_AppLog.Designer.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Migrations/20201213012032_AppLog.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Migrations/ApplicationDbContextModelSnapshot.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Persistence  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Persistence/ApplicationDbContext.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Services  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Services/LoggingService.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Program.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Startup.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /README.md  
+      -  **File filename (GitHub):**   
+
+* ** ID3839b1355c53559a34b0291686a469b44039ce7a** 
+   -  **Message:** --logging config tweeks (injected in Infrastructure/DependencyInjection.cs and provider added/configured at correct WebUI/Startup.cs)
+
+--adding ef/migrations for applog db table
+   -  **Commited by:** bob@socialslice.com 
+   -  **FileCount:** 19 
+      -  **File path (TFVC or TfsGit):** /Code  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Domain  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Domain/Entities  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Domain/Entities/AppLog.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/DependencyInjection.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Migrations  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Migrations/20201213012032_AppLog.Designer.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Migrations/20201213012032_AppLog.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Migrations/ApplicationDbContextModelSnapshot.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Persistence  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Persistence/ApplicationDbContext.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Services  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Services/LoggingService.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Program.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Startup.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /README.md  
+      -  **File filename (GitHub):**   
+
+* ** ID7b27a5dac05cf06c906178683dddf46ffecb958e** 
+   -  **Message:** more issues found in useradmin
+   -  **Commited by:** bob@socialslice.com 
+   -  **FileCount:** 12 
+      -  **File path (TFVC or TfsGit):** /Code  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/admin  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/admin/useradmin  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/admin/useradmin/useradmin.component.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Controllers  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Controllers/UserAdminController.cs  
+      -  **File filename (GitHub):**   
+
+* ** IDd9e31ba1e8a58bb4f876fb9b3e0e1a752e1f3ecb** 
+   -  **Message:** incremental: Fixed some role dialog issues that were missed...implemented requestLogging in core cqrs pipeline bx
+   -  **Commited by:** bob@socialslice.com 
+   -  **FileCount:** 29 
+      -  **File path (TFVC or TfsGit):** /Code  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Common  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Common/Behaviours  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Common/Behaviours/LoggingBehaviour.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Services  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Services/LoggingService.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/admin  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/admin/useradmin  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/admin/useradmin/dialog_editrole.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/admin/useradmin/dialog_newrole.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/assets  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/assets/i18n  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/assets/i18n/en-US.json  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Controllers  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Controllers/WeatherForecastController.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Startup.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Application.UnitTests  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Application.UnitTests/Common  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Application.UnitTests/Common/Behaviours  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Application.UnitTests/Common/Behaviours/RequestLoggerTests.cs  
+      -  **File filename (GitHub):**   
+
+* ** ID43db9f8302198a52967ee65f4705f5539ec9289b** 
+   -  **Message:** Very basic config for custom/infrastructure logging provider (just console)
+   -  **Commited by:** bob@socialslice.com 
+   -  **FileCount:** 15 
+      -  **File path (TFVC or TfsGit):** /Code  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Account  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Account/Commands  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Account/Commands/ForgotPassword  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Account/Commands/ForgotPassword/ForgotPasswordCommand.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Services  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Services/LoggingService.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Controllers  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Controllers/WeatherForecastController.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Program.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Startup.cs  
+      -  **File filename (GitHub):**   
+
+* ** ID22b606f486eed836dede57265c9c3bef3ad334c7** 
+   -  **Message:** Merged PR 6: User admin UI in material UI
+
+Related work items: #31
+   -  **Commited by:** BoB 
+   -  **FileCount:** 42 
+      -  **File path (TFVC or TfsGit):** /Code  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Common  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Common/Interfaces  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Common/Interfaces/IIdentityService.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/UserAdmin  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/UserAdmin/Commands  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/UserAdmin/Commands/UpdateUser  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/UserAdmin/Commands/UpdateUser/UpdateUserCommand.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Identity  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Identity/IdentityService.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/admin  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/admin/admin-routing.module.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/admin/admin.module.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/admin/useradmin  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/admin/useradmin/dialog_editrole.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/admin/useradmin/dialog_edituser.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/admin/useradmin/dialog_newrole.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/admin/useradmin/dialog_newuser.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/admin/useradmin/useradmin.component.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/admin/useradmin/useradmin.component.scss  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/admin/useradmin/useradmin.component.spec.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/admin/useradmin/useradmin.component.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/routes-routing.module.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/assets  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/assets/data  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/assets/data/menu.json  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/assets/i18n  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/assets/i18n/en-US.json  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Controllers  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Controllers/RoleAdminController.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Controllers/UserAdminController.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/wwwroot  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/wwwroot/api  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/wwwroot/api/specification.json  
+      -  **File filename (GitHub):**   
+
+* ** ID7e4c2e0702ef5f4f0201b01b1a155beb508b22bc** 
+   -  **Message:** fixing up error handling/submit validation
+   -  **Commited by:** bob@socialslice.com 
+   -  **FileCount:** 15 
+      -  **File path (TFVC or TfsGit):** /Code  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/admin  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/admin/useradmin  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/admin/useradmin/dialog_edituser.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/admin/useradmin/dialog_newuser.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/admin/useradmin/useradmin.component.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/assets  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/assets/i18n  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/assets/i18n/en-US.json  
+      -  **File filename (GitHub):**   
+
+* ** ID3710f370c7a420b81b87e663cb4b81ef8d5c20b0** 
+   -  **Message:** cleaning up user admin modal diags/forms.
+   -  **Commited by:** bob@socialslice.com 
+   -  **FileCount:** 12 
+      -  **File path (TFVC or TfsGit):** /Code  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/admin  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/admin/useradmin  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/admin/useradmin/dialog_edituser.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/admin/useradmin/dialog_newuser.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/admin/useradmin/useradmin.component.ts  
+      -  **File filename (GitHub):**   
+
+* ** ID35b8d0d1babfc14725af42064f381f14b613038e** 
+   -  **Message:** UI work and separating ng dialogs for new/edit user...still some cleanup on user admin to do
+   -  **Commited by:** bob@socialslice.com 
+   -  **FileCount:** 35 
+      -  **File path (TFVC or TfsGit):** /Code  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Common  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Common/Interfaces  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Common/Interfaces/IIdentityService.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/UserAdmin  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/UserAdmin/Commands  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/UserAdmin/Commands/UpdateUser  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/UserAdmin/Commands/UpdateUser/UpdateUserCommand.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Identity  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Identity/IdentityService.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/admin  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/admin/admin.module.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/admin/useradmin  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/admin/useradmin/dialog_edituser.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/admin/useradmin/dialog_newuser.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/admin/useradmin/dialog_user.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/admin/useradmin/useradmin.component.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/admin/useradmin/useradmin.component.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/assets  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/assets/i18n  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/assets/i18n/en-US.json  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Controllers  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Controllers/RoleAdminController.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Controllers/UserAdminController.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/wwwroot  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/wwwroot/api  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/wwwroot/api/specification.json  
+      -  **File filename (GitHub):**   
+
+* ** ID20489cc185798c593c49e0b2ee72a44c14d0e7ac** 
+   -  **Message:** ui/format tweaks
+   -  **Commited by:** bob@socialslice.com 
+   -  **FileCount:** 13 
+      -  **File path (TFVC or TfsGit):** /Code  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/admin  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/admin/useradmin  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/admin/useradmin/dialog_editrole.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/admin/useradmin/dialog_newrole.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/admin/useradmin/useradmin.component.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/admin/useradmin/useradmin.component.ts  
+      -  **File filename (GitHub):**   
+
+* ** ID70a979dd142901352496752c480b189a2806fa04** 
+   -  **Message:** partial..adding in modal popups for useradmin
+   -  **Commited by:** bob@socialslice.com 
+   -  **FileCount:** 15 
+      -  **File path (TFVC or TfsGit):** /Code  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/admin  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/admin/admin.module.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/admin/useradmin  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/admin/useradmin/dialog_editrole.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/admin/useradmin/dialog_newrole.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/admin/useradmin/dialog_user.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/admin/useradmin/useradmin.component.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/admin/useradmin/useradmin.component.ts  
+      -  **File filename (GitHub):**   
+
+* ** ID167e6eb86c4161e7538854a3861da971769f28ba** 
+   -  **Message:** useradmin convert to material...still no dialogs but formatted &quot;ok-ish&quot;
+   -  **Commited by:** bob@socialslice.com 
+   -  **FileCount:** 12 
+      -  **File path (TFVC or TfsGit):** /Code  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/admin  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/admin/admin.module.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/admin/useradmin  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/admin/useradmin/useradmin.component.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/admin/useradmin/useradmin.component.ts  
+      -  **File filename (GitHub):**   
+
+* ** IDa391d1fb57062c5af842239e54ba9fbd916562fe** 
+   -  **Message:** Initial useradmin add/migration...not formatted/wired
+   -  **Commited by:** bob@socialslice.com 
+   -  **FileCount:** 21 
+      -  **File path (TFVC or TfsGit):** /Code  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/admin  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/admin/admin-routing.module.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/admin/admin.module.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/admin/useradmin  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/admin/useradmin/useradmin.component.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/admin/useradmin/useradmin.component.scss  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/admin/useradmin/useradmin.component.spec.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/admin/useradmin/useradmin.component.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/routes-routing.module.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/assets  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/assets/data  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/assets/data/menu.json  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/assets/i18n  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/assets/i18n/en-US.json  
+      -  **File filename (GitHub):**   
+
+* ** ID29baf9482cf99e52210954de1856f2255151f1ac** 
+   -  **Message:** Merged PR 5: Mass Implementation of Matero UI in core
+
+Replaced default MS MVC angular UI with matero ui.  Wired up register, forgot pass, login to new angular sap.  Hacked some of the identity server/authentication scheme to support spa.
+
+Related work items: #20
+   -  **Commited by:** BoB 
+   -  **FileCount:** 363 
+      -  **File path (TFVC or TfsGit):** /Code  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/.gitignore  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Account  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Account/Commands  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Account/Commands/ForgotPassword  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Account/Commands/ForgotPassword/ForgotPasswordCommand.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Account/Commands/ForgotPassword/ForgotPasswordCommandValidator.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Account/Commands/Register  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Account/Commands/Register/RegisterCommand.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Account/Commands/Register/RegisterCommandValidator.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Account/Queries  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Account/Queries/Login  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Account/Queries/Login/LoginCommand.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Account/Queries/Login/LoginCommandValidator.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Application.csproj  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Common  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Common/Interfaces  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Common/Interfaces/IIdentityService.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/UserAdmin  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/UserAdmin/Commands  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/UserAdmin/Commands/CreateUser  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/UserAdmin/Commands/CreateUser/CreateUserCommand.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/UserAdmin/Commands/UpdateUser  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/UserAdmin/Commands/UpdateUser/UpdateUserCommand.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Domain  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Domain/EmailTemplates  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Domain/EmailTemplates/ConfirmEmail.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Domain/EmailTemplates/ResetPassword.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/DependencyInjection.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Identity  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Identity/AccountService.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Identity/IdentityService.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Areas  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Areas/Identity  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Areas/Identity/Pages  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Areas/Identity/Pages/Account  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Areas/Identity/Pages/Account/Login.cshtml  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Areas/Identity/Pages/Account/ResetPasswordConfirmation.cshtml  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Areas/Identity/Pages/Account/ResetPasswordConfirmation.cshtml.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/.browserslistrc  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/.editorconfig  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/.gitignore  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/.prettierignore  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/.prettierrc  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/.stylelintrc  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/.vscode  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/.vscode/settings.json  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/LICENSE  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/angular.json  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/e2e  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/e2e/protractor.conf.js  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/e2e/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/e2e/src/app.e2e-spec.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/e2e/src/app.po.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/e2e/tsconfig.e2e.json  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/e2e/tsconfig.json  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/karma.conf.js  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/package-lock.json  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/package.json  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/proxy.config.js  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/api-authorization  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/api-authorization/api-authorization.constants.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/api-authorization/api-authorization.module.spec.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/api-authorization/api-authorization.module.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/api-authorization/authorize.guard.spec.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/api-authorization/authorize.guard.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/api-authorization/authorize.interceptor.spec.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/api-authorization/authorize.interceptor.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/api-authorization/authorize.service.spec.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/api-authorization/authorize.service.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/api-authorization/login  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/api-authorization/login-menu  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/api-authorization/login-menu/login-menu.component.css  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/api-authorization/login-menu/login-menu.component.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/api-authorization/login-menu/login-menu.component.spec.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/api-authorization/login-menu/login-menu.component.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/api-authorization/login/login.component.css  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/api-authorization/login/login.component.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/api-authorization/login/login.component.spec.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/api-authorization/login/login.component.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/api-authorization/logout  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/api-authorization/logout/logout.component.css  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/api-authorization/logout/logout.component.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/api-authorization/logout/logout.component.spec.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/api-authorization/logout/logout.component.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/SiteManager.V4-api.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/app.component.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/app.component.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/app.module.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/app.server.module.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/authentication  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/authentication/api-authorization.constants.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/authentication/api-authorization.module.spec.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/authentication/api-authorization.module.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/authentication/authorize.guard.spec.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/authentication/authorize.guard.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/authentication/authorize.interceptor.spec.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/authentication/authorize.interceptor.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/authentication/authorize.service.spec.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/authentication/authorize.service.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/authentication/forgotpassword  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/authentication/forgotpassword/forgotpassword.component.css  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/authentication/forgotpassword/forgotpassword.component.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/authentication/forgotpassword/forgotpassword.component.spec.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/authentication/forgotpassword/forgotpassword.component.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/authentication/login  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/authentication/login-menu  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/authentication/login-menu/login-menu.component.css  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/authentication/login-menu/login-menu.component.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/authentication/login-menu/login-menu.component.spec.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/authentication/login-menu/login-menu.component.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/authentication/login/login.component.css  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/authentication/login/login.component.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/authentication/login/login.component.spec.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/authentication/login/login.component.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/authentication/logout  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/authentication/logout/logout.component.css  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/authentication/logout/logout.component.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/authentication/logout/logout.component.spec.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/authentication/logout/logout.component.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/authentication/registration  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/authentication/registration/register.component.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/authentication/registration/register.component.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/bootstrap  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/bootstrap/menu.service.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/bootstrap/preloader.service.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/bootstrap/settings.service.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/bootstrap/startup.service.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/bootstrap/translate-lang.service.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/core.module.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/index.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/initializers.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/interceptors  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/interceptors/README.md  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/interceptors/index.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/interceptors/logging-interceptor.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/interceptors/noop-interceptor.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/module-import-guard.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/settings.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/counter  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/counter/counter.component.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/counter/counter.component.spec.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/counter/counter.component.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/fetch-data  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/fetch-data/fetch-data.component.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/fetch-data/fetch-data.component.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/formly-config.module.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/formly-validation.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/formly-wrapper.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/home  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/home/home.component.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/home/home.component.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/material-config.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/material.module.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/nav-menu  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/nav-menu/nav-menu.component.css  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/nav-menu/nav-menu.component.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/nav-menu/nav-menu.component.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/dashboard  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/dashboard/dashboard.component.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/dashboard/dashboard.component.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/routes-routing.module.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/routes.module.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/sessions  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/sessions/403.component.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/sessions/404.component.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/sessions/500.component.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/sessions/sessions-routing.module.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/sessions/sessions.module.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/shared  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/shared/components  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/shared/components/breadcrumb  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/shared/components/breadcrumb/breadcrumb.component.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/shared/components/breadcrumb/breadcrumb.component.scss  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/shared/components/breadcrumb/breadcrumb.component.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/shared/components/error-code  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/shared/components/error-code/_error-code-theme.scss  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/shared/components/error-code/_long-shadow.scss  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/shared/components/error-code/_math.scss  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/shared/components/error-code/error-code.component.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/shared/components/error-code/error-code.component.scss  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/shared/components/error-code/error-code.component.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/shared/components/page-header  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/shared/components/page-header/page-header.component.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/shared/components/page-header/page-header.component.scss  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/shared/components/page-header/page-header.component.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/shared/directives  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/shared/directives/disable-control.directive.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/shared/index.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/shared/pipes  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/shared/pipes/safe-url.pipe.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/shared/services  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/shared/services/directionality.service.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/shared/services/message.service.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/shared/services/storage.service.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/shared/shared.module.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/shared/utils  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/shared/utils/colors.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/shared/utils/icons.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/theme  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/theme/admin-layout  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/theme/admin-layout/admin-layout.component.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/theme/admin-layout/admin-layout.component.scss  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/theme/admin-layout/admin-layout.component.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/theme/auth-layout  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/theme/auth-layout/auth-layout.component.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/theme/auth-layout/auth-layout.component.scss  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/theme/auth-layout/auth-layout.component.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/theme/header  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/theme/header/_header-theme.scss  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/theme/header/header.component.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/theme/header/header.component.scss  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/theme/header/header.component.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/theme/header/widgets  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/theme/header/widgets/branding.component.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/theme/header/widgets/github.component.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/theme/header/widgets/notification.component.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/theme/header/widgets/translate.component.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/theme/header/widgets/user.component.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/theme/sidebar  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/theme/sidebar-notice  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/theme/sidebar-notice/sidebar-notice.component.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/theme/sidebar-notice/sidebar-notice.component.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/theme/sidebar/_sidebar-theme.scss  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/theme/sidebar/sidebar.component.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/theme/sidebar/sidebar.component.scss  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/theme/sidebar/sidebar.component.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/theme/sidebar/user-panel.component.scss  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/theme/sidebar/user-panel.component.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/theme/sidemenu  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/theme/sidemenu/_sidemenu-theme.scss  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/theme/sidemenu/accordion.directive.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/theme/sidemenu/accordionItem.directive.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/theme/sidemenu/accordionanchor.directive.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/theme/sidemenu/sidemenu.component.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/theme/sidemenu/sidemenu.component.scss  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/theme/sidemenu/sidemenu.component.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/theme/style  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/theme/style.scss  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/theme/style/_badge.scss  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/theme/style/_breakpoints.scss  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/theme/style/_colors.scss  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/theme/style/_misc.scss  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/theme/style/_reboot-theme.scss  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/theme/style/_reboot.scss  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/theme/style/_rtl.scss  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/theme/style/_scrollbar.scss  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/theme/style/_transitions.scss  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/theme/style/_variables.scss  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/theme/theme.module.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/theme/topmenu  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/theme/topmenu/_topmenu-theme.scss  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/theme/topmenu/topmenu.component.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/theme/topmenu/topmenu.component.scss  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/theme/topmenu/topmenu.component.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/todo  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/todo/todo.component.css  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/todo/todo.component.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/todo/todo.component.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/useradmin  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/useradmin/useradmin.component.css  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/useradmin/useradmin.component.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/useradmin/useradmin.component.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/assets  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/assets/data  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/assets/data/dashboard.json  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/assets/data/menu.json  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/assets/fonts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/assets/fonts/Material_Icons.css  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/assets/fonts/flUhRq6tzZclQEJ-Vdg-IuiaDsNcIhQ8tQ.woff2  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/assets/i18n  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/assets/i18n/en-US.json  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/assets/i18n/zh-CN.json  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/assets/i18n/zh-TW.json  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/assets/images  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/assets/images/avatar.jpg  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/assets/images/matero.png  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/environments  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/environments/environment.hmr.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/environments/environment.prod.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/environments/environment.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/favicon.ico  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/hmr.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/index.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/karma.conf.js  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/main.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/polyfills.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/styles  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/styles.css  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/styles.scss  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/styles/_app-theme.scss  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/styles/custom  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/styles/custom.scss  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/styles/custom/_material.scss  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/styles/custom/_mixins.scss  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/styles/custom/_table-theme.scss  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/styles/custom/_table.scss  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/styles/grid  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/styles/grid.scss  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/styles/grid/_grid.scss  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/styles/grid/_mixins.scss  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/styles/grid/_variables.scss  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/styles/helpers  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/styles/helpers.scss  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/styles/helpers/_alignment.scss  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/styles/helpers/_border.scss  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/styles/helpers/_cursor.scss  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/styles/helpers/_display.scss  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/styles/helpers/_fonts.scss  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/styles/helpers/_functions.scss  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/styles/helpers/_icons.scss  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/styles/helpers/_image.scss  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/styles/helpers/_mixins.scss  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/styles/helpers/_position.scss  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/styles/helpers/_radius.scss  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/styles/helpers/_size.scss  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/styles/helpers/_spacing.scss  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/styles/helpers/_text.scss  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/styles/helpers/_variables.scss  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/styles/plugins  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/styles/plugins.scss  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/styles/plugins/_ngx-toastr.scss  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/styles/plugins/_photoviewer.scss  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/styles/themes.scss  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/test.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/tsconfig.app.json  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/tsconfig.server.json  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/tsconfig.spec.json  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/tslint.json  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/typings.d.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/tsconfig.app.json  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/tsconfig.json  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/tsconfig.spec.json  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/tslint.json  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Controllers  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Controllers/AccountController.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Controllers/TodoListsController.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Controllers/UserAdminController.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Startup.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/WebUI.csproj  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/appsettings.json  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/wwwroot  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/wwwroot/api  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/wwwroot/api/specification.json  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/Account  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/Account/Commands  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/Account/Commands/ForgotPasswordTests.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/Account/Commands/RegisterUserTests.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/Application.IntegrationTests.csproj  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/UserAdmin  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/UserAdmin/Commands  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/UserAdmin/Commands/UpdateUserTests.cs  
+      -  **File filename (GitHub):**   
+
+* ** IDe78e9a712a5c61048f13817fe40d79084608bc04** 
+   -  **Message:** register and forgot password tests
+   -  **Commited by:** bob@socialslice.com 
+   -  **FileCount:** 32 
+      -  **File path (TFVC or TfsGit):** /Code  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Account  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Account/Commands  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Account/Commands/ForgotPassword  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Account/Commands/ForgotPassword/ForgotPasswordCommand.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Account/Commands/ForgotPassword/ForgotPasswordCommandValidator.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Account/Commands/Register  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Account/Commands/Register/RegisterCommand.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Account/Commands/Register/RegisterCommandValidator.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Identity  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Identity/IdentityService.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/settings.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Controllers  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Controllers/AccountController.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/Account  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/Account/Commands  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/Account/Commands/ForgotPasswordTests.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/Account/Commands/RegisterUserTests.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/Application.IntegrationTests.csproj  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/UserAdmin  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/UserAdmin/Commands  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/UserAdmin/Commands/UpdateUserTests.cs  
+      -  **File filename (GitHub):**   
+
+* ** ID29f0127fbcfa277e04bfdcae5243a50a849a3a08** 
+   -  **Message:** some forgot pass cleanup.
+   -  **Commited by:** bob@socialslice.com 
+   -  **FileCount:** 26 
+      -  **File path (TFVC or TfsGit):** /Code  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Areas  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Areas/Identity  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Areas/Identity/Pages  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Areas/Identity/Pages/Account  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Areas/Identity/Pages/Account/ResetPasswordConfirmation.cshtml  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Areas/Identity/Pages/Account/ResetPasswordConfirmation.cshtml.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/SiteManager.V4-api.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/authentication  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/authentication/forgotpassword  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/authentication/forgotpassword/forgotpassword.component.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/authentication/forgotpassword/forgotpassword.component.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/assets  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/assets/i18n  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/assets/i18n/en-US.json  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Controllers  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Controllers/AccountController.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/wwwroot  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/wwwroot/api  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/wwwroot/api/specification.json  
+      -  **File filename (GitHub):**   
+
+* ** IDf71b26806fbddafbf80b55a676c7736865eb6fa7** 
+   -  **Message:** forgot password ngx UI.
+   -  **Commited by:** bob@socialslice.com 
+   -  **FileCount:** 51 
+      -  **File path (TFVC or TfsGit):** /Code  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Account  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Account/Commands  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Account/Commands/ForgotPassword  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Account/Commands/ForgotPassword/ForgotPasswordCommand.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Account/Commands/ForgotPassword/ForgotPasswordCommandValidator.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Account/Commands/Register  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Account/Commands/Register/RegisterCommand.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Common  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Common/Interfaces  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Common/Interfaces/IIdentityService.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/UserAdmin  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/UserAdmin/Commands  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/UserAdmin/Commands/CreateUser  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/UserAdmin/Commands/CreateUser/CreateUserCommand.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/UserAdmin/Commands/UpdateUser  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/UserAdmin/Commands/UpdateUser/UpdateUserCommand.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Domain  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Domain/EmailTemplates  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Domain/EmailTemplates/ResetPassword.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Identity  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Identity/IdentityService.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/SiteManager.V4-api.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/authentication  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/authentication/api-authorization.module.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/authentication/forgotpassword  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/authentication/forgotpassword/forgotpassword.component.css  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/authentication/forgotpassword/forgotpassword.component.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/authentication/forgotpassword/forgotpassword.component.spec.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/authentication/forgotpassword/forgotpassword.component.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/authentication/login  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/authentication/login/login.component.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/routes-routing.module.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/assets  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/assets/i18n  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/assets/i18n/en-US.json  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Controllers  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Controllers/AccountController.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Controllers/UserAdminController.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/wwwroot  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/wwwroot/api  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/wwwroot/api/specification.json  
+      -  **File filename (GitHub):**   
+
+* ** ID136e550ce41965348bc2dbd7e950cfa3d04667b7** 
+   -  **Message:** wiring up registration in angular spa
+   -  **Commited by:** bob@socialslice.com 
+   -  **FileCount:** 54 
+      -  **File path (TFVC or TfsGit):** /Code  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Account  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Account/Commands  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Account/Commands/Register  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Account/Commands/Register/RegisterCommand.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Account/Commands/Register/RegisterCommandValidator.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Common  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Common/Interfaces  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Common/Interfaces/IIdentityService.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/UserAdmin  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/UserAdmin/Commands  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/UserAdmin/Commands/CreateUser  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/UserAdmin/Commands/CreateUser/CreateUserCommand.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Domain  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Domain/EmailTemplates  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Domain/EmailTemplates/ConfirmEmail.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Identity  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Identity/IdentityService.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/SiteManager.V4-api.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/authentication  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/authentication/api-authorization.module.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/authentication/login  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/authentication/login/login.component.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/authentication/registration  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/authentication/registration/register.component.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/authentication/registration/register.component.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/routes-routing.module.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/routes.module.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/sessions  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/sessions/loginui  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/sessions/loginui/loginui.component.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/sessions/loginui/loginui.component.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/sessions/register  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/sessions/register/register.component.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/sessions/register/register.component.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/assets  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/assets/i18n  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/assets/i18n/en-US.json  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Controllers  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Controllers/AccountController.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Controllers/UserAdminController.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/appsettings.json  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/wwwroot  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/wwwroot/api  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/wwwroot/api/specification.json  
+      -  **File filename (GitHub):**   
+
+* ** IDfd62088030ab2e43754d1ded99d6cc53af3a4cb2** 
+   -  **Message:** pre registration implementation.
+   -  **Commited by:** bob@socialslice.com 
+   -  **FileCount:** 15 
+      -  **File path (TFVC or TfsGit):** /Code  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/DependencyInjection.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/sessions  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/sessions/403.component.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Controllers  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Controllers/TodoListsController.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Startup.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/appsettings.json  
+      -  **File filename (GitHub):**   
+
+* ** IDe43216172d779c159b7a3607de6cbc13d279f5a8** 
+   -  **Message:** reverting some debug in oidc config
+   -  **Commited by:** bob@socialslice.com 
+   -  **FileCount:** 5 
+      -  **File path (TFVC or TfsGit):** /Code  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Controllers  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Controllers/OidcConfigurationController.cs  
+      -  **File filename (GitHub):**   
+
+* ** ID03270ed4354675a7f4e809e331fdebe3538b7ddd** 
+   -  **Message:** Cleanup..adding login error message..moving on to solve missing claims/roles issue.
+   -  **Commited by:** bob@socialslice.com 
+   -  **FileCount:** 24 
+      -  **File path (TFVC or TfsGit):** /Code  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/DependencyInjection.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/authentication  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/authentication/authorize.service.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/authentication/login  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/authentication/login/login.component.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/authentication/login/login.component.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/bootstrap  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/bootstrap/startup.service.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/assets  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/assets/data  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/assets/data/menu.json  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/assets/i18n  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/assets/i18n/en-US.json  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Controllers  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Controllers/OidcConfigurationController.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Startup.cs  
+      -  **File filename (GitHub):**   
+
+* ** ID977e7964b0455b51865fb867cd510a153ac8356e** 
+   -  **Message:** incremental...login using the redirect/reload method
+   -  **Commited by:** bob@socialslice.com 
+   -  **FileCount:** 11 
+      -  **File path (TFVC or TfsGit):** /Code  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/authentication  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/authentication/authorize.service.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/authentication/login  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/authentication/login/login.component.ts  
+      -  **File filename (GitHub):**   
+
+* ** ID95fe839c45d5d0d38a43bb38f761943498b044f2** 
+   -  **Message:** incremental...spa login/logout working but redirecting/reloading app
+   -  **Commited by:** bob@socialslice.com 
+   -  **FileCount:** 19 
+      -  **File path (TFVC or TfsGit):** /Code  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/authentication  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/authentication/api-authorization.module.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/authentication/authorize.guard.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/authentication/authorize.service.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/authentication/login  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/authentication/login/login.component.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/authentication/login/login.component.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/index.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/routes-routing.module.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Controllers  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Controllers/AccountController.cs  
+      -  **File filename (GitHub):**   
+
+* ** IDc14513c15b2b8921718957a23f90250910f7bfa7** 
+   -  **Message:** incremental..moving login flow around..adding backend/api authorization
+   -  **Commited by:** bob@socialslice.com 
+   -  **FileCount:** 44 
+      -  **File path (TFVC or TfsGit):** /Code  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Account  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Account/Commands  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Account/Commands/Register  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Account/Commands/Register/RegisterCommand.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Account/Commands/Register/RegisterCommandValidator.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Account/Queries  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Account/Queries/Login  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Account/Queries/Login/LoginCommand.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Account/Queries/Login/LoginCommandValidator.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Application.csproj  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/DependencyInjection.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Identity  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Identity/AccountService.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/SiteManager.V4-api.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/authentication  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/authentication/api-authorization.constants.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/routes-routing.module.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/routes.module.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/sessions  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/sessions/login  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/sessions/login/login.component.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/sessions/login/login.component.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/sessions/loginui  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/sessions/loginui/loginui.component.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/sessions/loginui/loginui.component.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/theme  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/theme/sidebar  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/theme/sidebar/user-panel.component.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Controllers  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Controllers/AccountController.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Startup.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/wwwroot  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/wwwroot/api  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/wwwroot/api/specification.json  
+      -  **File filename (GitHub):**   
+
+* ** ID56ec13671af6e29793c6973903737ef90881bd5b** 
+   -  **Message:** wiring up matero user objects to oidc/auth service
+   -  **Commited by:** bob@socialslice.com 
+   -  **FileCount:** 17 
+      -  **File path (TFVC or TfsGit):** /Code  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/authentication  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/authentication/authorize.service.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/bootstrap  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/bootstrap/settings.service.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/theme  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/theme/header  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/theme/header/widgets  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/theme/header/widgets/user.component.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/theme/sidebar  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/theme/sidebar/user-panel.component.ts  
+      -  **File filename (GitHub):**   
+
+* ** ID355fac9b350b28237ebb6c68a2c28cd23ff0968d** 
+   -  **Message:** forgot to yoink the extraneous child routes
+   -  **Commited by:** bob@socialslice.com 
+   -  **FileCount:** 9 
+      -  **File path (TFVC or TfsGit):** /Code  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/authentication  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/authentication/api-authorization.module.ts  
+      -  **File filename (GitHub):**   
+
+* ** ID71584381f710120ba41d728fba36104521343d09** 
+   -  **Message:** login/logout working...had to move to vscode hosting due to middleware timeout errors getting more consistent
+   -  **Commited by:** bob@socialslice.com 
+   -  **FileCount:** 38 
+      -  **File path (TFVC or TfsGit):** /Code  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Areas  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Areas/Identity  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Areas/Identity/Pages  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Areas/Identity/Pages/Account  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Areas/Identity/Pages/Account/Login.cshtml  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/angular.json  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/package-lock.json  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/package.json  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/app.module.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/authentication  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/authentication/api-authorization.constants.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/authentication/api-authorization.module.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/authentication/authorize.guard.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/authentication/login  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/authentication/login/login.component.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/authentication/login/login.component.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/authentication/logout  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/authentication/logout/logout.component.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/index.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/interceptors  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/interceptors/default-interceptor.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/interceptors/index.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/routes-routing.module.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/theme  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/theme/header  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/theme/header/widgets  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/theme/header/widgets/user.component.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/environments  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/environments/environment.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Startup.cs  
+      -  **File filename (GitHub):**   
+
+* ** IDbfbc56c85ef57d8a8786fa9dede8d6ad2cf8afdb** 
+   -  **Message:** replacing matero auth core with better oidc client integration.
+   -  **Commited by:** bob@socialslice.com 
+   -  **FileCount:** 58 
+      -  **File path (TFVC or TfsGit):** /Code  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/package-lock.json  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/package.json  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/authentication  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/authentication/README.md  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/authentication/api-authorization.constants.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/authentication/api-authorization.module.spec.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/authentication/api-authorization.module.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/authentication/auth.guard.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/authentication/authorize.guard.spec.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/authentication/authorize.guard.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/authentication/authorize.interceptor.spec.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/authentication/authorize.interceptor.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/authentication/authorize.service.spec.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/authentication/authorize.service.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/authentication/interface.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/authentication/login-menu  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/authentication/login-menu/login-menu.component.css  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/authentication/login-menu/login-menu.component.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/authentication/login-menu/login-menu.component.spec.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/authentication/login-menu/login-menu.component.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/authentication/login  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/authentication/login/login.component.css  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/authentication/login/login.component.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/authentication/login/login.component.spec.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/authentication/login/login.component.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/authentication/logout  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/authentication/logout/logout.component.css  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/authentication/logout/logout.component.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/authentication/logout/logout.component.spec.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/authentication/logout/logout.component.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/authentication/token.service.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/index.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/interceptors  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/interceptors/default-interceptor.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/interceptors/index.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/routes-routing.module.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/sessions  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/sessions/login  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/sessions/login/login.component.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/sessions/login/login.component.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/sessions/register  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/sessions/register/register.component.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/theme  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/theme/header  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/theme/header/widgets  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/theme/header/widgets/user.component.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/assets  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/assets/i18n  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/assets/i18n/en-US.json  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/WebUI.csproj  
+      -  **File filename (GitHub):**   
+
+* ** IDc0c570cf38899afedef88de1d022bf2d902323c9** 
+   -  **Message:** baseline matero ui running under vs2019 middleware
+   -  **Commited by:** bob@socialslice.com 
+   -  **FileCount:** 97 
+      -  **File path (TFVC or TfsGit):** /Code  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/.gitignore  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/package.json  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/SiteManager.V4-api.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/sessions  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/sessions/login  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/sessions/login/login.component.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientAppOld  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientAppOld/.browserslistrc  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientAppOld/.editorconfig  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientAppOld/.gitignore  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientAppOld/angular.json  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientAppOld/e2e  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientAppOld/e2e/protractor.conf.js  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientAppOld/e2e/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientAppOld/e2e/src/app.e2e-spec.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientAppOld/e2e/src/app.po.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientAppOld/e2e/tsconfig.e2e.json  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientAppOld/package-lock.json  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientAppOld/package.json  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientAppOld/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientAppOld/src/api-authorization  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientAppOld/src/api-authorization/api-authorization.constants.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientAppOld/src/api-authorization/api-authorization.module.spec.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientAppOld/src/api-authorization/api-authorization.module.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientAppOld/src/api-authorization/authorize.guard.spec.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientAppOld/src/api-authorization/authorize.guard.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientAppOld/src/api-authorization/authorize.interceptor.spec.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientAppOld/src/api-authorization/authorize.interceptor.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientAppOld/src/api-authorization/authorize.service.spec.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientAppOld/src/api-authorization/authorize.service.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientAppOld/src/api-authorization/login-menu  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientAppOld/src/api-authorization/login-menu/login-menu.component.css  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientAppOld/src/api-authorization/login-menu/login-menu.component.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientAppOld/src/api-authorization/login-menu/login-menu.component.spec.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientAppOld/src/api-authorization/login-menu/login-menu.component.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientAppOld/src/api-authorization/login  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientAppOld/src/api-authorization/login/login.component.css  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientAppOld/src/api-authorization/login/login.component.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientAppOld/src/api-authorization/login/login.component.spec.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientAppOld/src/api-authorization/login/login.component.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientAppOld/src/api-authorization/logout  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientAppOld/src/api-authorization/logout/logout.component.css  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientAppOld/src/api-authorization/logout/logout.component.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientAppOld/src/api-authorization/logout/logout.component.spec.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientAppOld/src/api-authorization/logout/logout.component.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientAppOld/src/app  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientAppOld/src/app/SiteManager.V4-api.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientAppOld/src/app/app.component.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientAppOld/src/app/app.component.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientAppOld/src/app/app.module.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientAppOld/src/app/app.server.module.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientAppOld/src/app/counter  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientAppOld/src/app/counter/counter.component.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientAppOld/src/app/counter/counter.component.spec.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientAppOld/src/app/counter/counter.component.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientAppOld/src/app/fetch-data  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientAppOld/src/app/fetch-data/fetch-data.component.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientAppOld/src/app/fetch-data/fetch-data.component.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientAppOld/src/app/home  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientAppOld/src/app/home/home.component.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientAppOld/src/app/home/home.component.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientAppOld/src/app/nav-menu  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientAppOld/src/app/nav-menu/nav-menu.component.css  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientAppOld/src/app/nav-menu/nav-menu.component.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientAppOld/src/app/nav-menu/nav-menu.component.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientAppOld/src/app/todo  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientAppOld/src/app/todo/todo.component.css  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientAppOld/src/app/todo/todo.component.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientAppOld/src/app/todo/todo.component.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientAppOld/src/app/useradmin  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientAppOld/src/app/useradmin/useradmin.component.css  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientAppOld/src/app/useradmin/useradmin.component.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientAppOld/src/app/useradmin/useradmin.component.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientAppOld/src/assets  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientAppOld/src/assets/.gitkeep  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientAppOld/src/environments  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientAppOld/src/environments/environment.prod.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientAppOld/src/environments/environment.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientAppOld/src/index.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientAppOld/src/karma.conf.js  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientAppOld/src/main.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientAppOld/src/polyfills.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientAppOld/src/styles.css  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientAppOld/src/test.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientAppOld/src/tsconfig.app.json  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientAppOld/src/tsconfig.server.json  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientAppOld/src/tsconfig.spec.json  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientAppOld/src/tslint.json  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientAppOld/tsconfig.json  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientAppOld/tslint.json  
+      -  **File filename (GitHub):**   
+
+* ** IDca5a8eeb81723dcd004adb84e4ae2f329269f73f** 
+   -  **Message:** matero ui baseline
+   -  **Commited by:** bob@socialslice.com 
+   -  **FileCount:** 225 
+      -  **File path (TFVC or TfsGit):** /Code  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/.browserslistrc  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/.editorconfig  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/.prettierignore  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/.prettierrc  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/.stylelintrc  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/.vscode  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/.vscode/settings.json  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/LICENSE  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/angular.json  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/e2e  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/e2e/protractor.conf.js  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/e2e/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/e2e/src/app.e2e-spec.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/e2e/src/app.po.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/e2e/tsconfig.json  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/karma.conf.js  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/package-lock.json  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/package.json  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/proxy.config.js  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/app.component.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/app.module.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/authentication  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/authentication/README.md  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/authentication/auth.guard.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/authentication/interface.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/authentication/token.service.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/bootstrap  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/bootstrap/menu.service.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/bootstrap/preloader.service.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/bootstrap/settings.service.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/bootstrap/startup.service.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/bootstrap/translate-lang.service.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/core.module.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/index.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/initializers.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/interceptors  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/interceptors/README.md  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/interceptors/default-interceptor.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/interceptors/index.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/interceptors/logging-interceptor.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/interceptors/noop-interceptor.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/module-import-guard.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/core/settings.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/formly-config.module.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/formly-validation.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/formly-wrapper.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/material-config.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/material.module.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/dashboard  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/dashboard/dashboard.component.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/dashboard/dashboard.component.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/routes-routing.module.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/routes.module.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/sessions  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/sessions/403.component.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/sessions/404.component.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/sessions/500.component.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/sessions/login  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/sessions/login/login.component.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/sessions/login/login.component.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/sessions/register  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/sessions/register/register.component.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/sessions/register/register.component.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/sessions/sessions-routing.module.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/routes/sessions/sessions.module.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/shared  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/shared/components  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/shared/components/breadcrumb  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/shared/components/breadcrumb/breadcrumb.component.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/shared/components/breadcrumb/breadcrumb.component.scss  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/shared/components/breadcrumb/breadcrumb.component.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/shared/components/error-code  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/shared/components/error-code/_error-code-theme.scss  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/shared/components/error-code/_long-shadow.scss  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/shared/components/error-code/_math.scss  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/shared/components/error-code/error-code.component.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/shared/components/error-code/error-code.component.scss  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/shared/components/error-code/error-code.component.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/shared/components/page-header  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/shared/components/page-header/page-header.component.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/shared/components/page-header/page-header.component.scss  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/shared/components/page-header/page-header.component.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/shared/directives  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/shared/directives/disable-control.directive.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/shared/index.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/shared/pipes  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/shared/pipes/safe-url.pipe.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/shared/services  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/shared/services/directionality.service.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/shared/services/message.service.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/shared/services/storage.service.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/shared/shared.module.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/shared/utils  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/shared/utils/colors.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/shared/utils/icons.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/theme  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/theme/admin-layout  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/theme/admin-layout/admin-layout.component.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/theme/admin-layout/admin-layout.component.scss  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/theme/admin-layout/admin-layout.component.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/theme/auth-layout  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/theme/auth-layout/auth-layout.component.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/theme/auth-layout/auth-layout.component.scss  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/theme/auth-layout/auth-layout.component.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/theme/header  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/theme/header/_header-theme.scss  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/theme/header/header.component.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/theme/header/header.component.scss  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/theme/header/header.component.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/theme/header/widgets  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/theme/header/widgets/branding.component.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/theme/header/widgets/github.component.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/theme/header/widgets/notification.component.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/theme/header/widgets/translate.component.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/theme/header/widgets/user.component.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/theme/sidebar-notice  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/theme/sidebar-notice/sidebar-notice.component.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/theme/sidebar-notice/sidebar-notice.component.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/theme/sidebar  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/theme/sidebar/_sidebar-theme.scss  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/theme/sidebar/sidebar.component.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/theme/sidebar/sidebar.component.scss  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/theme/sidebar/sidebar.component.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/theme/sidebar/user-panel.component.scss  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/theme/sidebar/user-panel.component.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/theme/sidemenu  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/theme/sidemenu/_sidemenu-theme.scss  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/theme/sidemenu/accordion.directive.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/theme/sidemenu/accordionItem.directive.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/theme/sidemenu/accordionanchor.directive.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/theme/sidemenu/sidemenu.component.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/theme/sidemenu/sidemenu.component.scss  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/theme/sidemenu/sidemenu.component.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/theme/style.scss  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/theme/style  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/theme/style/_badge.scss  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/theme/style/_breakpoints.scss  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/theme/style/_colors.scss  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/theme/style/_misc.scss  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/theme/style/_reboot-theme.scss  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/theme/style/_reboot.scss  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/theme/style/_rtl.scss  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/theme/style/_scrollbar.scss  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/theme/style/_transitions.scss  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/theme/style/_variables.scss  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/theme/theme.module.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/theme/topmenu  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/theme/topmenu/_topmenu-theme.scss  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/theme/topmenu/topmenu.component.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/theme/topmenu/topmenu.component.scss  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/theme/topmenu/topmenu.component.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/assets  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/assets/.gitkeep  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/assets/data  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/assets/data/dashboard.json  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/assets/data/menu.json  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/assets/fonts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/assets/fonts/Material_Icons.css  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/assets/fonts/flUhRq6tzZclQEJ-Vdg-IuiaDsNcIhQ8tQ.woff2  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/assets/i18n  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/assets/i18n/en-US.json  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/assets/i18n/zh-CN.json  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/assets/i18n/zh-TW.json  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/assets/images  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/assets/images/avatar.jpg  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/assets/images/matero.png  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/environments  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/environments/environment.hmr.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/environments/environment.prod.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/environments/environment.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/favicon.ico  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/hmr.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/index.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/main.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/polyfills.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/styles.scss  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/styles  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/styles/_app-theme.scss  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/styles/custom.scss  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/styles/custom  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/styles/custom/_material.scss  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/styles/custom/_mixins.scss  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/styles/custom/_table-theme.scss  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/styles/custom/_table.scss  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/styles/grid.scss  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/styles/grid  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/styles/grid/_grid.scss  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/styles/grid/_mixins.scss  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/styles/grid/_variables.scss  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/styles/helpers.scss  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/styles/helpers  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/styles/helpers/_alignment.scss  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/styles/helpers/_border.scss  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/styles/helpers/_cursor.scss  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/styles/helpers/_display.scss  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/styles/helpers/_fonts.scss  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/styles/helpers/_functions.scss  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/styles/helpers/_icons.scss  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/styles/helpers/_image.scss  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/styles/helpers/_mixins.scss  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/styles/helpers/_position.scss  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/styles/helpers/_radius.scss  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/styles/helpers/_size.scss  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/styles/helpers/_spacing.scss  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/styles/helpers/_text.scss  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/styles/helpers/_variables.scss  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/styles/plugins.scss  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/styles/plugins  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/styles/plugins/_ngx-toastr.scss  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/styles/plugins/_photoviewer.scss  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/styles/themes.scss  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/test.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/typings.d.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/tsconfig.app.json  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/tsconfig.json  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/tsconfig.spec.json  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/tslint.json  
+      -  **File filename (GitHub):**   
+
+* ** ID83ed570cf2162b160f0930e90ab975369ef14221** 
+   -  **Message:** Moving original ngx client app out of the way
+   -  **Commited by:** bob@socialslice.com 
+   -  **FileCount:** 171 
+      -  **File path (TFVC or TfsGit):** /Code  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/.browserslistrc  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/.editorconfig  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/.gitignore  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/angular.json  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/e2e  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/e2e/protractor.conf.js  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/e2e/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/e2e/src/app.e2e-spec.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/e2e/src/app.po.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/e2e/tsconfig.e2e.json  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/package-lock.json  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/package.json  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/api-authorization  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/api-authorization/api-authorization.constants.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/api-authorization/api-authorization.module.spec.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/api-authorization/api-authorization.module.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/api-authorization/authorize.guard.spec.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/api-authorization/authorize.guard.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/api-authorization/authorize.interceptor.spec.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/api-authorization/authorize.interceptor.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/api-authorization/authorize.service.spec.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/api-authorization/authorize.service.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/api-authorization/login-menu  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/api-authorization/login-menu/login-menu.component.css  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/api-authorization/login-menu/login-menu.component.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/api-authorization/login-menu/login-menu.component.spec.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/api-authorization/login-menu/login-menu.component.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/api-authorization/login  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/api-authorization/login/login.component.css  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/api-authorization/login/login.component.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/api-authorization/login/login.component.spec.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/api-authorization/login/login.component.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/api-authorization/logout  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/api-authorization/logout/logout.component.css  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/api-authorization/logout/logout.component.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/api-authorization/logout/logout.component.spec.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/api-authorization/logout/logout.component.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/SiteManager.V4-api.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/app.component.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/app.component.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/app.module.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/app.server.module.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/counter  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/counter/counter.component.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/counter/counter.component.spec.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/counter/counter.component.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/fetch-data  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/fetch-data/fetch-data.component.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/fetch-data/fetch-data.component.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/home  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/home/home.component.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/home/home.component.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/nav-menu  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/nav-menu/nav-menu.component.css  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/nav-menu/nav-menu.component.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/nav-menu/nav-menu.component.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/todo  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/todo/todo.component.css  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/todo/todo.component.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/todo/todo.component.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/useradmin  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/useradmin/useradmin.component.css  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/useradmin/useradmin.component.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/useradmin/useradmin.component.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/assets  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/assets/.gitkeep  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/environments  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/environments/environment.prod.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/environments/environment.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/index.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/karma.conf.js  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/main.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/polyfills.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/styles.css  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/test.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/tsconfig.app.json  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/tsconfig.server.json  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/tsconfig.spec.json  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/tslint.json  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/tsconfig.json  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/tslint.json  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientAppOld  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientAppOld/.browserslistrc  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientAppOld/.editorconfig  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientAppOld/.gitignore  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientAppOld/angular.json  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientAppOld/e2e  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientAppOld/e2e/protractor.conf.js  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientAppOld/e2e/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientAppOld/e2e/src/app.e2e-spec.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientAppOld/e2e/src/app.po.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientAppOld/e2e/tsconfig.e2e.json  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientAppOld/package-lock.json  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientAppOld/package.json  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientAppOld/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientAppOld/src/api-authorization  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientAppOld/src/api-authorization/api-authorization.constants.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientAppOld/src/api-authorization/api-authorization.module.spec.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientAppOld/src/api-authorization/api-authorization.module.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientAppOld/src/api-authorization/authorize.guard.spec.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientAppOld/src/api-authorization/authorize.guard.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientAppOld/src/api-authorization/authorize.interceptor.spec.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientAppOld/src/api-authorization/authorize.interceptor.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientAppOld/src/api-authorization/authorize.service.spec.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientAppOld/src/api-authorization/authorize.service.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientAppOld/src/api-authorization/login-menu  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientAppOld/src/api-authorization/login-menu/login-menu.component.css  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientAppOld/src/api-authorization/login-menu/login-menu.component.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientAppOld/src/api-authorization/login-menu/login-menu.component.spec.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientAppOld/src/api-authorization/login-menu/login-menu.component.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientAppOld/src/api-authorization/login  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientAppOld/src/api-authorization/login/login.component.css  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientAppOld/src/api-authorization/login/login.component.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientAppOld/src/api-authorization/login/login.component.spec.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientAppOld/src/api-authorization/login/login.component.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientAppOld/src/api-authorization/logout  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientAppOld/src/api-authorization/logout/logout.component.css  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientAppOld/src/api-authorization/logout/logout.component.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientAppOld/src/api-authorization/logout/logout.component.spec.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientAppOld/src/api-authorization/logout/logout.component.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientAppOld/src/app  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientAppOld/src/app/SiteManager.V4-api.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientAppOld/src/app/app.component.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientAppOld/src/app/app.component.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientAppOld/src/app/app.module.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientAppOld/src/app/app.server.module.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientAppOld/src/app/counter  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientAppOld/src/app/counter/counter.component.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientAppOld/src/app/counter/counter.component.spec.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientAppOld/src/app/counter/counter.component.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientAppOld/src/app/fetch-data  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientAppOld/src/app/fetch-data/fetch-data.component.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientAppOld/src/app/fetch-data/fetch-data.component.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientAppOld/src/app/home  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientAppOld/src/app/home/home.component.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientAppOld/src/app/home/home.component.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientAppOld/src/app/nav-menu  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientAppOld/src/app/nav-menu/nav-menu.component.css  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientAppOld/src/app/nav-menu/nav-menu.component.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientAppOld/src/app/nav-menu/nav-menu.component.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientAppOld/src/app/todo  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientAppOld/src/app/todo/todo.component.css  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientAppOld/src/app/todo/todo.component.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientAppOld/src/app/todo/todo.component.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientAppOld/src/app/useradmin  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientAppOld/src/app/useradmin/useradmin.component.css  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientAppOld/src/app/useradmin/useradmin.component.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientAppOld/src/app/useradmin/useradmin.component.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientAppOld/src/assets  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientAppOld/src/assets/.gitkeep  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientAppOld/src/environments  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientAppOld/src/environments/environment.prod.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientAppOld/src/environments/environment.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientAppOld/src/index.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientAppOld/src/karma.conf.js  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientAppOld/src/main.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientAppOld/src/polyfills.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientAppOld/src/styles.css  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientAppOld/src/test.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientAppOld/src/tsconfig.app.json  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientAppOld/src/tsconfig.server.json  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientAppOld/src/tsconfig.spec.json  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientAppOld/src/tslint.json  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientAppOld/tsconfig.json  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientAppOld/tslint.json  
+      -  **File filename (GitHub):**   
+
+* ** IDaead0ff483bf98c6b8a04bfc5991931ad12b4741** 
+   -  **Message:** Merge branch &#x27;master&#x27; of https://dev.azure.com/socialslice/SiteManagerV4/_git/SiteManagerV4 into master
+   -  **Commited by:** bob@socialslice.com 
+   -  **FileCount:** 1 
+      -  **File path (TFVC or TfsGit):** /azure-pipelines.yml  
+      -  **File filename (GitHub):**   
+
+* ** ID8b174c98744272098e2a77b1c942ef5dbcd08aee** 
+   -  **Message:** angular 10 upgrade for client app
+   -  **Commited by:** bob@socialslice.com 
+   -  **FileCount:** 13 
+      -  **File path (TFVC or TfsGit):** /Code  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/.browserslistrc  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/angular.json  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/browserslist  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/package-lock.json  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/package.json  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/tsconfig.server.json  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/tsconfig.json  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/tslint.json  
+      -  **File filename (GitHub):**   
+
+* ** ID18dc9b6501e86c250464056dce6ef80d5c10d3fa** 
+   -  **Message:** removing old dependencies for ang10 upgrade
+   -  **Commited by:** bob@socialslice.com 
+   -  **FileCount:** 6 
+      -  **File path (TFVC or TfsGit):** /Code  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/package-lock.json  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/package.json  
+      -  **File filename (GitHub):**   
+
+* ** ID2fa1f0160238f4de3c45ac0e3ab6f17ed65836fe** 
+   -  **Message:** Update azure-pipelines.yml for Azure Pipelines
+   -  **Commited by:** BoB 
+   -  **FileCount:** 1 
+      -  **File path (TFVC or TfsGit):** /azure-pipelines.yml  
+      -  **File filename (GitHub):**   
+
+* ** ID2f073863e872a143a0a100e44c725e15f80d652f** 
+   -  **Message:** seeding for administrators role
+   -  **Commited by:** bob@socialslice.com 
+   -  **FileCount:** 7 
+      -  **File path (TFVC or TfsGit):** /Code  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Persistence  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Persistence/ApplicationDbContextSeed.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Program.cs  
+      -  **File filename (GitHub):**   
+
+* ** ID47b37fe653c4cc3d3b6c94dbb6bd4847ad16f204** 
+   -  **Message:** Basic user administration UI in bootstrap/angular
+   -  **Commited by:** bob@socialslice.com 
+   -  **FileCount:** 47 
+      -  **File path (TFVC or TfsGit):** /Code  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Common  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Common/Interfaces  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Common/Interfaces/IIdentityService.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/UserAdmin  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/UserAdmin/Commands  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/UserAdmin/Commands/CreateUser  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/UserAdmin/Commands/CreateUser/CreateUserCommand.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/UserAdmin/Commands/CreateUser/CreateUserCommandValidator.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/UserAdmin/Commands/UpdateUser  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/UserAdmin/Commands/UpdateUser/UpdateUserCommand.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/UserAdmin/Commands/UpdateUser/UpdateUserCommandValidator.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/UserAdmin/Queries  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/UserAdmin/Queries/GetUsersInRoleQuery.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Identity  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Identity/IdentityService.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Areas  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Areas/Identity  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Areas/Identity/Pages  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Areas/Identity/Pages/Account  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Areas/Identity/Pages/Account/ConfirmEmail.cshtml  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/SiteManager.V4-api.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/app.module.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/nav-menu  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/nav-menu/nav-menu.component.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/useradmin  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/useradmin/useradmin.component.css  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/useradmin/useradmin.component.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/useradmin/useradmin.component.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Controllers  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Controllers/UserAdminController.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/wwwroot  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/wwwroot/api  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/wwwroot/api/specification.json  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/UserAdmin  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/UserAdmin/Commands  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/UserAdmin/Commands/CreateUserTests.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/UserAdmin/Commands/UpdateUserTests.cs  
+      -  **File filename (GitHub):**   
+
+* ** ID8a2d342e64be0b698d85217c2637b6c7fa0c3aff** 
+   -  **Message:** Fixing broken oidc client login (addDefaultIdentity stuff)
+   -  **Commited by:** bob@socialslice.com 
+   -  **FileCount:** 4 
+      -  **File path (TFVC or TfsGit):** /Code  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/DependencyInjection.cs  
+      -  **File filename (GitHub):**   
+
+* ** ID7bc90145368959bbab2224584985a469d7338fbd** 
+   -  **Message:** Adding in razor pages for identity.
+   -  **Commited by:** bob@socialslice.com 
+   -  **FileCount:** 27 
+      -  **File path (TFVC or TfsGit):** /Code  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Areas  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Areas/Identity  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Areas/Identity/IdentityHostingStartup.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Areas/Identity/Pages  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Areas/Identity/Pages/Account  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Areas/Identity/Pages/Account/ConfirmEmail.cshtml  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Areas/Identity/Pages/Account/ConfirmEmail.cshtml.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Areas/Identity/Pages/Account/ForgotPassword.cshtml  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Areas/Identity/Pages/Account/ForgotPassword.cshtml.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Areas/Identity/Pages/Account/Login.cshtml  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Areas/Identity/Pages/Account/Login.cshtml.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Areas/Identity/Pages/Account/Logout.cshtml  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Areas/Identity/Pages/Account/Logout.cshtml.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Areas/Identity/Pages/Account/Register.cshtml  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Areas/Identity/Pages/Account/Register.cshtml.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Areas/Identity/Pages/Account/ResetPassword.cshtml  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Areas/Identity/Pages/Account/ResetPassword.cshtml.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Areas/Identity/Pages/Account/_ViewImports.cshtml  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Areas/Identity/Pages/_ViewImports.cshtml  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Areas/Identity/Pages/_ViewStart.cshtml  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Pages  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Pages/Shared  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Pages/Shared/_Layout.cshtml  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Pages/Shared/_ValidationScriptsPartial.cshtml  
+      -  **File filename (GitHub):**   
+
+* ** IDe5c6f7cc9133dcd0c4990af6ea041afb68d32a87** 
+   -  **Message:** Fix for identity emailsender and build for roleadmin/nswag api spec.
+   -  **Commited by:** bob@socialslice.com 
+   -  **FileCount:** 14 
+      -  **File path (TFVC or TfsGit):** /Code  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/DependencyInjection.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Services  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Services/EmailService.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/SiteManager.V4-api.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/wwwroot  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/wwwroot/api  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/wwwroot/api/specification.json  
+      -  **File filename (GitHub):**   
+
+* ** IDdd8eca35705f260a667139b2b038612c29c75f30** 
+   -  **Message:** Bad using statement
+   -  **Commited by:** bob@socialslice.com 
+   -  **FileCount:** 5 
+      -  **File path (TFVC or TfsGit):** /Code  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Controllers  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Controllers/RoleAdminController.cs  
+      -  **File filename (GitHub):**   
+
+* ** IDf88e41c587b816a7f1dbdcd552203b2c5c8d1053** 
+   -  **Message:** RoleAdmin controller
+   -  **Commited by:** bob@socialslice.com 
+   -  **FileCount:** 5 
+      -  **File path (TFVC or TfsGit):** /Code  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Controllers  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Controllers/RoleAdminController.cs  
+      -  **File filename (GitHub):**   
+
+* ** IDa25b4a43aaff0d6a706aa3e8b221525c634eefb4** 
+   -  **Message:** Implementing roles
+   -  **Commited by:** bob@socialslice.com 
+   -  **FileCount:** 64 
+      -  **File path (TFVC or TfsGit):** /Code  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Common  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Common/Interfaces  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Common/Interfaces/IIdentityService.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Common/Models  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Common/Models/AppUserDto.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/RoleAdmin  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/RoleAdmin/Commands  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/RoleAdmin/Commands/CreateRole  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/RoleAdmin/Commands/CreateRole/CreateRoleCommand.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/RoleAdmin/Commands/CreateRole/CreateRoleCommandValidator.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/RoleAdmin/Commands/DeleteRole  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/RoleAdmin/Commands/DeleteRole/DeleteRoleCommand.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/RoleAdmin/Commands/DeleteRole/DeleteRoleCommandValidator.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/RoleAdmin/Commands/UpdateRole  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/RoleAdmin/Commands/UpdateRole/UpdateRoleCommand.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/RoleAdmin/Commands/UpdateRole/UpdateRoleCommandValidator.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/RoleAdmin/Models  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/RoleAdmin/Models/RoleVm.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/RoleAdmin/Queries  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/RoleAdmin/Queries/GetAllRolesQuery.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/UserAdmin  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/UserAdmin/Commands  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/UserAdmin/Commands/CreateUser  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/UserAdmin/Commands/CreateUser/CreateUserCommand.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/UserAdmin/Commands/CreateUser/CreateUserCommandValidator.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/UserAdmin/Commands/UpdateUser  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/UserAdmin/Commands/UpdateUser/UpdateUserCommand.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/UserAdmin/Commands/UpdateUser/UpdateUserCommandValidator.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/UserAdmin/Queries  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/UserAdmin/Queries/GetAllUsers.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/UserAdmin/Queries/GetAllUsersQuery.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/DependencyInjection.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Identity  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Identity/IdentityService.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/SiteManager.V4-api.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Controllers  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Controllers/UserAdminController.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/wwwroot  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/wwwroot/api  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/wwwroot/api/specification.json  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/RoleAdmin  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/RoleAdmin/Commands  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/RoleAdmin/Commands/CreateRoleTests.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/RoleAdmin/Commands/DeleteRoleTests.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/RoleAdmin/Commands/UpdateRoleTests.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/RoleAdmin/Queries  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/RoleAdmin/Queries/GetRolesTests.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/Testing.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/UserAdmin  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/UserAdmin/Commands  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/UserAdmin/Commands/CreateUserTests.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/UserAdmin/Commands/UpdateUserTests.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/UserAdmin/Queries  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/UserAdmin/Queries/GetUsersTests.cs  
+      -  **File filename (GitHub):**   
+
+* ** IDece0a326f8000d3862a1895c38b1c614467a9fa9** 
+   -  **Message:** adding email templates for email notification
+   -  **Commited by:** bob@socialslice.com 
+   -  **FileCount:** 29 
+      -  **File path (TFVC or TfsGit):** /Code  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Common  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Common/Interfaces  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Common/Interfaces/IEmailService.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Common/Interfaces/IIdentityService.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/UserAdmin  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/UserAdmin/Commands  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/UserAdmin/Commands/CreateUser  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/UserAdmin/Commands/CreateUser/CreateUserCommand.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Domain  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Domain/Domain.csproj  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Domain/EmailTemplates  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Domain/EmailTemplates/ConfirmEmail.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Domain/EmailTemplates/ResetPassword.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Domain/Properties  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Domain/Properties/Resources.Designer.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Domain/Properties/Resources.resx  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Identity  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Identity/IdentityService.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Services  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Services/EmailService.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/appsettings.json  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/appsettings.json  
+      -  **File filename (GitHub):**   
+
+* ** ID6a14ead838ec10b5a6b1a22bde0c0ea2808d8be7** 
+   -  **Message:** Merge branch &#x27;master&#x27; of https://dev.azure.com/socialslice/SiteManagerV4/_git/SiteManagerV4 into master
+   -  **Commited by:** bob@socialslice.com 
+   -  **FileCount:** 1 
+      -  **File path (TFVC or TfsGit):** /azure-pipelines.yml  
+      -  **File filename (GitHub):**   
+
+* ** ID9ed4bab0305aa3a27299d4e3c66ca3cdd2027e9e** 
+   -  **Message:** exposing controller methods for user
+   -  **Commited by:** bob@socialslice.com 
+   -  **FileCount:** 12 
+      -  **File path (TFVC or TfsGit):** /Code  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/SiteManager.V4-api.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Controllers  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Controllers/UserAdminController.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/wwwroot  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/wwwroot/api  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/wwwroot/api/specification.json  
+      -  **File filename (GitHub):**   
+
+* ** ID88c90a50f9752f0a82bbcfde9b4e5e624911364b** 
+   -  **Message:** Set up CI with Azure Pipelines
+
+[skip ci]
+   -  **Commited by:** BoB 
+   -  **FileCount:** 1 
+      -  **File path (TFVC or TfsGit):** /azure-pipelines.yml  
+      -  **File filename (GitHub):**   
+
+* ** ID7e77ee98519e40e39cb6f278fa7b5ade95c51608** 
+   -  **Message:** Adding identity/user managment and email service
+   -  **Commited by:** bob@socialslice.com 
+   -  **FileCount:** 47 
+      -  **File path (TFVC or TfsGit):** /Code  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Common  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Common/Exceptions  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Common/Exceptions/ValidationException.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Common/Interfaces  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Common/Interfaces/IEmailService.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Common/Interfaces/IIdentityService.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Common/Models  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Common/Models/AppRoleDto.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Common/Models/AppUserDto.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/UserAdmin  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/UserAdmin/Commands  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/UserAdmin/Commands/CreateUser  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/UserAdmin/Commands/CreateUser/CreateUserCommand.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/UserAdmin/Commands/CreateUser/CreateUserCommandValidator.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/UserAdmin/Commands/DeleteUser  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/UserAdmin/Commands/DeleteUser/DeleteUserCommand.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/UserAdmin/Commands/DeleteUser/DeleteUserCommandValidator.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/UserAdmin/Commands/UpdateUser  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/UserAdmin/Commands/UpdateUser/UpdateUserCommand.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/UserAdmin/Commands/UpdateUser/UpdateUserCommandValidator.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/UserAdmin/Models  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/UserAdmin/Models/AppUserVm.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/UserAdmin/Queries  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/UserAdmin/Queries/GetAllUsers.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/DependencyInjection.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Identity  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Identity/IdentityService.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Infrastructure.csproj  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Services  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Services/EmailService.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/appsettings.json  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/Testing.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/UserAdmin  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/UserAdmin/Commands  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/UserAdmin/Commands/CreateUserTests.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/UserAdmin/Commands/DeleteUserTests.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/UserAdmin/Commands/UpdateUserTests.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/UserAdmin/Queries  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/UserAdmin/Queries/GetUsersTests.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/appsettings.json  
+      -  **File filename (GitHub):**   
+
+* ** ID6ce37970f9d62aa439ffb3b8db4d5aa3e406814c** 
+   -  **Message:** Removing left over ang client apis.
+   -  **Commited by:** bob@socialslice.com 
+   -  **FileCount:** 8 
+      -  **File path (TFVC or TfsGit):** /Code  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/ISS.V4-api.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/cleanarchitecture-api.ts  
+      -  **File filename (GitHub):**   
+
+* ** ID62dfb656d114564dbf8053634039438b3978022f** 
+   -  **Message:** Baseline DB Backup and Script
+   -  **Commited by:** bob@socialslice.com 
+   -  **FileCount:** 3 
+      -  **File path (TFVC or TfsGit):** /Database  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Database/BaseLine_Script.sql  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Database/CleanArch_Default_20200903.bak  
+      -  **File filename (GitHub):**   
+
+* ** IDfe940c9db2d23dbc4fca4c2129f05f2a2c9f5e75** 
+   -  **Message:** Initial checkin of Sitemanager v4 core...
+   -  **Commited by:** bob@socialslice.com 
+   -  **FileCount:** 248 
+      -  **File path (TFVC or TfsGit):** /Code  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/.gitignore  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/SiteManager.V4.sln  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Application.csproj  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Common  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Common/Behaviours  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Common/Behaviours/LoggingBehaviour.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Common/Behaviours/PerformanceBehaviour.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Common/Behaviours/UnhandledExceptionBehaviour.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Common/Behaviours/ValidationBehavior.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Common/Exceptions  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Common/Exceptions/NotFoundException.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Common/Exceptions/ValidationException.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Common/Interfaces  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Common/Interfaces/IApplicationDbContext.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Common/Interfaces/ICsvFileBuilder.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Common/Interfaces/ICurrentUserService.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Common/Interfaces/IDateTime.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Common/Interfaces/IIdentityService.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Common/Mappings  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Common/Mappings/IMapFrom.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Common/Mappings/MappingProfile.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Common/Models  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/Common/Models/Result.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/DependencyInjection.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/TodoItems  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/TodoItems/Commands  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/TodoItems/Commands/CreateTodoItem  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/TodoItems/Commands/CreateTodoItem/CreateTodoItemCommand.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/TodoItems/Commands/CreateTodoItem/CreateTodoItemCommandValidator.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/TodoItems/Commands/DeleteTodoItem  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/TodoItems/Commands/DeleteTodoItem/DeleteTodoItemCommand.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/TodoItems/Commands/UpdateTodoItem  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/TodoItems/Commands/UpdateTodoItem/UpdateTodoItemCommand.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/TodoItems/Commands/UpdateTodoItem/UpdateTodoItemCommandValidator.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/TodoItems/Commands/UpdateTodoItemDetail  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/TodoItems/Commands/UpdateTodoItemDetail/UpdateTodoItemDetailCommand.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/TodoItems/Commands/UpdateTodoItemDetail/UpdateTodoItemDetailCommandValidator.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/TodoLists  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/TodoLists/Commands  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/TodoLists/Commands/CreateTodoList  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/TodoLists/Commands/CreateTodoList/CreateTodoListCommand.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/TodoLists/Commands/CreateTodoList/CreateTodoListCommandValidator.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/TodoLists/Commands/DeleteTodoList  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/TodoLists/Commands/DeleteTodoList/DeleteTodoListCommand.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/TodoLists/Commands/UpdateTodoList  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/TodoLists/Commands/UpdateTodoList/UpdateTodoListCommand.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/TodoLists/Commands/UpdateTodoList/UpdateTodoListCommandValidator.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/TodoLists/Queries  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/TodoLists/Queries/ExportTodos  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/TodoLists/Queries/ExportTodos/ExportTodosQuery.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/TodoLists/Queries/ExportTodos/ExportTodosVm.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/TodoLists/Queries/ExportTodos/TodoItemFileRecord.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/TodoLists/Queries/GetTodos  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/TodoLists/Queries/GetTodos/GetTodosQuery.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/TodoLists/Queries/GetTodos/PriorityLevelDto.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/TodoLists/Queries/GetTodos/TodoItemDto.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/TodoLists/Queries/GetTodos/TodoListDto.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/TodoLists/Queries/GetTodos/TodosVm.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/WeatherForecasts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/WeatherForecasts/Queries  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/WeatherForecasts/Queries/GetWeatherForecasts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/WeatherForecasts/Queries/GetWeatherForecasts/GetWeatherForecastsQuery.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Application/WeatherForecasts/Queries/GetWeatherForecasts/WeatherForecast.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Domain  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Domain/Common  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Domain/Common/AuditableEntity.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Domain/Common/ValueObject.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Domain/Domain.csproj  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Domain/Entities  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Domain/Entities/TodoItem.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Domain/Entities/TodoList.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Domain/Enums  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Domain/Enums/PriorityLevel.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Domain/Exceptions  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Domain/Exceptions/AdAccountInvalidException.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Domain/ValueObjects  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Domain/ValueObjects/AdAccount.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/DependencyInjection.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Files  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Files/CsvFileBuilder.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Files/Maps  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Files/Maps/TodoItemRecordMap.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Identity  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Identity/AppRole.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Identity/AppUser.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Identity/IdentityResultExtensions.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Identity/IdentityService.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Identity/KeyApiAuthorizationDbContext.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Infrastructure.csproj  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Migrations  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Migrations/20201002154531_Initial.Designer.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Migrations/20201002154531_Initial.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Migrations/ApplicationDbContextModelSnapshot.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Migrations/ReadMe.txt  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Persistence  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Persistence/ApplicationDbContext.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Persistence/ApplicationDbContextSeed.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Persistence/Configurations  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Persistence/Configurations/TodoItemConfiguration.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Persistence/Configurations/TodoListConfiguration.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Services  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/Infrastructure/Services/DateTimeService.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/.editorconfig  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/.gitignore  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/angular.json  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/browserslist  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/e2e  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/e2e/protractor.conf.js  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/e2e/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/e2e/src/app.e2e-spec.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/e2e/src/app.po.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/e2e/tsconfig.e2e.json  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/package-lock.json  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/package.json  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/api-authorization  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/api-authorization/api-authorization.constants.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/api-authorization/api-authorization.module.spec.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/api-authorization/api-authorization.module.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/api-authorization/authorize.guard.spec.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/api-authorization/authorize.guard.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/api-authorization/authorize.interceptor.spec.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/api-authorization/authorize.interceptor.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/api-authorization/authorize.service.spec.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/api-authorization/authorize.service.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/api-authorization/login-menu  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/api-authorization/login-menu/login-menu.component.css  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/api-authorization/login-menu/login-menu.component.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/api-authorization/login-menu/login-menu.component.spec.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/api-authorization/login-menu/login-menu.component.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/api-authorization/login  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/api-authorization/login/login.component.css  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/api-authorization/login/login.component.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/api-authorization/login/login.component.spec.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/api-authorization/login/login.component.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/api-authorization/logout  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/api-authorization/logout/logout.component.css  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/api-authorization/logout/logout.component.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/api-authorization/logout/logout.component.spec.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/api-authorization/logout/logout.component.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/ISS.V4-api.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/SiteManager.V4-api.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/app.component.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/app.component.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/app.module.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/app.server.module.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/cleanarchitecture-api.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/counter  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/counter/counter.component.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/counter/counter.component.spec.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/counter/counter.component.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/fetch-data  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/fetch-data/fetch-data.component.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/fetch-data/fetch-data.component.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/home  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/home/home.component.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/home/home.component.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/nav-menu  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/nav-menu/nav-menu.component.css  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/nav-menu/nav-menu.component.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/nav-menu/nav-menu.component.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/todo  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/todo/todo.component.css  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/todo/todo.component.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/app/todo/todo.component.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/assets  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/assets/.gitkeep  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/environments  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/environments/environment.prod.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/environments/environment.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/index.html  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/karma.conf.js  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/main.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/polyfills.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/styles.css  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/test.ts  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/tsconfig.app.json  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/tsconfig.server.json  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/tsconfig.spec.json  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/src/tslint.json  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/tsconfig.json  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/ClientApp/tslint.json  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Controllers  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Controllers/ApiController.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Controllers/OidcConfigurationController.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Controllers/TodoItemsController.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Controllers/TodoListsController.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Controllers/WeatherForecastController.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Filters  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Filters/ApiExceptionFilter.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Pages  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Pages/Error.cshtml  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Pages/Error.cshtml.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Pages/Shared  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Pages/Shared/_LoginPartial.cshtml  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Pages/_ViewImports.cshtml  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Program.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Properties  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Properties/launchSettings.json  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Services  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Services/CurrentUserService.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/Startup.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/WebUI.csproj  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/appsettings.Development.json  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/appsettings.Production.json  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/appsettings.json  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/nswag.json  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/wwwroot  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/wwwroot/api  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/wwwroot/api/specification.json  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/src/WebUI/wwwroot/favicon.ico  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Application.UnitTests  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Application.UnitTests/Application.UnitTests.csproj  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Application.UnitTests/Common  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Application.UnitTests/Common/Behaviours  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Application.UnitTests/Common/Behaviours/RequestLoggerTests.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Application.UnitTests/Common/Mappings  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Application.UnitTests/Common/Mappings/MappingTests.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/Application.IntegrationTests.csproj  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/TestBase.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/Testing.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/TodoItems  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/TodoItems/Commands  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/TodoItems/Commands/CreateTodoItemTests.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/TodoItems/Commands/DeleteTodoItemTests.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/TodoItems/Commands/UpdateTodoItemDetailTests.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/TodoItems/Commands/UpdateTodoItemTests.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/TodoLists  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/TodoLists/Commands  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/TodoLists/Commands/CreateTodoListTests.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/TodoLists/Commands/DeleteTodoListTests.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/TodoLists/Commands/UpdateTodoListTests.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/TodoLists/Queries  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/TodoLists/Queries/GetTodosTests.cs  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Applicaton.IntegrationTests/appsettings.json  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Domain.UnitTests  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Domain.UnitTests/Domain.UnitTests.csproj  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Domain.UnitTests/ValueObjects  
+      -  **File filename (GitHub):**   
+      -  **File path (TFVC or TfsGit):** /Code/tests/Domain.UnitTests/ValueObjects/AdAccountTests.cs  
+      -  **File filename (GitHub):**   
+
+* ** ID73204ed04521475df2eede4982f2acf17fc7b021** 
+   -  **Message:** Updating basic readme info
+   -  **Commited by:** bob@socialslice.com 
+   -  **FileCount:** 1 
+      -  **File path (TFVC or TfsGit):** /README.md  
+      -  **File filename (GitHub):**   
+
+* ** IDd67255f90f7c65a9c09c1a9466b2fa8c896f230c** 
+   -  **Message:** Added README.md
+   -  **Commited by:** BoB 
+   -  **FileCount:** 1 
+      -  **File path (TFVC or TfsGit):** /README.md  
+      -  **File filename (GitHub):**   
+
+
+# Global list of tests (0)
